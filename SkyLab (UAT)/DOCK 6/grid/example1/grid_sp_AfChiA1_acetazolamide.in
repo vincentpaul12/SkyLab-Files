@@ -1,0 +1,17 @@
+compute_grids                  yes
+grid_spacing                   0.375
+output_molecule                no
+contact_score                  no
+energy_score                   yes
+energy_cutoff_distance         9999
+atom_model                     a
+attractive_exponent            6
+repulsive_exponent             12
+distance_dielectric            yes
+dielectric_factor              4.0
+bump_filter                    yes
+bump_overlap                   0.75
+receptor_file                  ./AfChiA1_acetazolamide.mol2
+box_file                       ./AfChiA1_acetazolamide_box.pdb
+vdw_definition_file            /mirror/dock6/parameters/vdw_AMBER_parm99.defn
+score_grid_prefix              grid_AfChiA1_acetazolamide

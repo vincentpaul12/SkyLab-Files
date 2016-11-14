@@ -1,0 +1,25 @@
+Please take note of any errors/difficulties and comments while doing the process:
+
+Go to grid task submission page:
+	via Create New Task modal:
+		1. Click Tasks > Create New Task
+		2. Select 	Toolset: AutoDock 4
+					Tool: autodock4
+			Then, click Ok
+
+	or via Browsing from Toolsets:
+		1. Click Toolsets
+		2. Select AutoDock 4
+		3. Select autodock4	
+
+Submit Task:
+	1. Select MPI Cluster, if there is none present create an MPI cluster
+	2. Select input files from files folder
+		ligand file :			ind.pdbqt
+		dock parameter file: 	ind_hsg1.dpf
+		grid map files:			(all files inside grid_map_files folder)(*.fld, *.xyz, *.map)	
+	3. Submit task
+	4. Wait for result
+	5. The output should be ind_hsg1.dlg
+		At the end of the file there should be:
+		autodock4: Successful Completion on "testcluster1-mpi-master"

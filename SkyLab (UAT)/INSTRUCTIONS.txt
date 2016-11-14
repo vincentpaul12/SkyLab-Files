@@ -1,0 +1,26 @@
+
+1. Go to ... 
+2. Click Login
+3. Log in with your up.edu.ph account
+
+4. Click MPI Clusters on the navbar
+	 You must see an empty table for MPI Clusters
+5. Click Add private cluster
+	Input "5COI0" without quotation marks  
+
+6. You will be able to see details about testcluster1
+
+7. Click Toolsets (navbar) > (Select any toolset from the list) > (Select any tool from the list)
+	or Click Tasks (navbar) > Create New Task > (Select any toolset from the list) > (Select any tool from the list)
+
+8. You will see a form to submit a task for the tool you selected.
+How to fill up this form?
+	Just go to toolset folder > tool folder> instructions.txt
+
+	*Inside this folder you can see folders named as the toolset you selected
+	And inside this folders are tools under this toolset
+
+9. Repeat steps 9 and 10 for other tools. Please test at least 3 tools.
+10. After doing this, please complete the survey at https://goo.gl/forms/KrsZNILjI7OJ9pr92
+
+Thank you for your time. :)
