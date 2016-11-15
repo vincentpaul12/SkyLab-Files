@@ -23,12 +23,14 @@ You're missing a field name---line 184 of file ./carpio-cs190-ieee.bib
  : %URL = {http://search.ebscohost.com/login.aspx?direct=true&db=a9h&AN=96861207&site=ehost-live},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 256 of file ./carpio-cs190-ieee.bib
+Warning--I'm ignoring morris2009autodock4's extra "volume" field
+--line 263 of file ./carpio-cs190-ieee.bib
+You're missing a field name---line 317 of file ./carpio-cs190-ieee.bib
  :    
  :    % URL = {http://www.st.ewi.tudelft.nl/~iosup/cloud-perf10tpds_in-print.pdf},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 290 of file ./carpio-cs190-ieee.bib
+You're missing a field name---line 351 of file ./carpio-cs190-ieee.bib
  :     
  :     %URL = {http://search.ebscohost.com/login.aspx?direct=true&db=a9h&AN=74110216&site=ehost-live},
 (Error may have been on previous line)
@@ -46,47 +48,48 @@ Warning--empty journal in PerfAnalysisManyTasks
 Warning--empty year in PerfAnalysisManyTasks
 Warning--empty year in 7411021620120101
 Warning--empty year in 9686120720140601
+Warning--empty author in 1993gamess
 
 Done.
-You've used 17 entries,
+You've used 18 entries,
             3975 wiz_defined-function locations,
-            888 strings with 10404 characters,
-and the built_in function-call counts, 9786 in all, are:
-= -- 719
-> -- 236
-< -- 61
-+ -- 123
-- -- 45
-* -- 495
-:= -- 1545
-add.period$ -- 33
-call.type$ -- 17
-change.case$ -- 17
-chr.to.int$ -- 126
-cite$ -- 27
-duplicate$ -- 755
-empty$ -- 817
-format.name$ -- 54
-if$ -- 2179
+            919 strings with 12275 characters,
+and the built_in function-call counts, 14910 in all, are:
+= -- 1142
+> -- 499
+< -- 109
++ -- 259
+- -- 102
+* -- 784
+:= -- 2215
+add.period$ -- 36
+call.type$ -- 18
+change.case$ -- 18
+chr.to.int$ -- 228
+cite$ -- 29
+duplicate$ -- 1071
+empty$ -- 1088
+format.name$ -- 116
+if$ -- 3393
 int.to.chr$ -- 0
-int.to.str$ -- 17
-missing$ -- 147
-newline$ -- 93
-num.names$ -- 12
-pop$ -- 400
+int.to.str$ -- 18
+missing$ -- 212
+newline$ -- 92
+num.names$ -- 17
+pop$ -- 508
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 739
+skip$ -- 1140
 stack$ -- 0
-substring$ -- 314
-swap$ -- 546
-text.length$ -- 19
+substring$ -- 582
+swap$ -- 897
+text.length$ -- 33
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 0
-warning$ -- 10
-while$ -- 31
-width$ -- 19
-write$ -- 182
+warning$ -- 11
+while$ -- 53
+width$ -- 20
+write$ -- 212
 (There were 5 error messages)

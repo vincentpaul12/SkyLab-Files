@@ -18,6 +18,11 @@
 \fi
 #2}}
 
+\bibitem{Hermocilla2014}
+J.~A.~C. Hermocilla, ``P2c: Towards scientific computing on private clouds,''
+  in \emph{Proceedings of the National Conference on Information Technology
+  Education (NCITE 2014)}, 2014, pp. 162--167.
+
 \bibitem{Ahuja2012}
 \BIBentryALTinterwordspacing
 S.~P. Ahuja and S.~Mani, ``The state of high performance computing in the
@@ -30,11 +35,6 @@ S.~P. Ahuja and S.~Mani, ``The state of high performance computing in the
 I.~Brandic, I.~Raicu, S.~N. Srirama, O.~Batrashev, P.~Jakovits, and
   E.~Vainikko, ``Scalability of parallel scientific applications on the
   cloud.'' \emph{Scientific Programming}, vol.~19, no. 2/3, pp. 91 -- 105.
-
-\bibitem{Hermocilla2014}
-J.~A.~C. Hermocilla, ``P2c: Towards scientific computing on private clouds,''
-  in \emph{Proceedings of the National Conference on Information Technology
-  Education (NCITE 2014)}, 2014, pp. 162--167.
 
 \bibitem{8521133920130201}
 S.~Benedict, ``Performance issues and performance analysis tools for hpc cloud
@@ -87,29 +87,46 @@ P.~Sharma and S.~S. Mantri, ``Wimpiblast: Web interface for mpiblast to help
   biologists perform large-scale annotation using high performance computing.''
   \emph{PLoS ONE}, vol.~9, no.~6, pp. 1 -- 13.
 
-\bibitem{autodock}
+\bibitem{morris2009autodock4}
+G.~M. Morris, R.~Huey, W.~Lindstrom, M.~F. Sanner, R.~K. Belew, D.~S. Goodsell,
+  and A.~J. Olson, ``Autodock4 and {AutoDockTools}4: automated docking with
+  selective receptor flexiblity,'' \emph{J. Computational Chemistry}, vol.
+  2009, pp. 2785--91, 2009.
+
+\bibitem{JCC:JCC21334}
 \BIBentryALTinterwordspacing
-``{AutoDock} â€” {AutoDock}.'' [Online]. Available:
-  \url{http://autodock.scripps.edu/}
+O.~Trott and A.~J. Olson, ``Autodock vina: Improving the speed and accuracy of
+  docking with a new scoring function, efficient optimization, and
+  multithreading,'' \emph{Journal of Computational Chemistry}, vol.~31, no.~2,
+  pp. 455--461, 2010. [Online]. Available:
+  \url{http://dx.doi.org/10.1002/jcc.21334}
 \BIBentrySTDinterwordspacing
 
-\bibitem{overview}
+\bibitem{lang2009dock}
+P.~T. Lang, S.~R. Brozell, S.~Mukherjee, E.~T. Pettersen, E.~C. Meng,
+  V.~Thomas, R.~C. Rizzo, D.~A. Case, T.~L. James, and I.~D. Kuntz, ``Dock 6:
+  Combining techniques to model {RNA}-small molecule complexes,'' \emph{RNA},
+  vol.~15, pp. 1219--1230, 2009.
+
+\bibitem{QE-2009}
 \BIBentryALTinterwordspacing
-``Overview of {DOCK}.'' [Online]. Available:
-  \url{http://dock.compbio.ucsf.edu/Overview\_of\_DOCK/index.htm}
+P.~Giannozzi, S.~Baroni, N.~Bonini, M.~Calandra, R.~Car, C.~Cavazzoni,
+  D.~Ceresoli, G.~L. Chiarotti, M.~Cococcioni, I.~Dabo, A.~{Dal Corso},
+  S.~de~Gironcoli, S.~Fabris, G.~Fratesi, R.~Gebauer, U.~Gerstmann,
+  C.~Gougoussis, A.~Kokalj, M.~Lazzeri, L.~Martin-Samos, N.~Marzari, F.~Mauri,
+  R.~Mazzarello, S.~Paolini, A.~Pasquarello, L.~Paulatto, C.~Sbraccia,
+  S.~Scandolo, G.~Sclauzero, A.~P. Seitsonen, A.~Smogunov, P.~Umari, and R.~M.
+  Wentzcovitch, ``Quantum espresso: a modular and open-source software project
+  for quantum simulations of materials,'' \emph{Journal of Physics: Condensed
+  Matter}, vol.~21, no.~39, p. 395502 (19pp), 2009. [Online]. Available:
+  \url{http://www.quantum-espresso.org}
 \BIBentrySTDinterwordspacing
 
-\bibitem{quantumespresso}
-\BIBentryALTinterwordspacing
-``{QUANTUMESPRESSO} - {Quantum} {ESPRESSO}.'' [Online]. Available:
-  \url{http://www.quantum-espresso.org/}
-\BIBentrySTDinterwordspacing
-
-\bibitem{gordon}
-\BIBentryALTinterwordspacing
-``Gordon {Group}/{GAMESS} {Homepage}.'' [Online]. Available:
-  \url{http://www.msg.ameslab.gov/gamess/capabilities.html}
-\BIBentrySTDinterwordspacing
+\bibitem{1993gamess}
+``General atomic and molecular electronic structure system,'' \emph{M. W.
+  Schmidt, K. K. Baldridge, J. A. Boatz, S. T. Elbert, M. S. Gordon, J. H.
+  Jensen, S. Koseki, N. Matsunaga, K. A. Nguyen, S. Su, T. L. Windus, M.
+  Dupuis, J. A. Montgomery J. Comput. Chem.}, vol.~14, 1993.
 
 \bibitem{boisvert_ray_2012}
 \BIBentryALTinterwordspacing
@@ -120,10 +137,13 @@ S.~Boisvert, F.~Raymond, Ã.~Godzaridis, F.~Laviolette, and J.~Corbeil,
   \url{http://genomebiology.com/2012/13/12/R122}
 \BIBentrySTDinterwordspacing
 
-\bibitem{jsmol}
+\bibitem{IJCH:IJCH201300024}
 \BIBentryALTinterwordspacing
-Jsmol: an open-source html5 viewer for chemical structures in 3d. [Online].
-  Available: \url{http://wiki.jmol.org/index.php/JSmol}
+R.~M. Hanson, J.~Prilusky, Z.~Renjian, T.~Nakane, and J.~L. Sussman, ``Jsmol
+  and the next-generation web-based representation of 3d molecular structure as
+  applied to proteopedia,'' \emph{Israel Journal of Chemistry}, vol.~53, no.
+  3-4, pp. 207--216, 2013. [Online]. Available:
+  \url{http://dx.doi.org/10.1002/ijch.201300024}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}

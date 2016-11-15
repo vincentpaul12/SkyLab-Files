@@ -90,7 +90,7 @@ cloud computing, high performance computing, web interface
     \begin{description}
       \item[Programming Language: Python ]
       \item[Web Framework: Django ]
-      \item[DBMS: SQLite]
+      \item[DBMS: MariaDB]
       \item[Cloud Infrastructure: Peak-Two Cloud ]
     \end{description}
 
@@ -123,15 +123,15 @@ cloud computing, high performance computing, web interface
           \item Users can browse and select tools with an interface. It includes, but not limited to:
           \begin{description}
           	\item[AutoDock] \hfill \\ 
-            It is a suite of automated docking tools designed to predict how small molecules bind to a receptor of known 3D structure. \cite{autodock}
+            It is a suite of automated docking tools designed to predict how small molecules bind to a receptor of known 3D structure. \cite{morris2009autodock4}
             \item[AutoDock Vina] \hfill \\
-            It achieves significant improvements in the average accuracy of the binding mode predictions, while also being up to two orders of magnitude faster than AutoDock 4. \cite{autodock}
+            It achieves significant improvements in the average accuracy of the binding mode predictions, while also being up to two orders of magnitude faster than AutoDock 4. \cite{JCC:JCC21334}
             \item[DOCK] \hfill \\
-            It is used to predict the small molecule-target interactions. \cite{overview}
+            It is used to predict the small molecule-target interactions. \cite{lang2009dock}
             \item[Quantum Espresso] \hfill \\
-It is an integrated suite of Open-Source computer codes for electronic-structure calculations and materials modeling at the nanoscale. \cite{quantumespresso}
+It is an integrated suite of Open-Source computer codes for electronic-structure calculations and materials modeling at the nanoscale. \cite{QE-2009}
             \item[GAMESS] \hfill \\
-            GAMESS is a program for ab initio molecular quantum chemistry. \cite{gordon}
+            GAMESS is a program for ab initio molecular quantum chemistry. \cite{1993gamess}
             \item[Ray] \hfill \\
             It is uses parallel genome assemblies for parallel DNA sequencing \cite{boisvert_ray_2012}
           \end{description}
@@ -268,7 +268,7 @@ It is an integrated suite of Open-Source computer codes for electronic-structure
 			\includegraphics[width=230px,height=115px]{./images/tasks_list_view.png}			
 			\captionof{figure}{Task list view}			
 		\end{center}	
-		\item The user can view results of tasks. JSmol renders the compatible output files\cite{jsmol}. \newline
+		\item The user can view results of tasks. JSmol renders the compatible output files\cite{IJCH:IJCH201300024}. \newline
 		\begin{center}			
 			\includegraphics[width=230px,height=130px]{./images/jsmol_detail_view.png}			
 			\captionof{figure}{Task detail view}			
@@ -282,7 +282,7 @@ It is an integrated suite of Open-Source computer codes for electronic-structure
 	*insert results of test
 	
 \section{Conclusion and Future Work}
-The system created allows users to manage MPI clusters and MPI tasks without the need for technical expertise in scripting. This makes the advantages of HPC available to non-technical users. This is achieved by parsing form inputs to generate commands for task execution. Task files can be download from the server and output files are displayed with the help of JSmol\cite{jsmol}. The system is also configured to install toolsets found in the modules folder making it possible to accomodate additional tools. Based on the user acceptance test conducted, the users found the system to be ... 
+The system created allows users to manage MPI clusters and MPI tasks without the need for technical expertise in scripting. This makes the advantages of HPC available to non-technical users. This is achieved by parsing form inputs to generate commands for task execution. Task files can be download from the server and output files are displayed with the help of JSmol\cite{IJCH:IJCH201300024}. The system is also configured to install toolsets found in the modules folder making it possible to accomodate additional tools. Based on the user acceptance test conducted, the users found the system to be ... 
 
 The system achieved its main objectives but it can still be improved by adding more features. Input file generation can make the process more interactive and more customizable. Workflow design support will enable users to run complex tasks. Task scheduling and resource management algorithms can be used to efficiently handle resource-intensive or time consuming tasks. A special feature to borrow resources to idle clusters can be implemented. 
 
