@@ -35,6 +35,17 @@ You're missing a field name---line 351 of file ./carpio-cs190-ieee.bib
  :     %URL = {http://search.ebscohost.com/login.aspx?direct=true&db=a9h&AN=74110216&site=ehost-live},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 362 of file ./carpio-cs190-ieee.bib
+ :  title = "The American Voice And Robotics "
+ :                                            Guardian: System: A Case Study In User Interface Usability Evaluation",
+I'm skipping whatever remains of this entry
+Warning--I'm ignoring chin1988development's extra "publisher" field
+--line 378 of file ./carpio-cs190-ieee.bib
+I was expecting a `,' or a `}'---line 381 of file ./carpio-cs190-ieee.bib
+ : 
+ : % a paper in a conference proceedings
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 -- IEEEtran.bst version 1.11 (2003/04/02) by Michael Shell.
 -- http://www.ctan.org/tex-archive/macros/latex/contrib/supported/IEEEtran/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -51,45 +62,45 @@ Warning--empty year in 9686120720140601
 Warning--empty author in 1993gamess
 
 Done.
-You've used 18 entries,
+You've used 19 entries,
             3975 wiz_defined-function locations,
-            919 strings with 12275 characters,
-and the built_in function-call counts, 14910 in all, are:
-= -- 1142
-> -- 499
+            927 strings with 12485 characters,
+and the built_in function-call counts, 15321 in all, are:
+= -- 1167
+> -- 512
 < -- 109
-+ -- 259
-- -- 102
-* -- 784
-:= -- 2215
-add.period$ -- 36
-call.type$ -- 18
++ -- 265
+- -- 105
+* -- 801
+:= -- 2279
+add.period$ -- 38
+call.type$ -- 19
 change.case$ -- 18
 chr.to.int$ -- 228
-cite$ -- 29
-duplicate$ -- 1071
-empty$ -- 1088
-format.name$ -- 116
-if$ -- 3393
+cite$ -- 30
+duplicate$ -- 1104
+empty$ -- 1139
+format.name$ -- 120
+if$ -- 3489
 int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 212
-newline$ -- 92
-num.names$ -- 17
-pop$ -- 508
+int.to.str$ -- 19
+missing$ -- 219
+newline$ -- 95
+num.names$ -- 18
+pop$ -- 531
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1140
+skip$ -- 1172
 stack$ -- 0
 substring$ -- 582
-swap$ -- 897
+swap$ -- 916
 text.length$ -- 33
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 0
 warning$ -- 11
-while$ -- 53
-width$ -- 20
-write$ -- 212
-(There were 5 error messages)
+while$ -- 54
+width$ -- 21
+write$ -- 219
+(There were 7 error messages)

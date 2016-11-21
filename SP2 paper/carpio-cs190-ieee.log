@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.11.3)  15 NOV 2016 19:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.11.3)  21 NOV 2016 16:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -393,10 +393,17 @@ File: ./images/jsmol_detail_view.png Graphic file (type png)
 Package pdftex.def Info: ./images/jsmol_detail_view.png used on input line 273.
 
 (pdftex.def)             Requested size: 230.86218pt x 130.48326pt.
+
+<./images/quis_graph.png, id=32, 785.93625pt x 400.49625pt>
+File: ./images/quis_graph.png Graphic file (type png)
+
+<use ./images/quis_graph.png>
+Package pdftex.def Info: ./images/quis_graph.png used on input line 283.
+(pdftex.def)             Requested size: 230.8658pt x 100.37436pt.
  [4 <./images/mpi_list_view.png> <./images/add_private_cluster.png> <./images/m
 pi_detail_view.png> <./images/toolset_list.png> <./images/gamess_form.png> <./i
-mages/tasks_list_view.png> <./images/jsmol_detail_view.png>] (./carpio-cs190-ie
-ee.bbl
+mages/tasks_list_view.png> <./images/jsmol_detail_view.png> <./images/quis_grap
+h.png>] (./carpio-cs190-ieee.bbl
 Underfull \hbox (badness 1596) in paragraph at lines 60--64
 []\OT1/ptm/m/n/8 E. Walker, ``Bench-mark-ing ama-zon ec2 for high-
  []
@@ -424,10 +431,10 @@ Missing character: There is no Ã in font ptmr7t!
 ** the default language instead.
 ) [5] (./carpio-cs190-ieee.aux) ) 
 Here is how much of TeX's memory you used:
- 3309 strings out of 495028
- 54601 string characters out of 6181497
- 116436 words of memory out of 5000000
- 6493 multiletter control sequences out of 15000+600000
+ 3315 strings out of 495028
+ 54747 string characters out of 6181497
+ 116440 words of memory out of 5000000
+ 6498 multiletter control sequences out of 15000+600000
  37551 words of font info for 71 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,9n,38p,1559b,298s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -438,10 +445,10 @@ Here is how much of TeX's memory you used:
 ive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on carpio-cs190-ieee.pdf (5 pages, 662277 bytes).
+Output written on carpio-cs190-ieee.pdf (5 pages, 679075 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
+ 68 PDF objects out of 1000 (max. 8388607)
  32 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -146,4 +146,9 @@ R.~M. Hanson, J.~Prilusky, Z.~Renjian, T.~Nakane, and J.~L. Sussman, ``Jsmol
   \url{http://dx.doi.org/10.1002/ijch.201300024}
 \BIBentrySTDinterwordspacing
 
+\bibitem{chin1988development}
+J.~P. Chin, V.~A. Diehl, and K.~L. Norman, \emph{Development of an instrument
+  measuring user satisfaction of the human-computer interface}.\hskip 1em plus
+  0.5em minus 0.4em\relax New York: Proceedings of {SIGCHI} '88, 1988.
+
 \end{thebibliography}
