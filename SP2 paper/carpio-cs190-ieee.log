@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.11.3)  21 NOV 2016 16:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.25)  26 NOV 2016 20:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **carpio-cs190-ieee.tex
 (./carpio-cs190-ieee.tex
-LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 2 languages loaded.
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
 (./IEEE/IEEEtran.cls
 
 LaTeX Warning: You have requested document class `./IEEE/IEEEtran',
@@ -104,26 +104,26 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \@IEEEtranrubishbin=\box26
 ) (/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 373.
-Package: cite 2010/09/10  v 5.3
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 95.
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
@@ -140,11 +140,11 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@width=\dimen114
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 57.
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen115
 \captionmargin@=\dimen116
 \captionwidth=\dimen117
@@ -172,18 +172,18 @@ xa \hfil }\fi \fi \fi .
 ) (./carpio-cs190-ieee.aux)
 \openout1 = `carpio-cs190-ieee.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -249,33 +249,33 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 28.
+(Font)              <8> on input line 29.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 28.
+(Font)              <6> on input line 29.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 28.
+(Font)              <5> on input line 29.
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
 
-Underfull \hbox (badness 2027) in paragraph at lines 77--78
+Underfull \hbox (badness 2027) in paragraph at lines 81--82
 \OT1/ptm/m/n/10 by the pro-cess of al-lo-cat-ing mem-ory, remap-ping it to
  []
 
 
-Underfull \hbox (badness 3724) in paragraph at lines 77--78
+Underfull \hbox (badness 3724) in paragraph at lines 81--82
 \OT1/ptm/m/n/10 over hard-ware re-sources. Con-fig-u-ra-tion fail-ures, up-date
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 78.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 82.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 82.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
@@ -285,125 +285,122 @@ File: ./images/system_architecture.png Graphic file (type png)
 
 <use ./images/system_architecture.png>
 Package pdftex.def Info: ./images/system_architecture.png used on input line 10
-1.
+5.
 (pdftex.def)             Requested size: 92.34488pt x 224.84225pt.
 
-<./images/use_case_simple_normal.png, id=13, 376.40625pt x 868.24374pt>
-File: ./images/use_case_simple_normal.png Graphic file (type png)
+<./images/use_case_large.png, id=13, 1307.88625pt x 678.535pt>
+File: ./images/use_case_large.png Graphic file (type png)
 
-<use ./images/use_case_simple_normal.png>
-Package pdftex.def Info: ./images/use_case_simple_normal.png used on input line
- 116.
-(pdftex.def)             Requested size: 230.87103pt x 250.93634pt.
+<use ./images/use_case_large.png>
+Package pdftex.def Info: ./images/use_case_large.png used on input line 120.
+(pdftex.def)             Requested size: 501.87138pt x 250.92978pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 123.
+(Font)              <7> on input line 127.
  [2 <./images/system_architecture.png>]
-Underfull \hbox (badness 2253) in paragraph at lines 228--229
+Underfull \vbox (badness 1009) has occurred while \output is active []
+
+ [3 <./images/use_case_large.png>]
+Underfull \hbox (badness 2253) in paragraph at lines 231--232
 []\OT1/ptm/m/n/10 The user is au-then-ti-cated by log-ging in with his
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
-
- []
-
-<./images/create_mpi.png, id=19, 1357.07pt x 770.88pt>
+<./images/create_mpi.png, id=23, 1357.07pt x 770.88pt>
 File: ./images/create_mpi.png Graphic file (type png)
 
 <use ./images/create_mpi.png>
-Package pdftex.def Info: ./images/create_mpi.png used on input line 231.
+Package pdftex.def Info: ./images/create_mpi.png used on input line 234.
 (pdftex.def)             Requested size: 230.8438pt x 120.4497pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
 
  []
 
-[3 <./images/use_case_simple_normal.png> <./images/create_mpi.png>]
-<./images/mpi_list_view.png, id=25, 1371.1225pt x 451.6875pt>
+<./images/mpi_list_view.png, id=24, 1371.1225pt x 451.6875pt>
 File: ./images/mpi_list_view.png Graphic file (type png)
 
 <use ./images/mpi_list_view.png>
-Package pdftex.def Info: ./images/mpi_list_view.png used on input line 237.
+Package pdftex.def Info: ./images/mpi_list_view.png used on input line 240.
 (pdftex.def)             Requested size: 230.84912pt x 80.30087pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
 
  []
 
-<./images/add_private_cluster.png, id=26, 1330.9725pt x 428.60126pt>
+<./images/add_private_cluster.png, id=25, 1330.9725pt x 428.60126pt>
 File: ./images/add_private_cluster.png Graphic file (type png)
 
 <use ./images/add_private_cluster.png>
 Package pdftex.def Info: ./images/add_private_cluster.png used on input line 24
-4.
+7.
 (pdftex.def)             Requested size: 230.85216pt x 80.29713pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
 
  []
 
-<./images/mpi_detail_view.png, id=27, 1357.07pt x 939.51pt>
+<./images/mpi_detail_view.png, id=26, 1357.07pt x 939.51pt>
 File: ./images/mpi_detail_view.png Graphic file (type png)
 
 <use ./images/mpi_detail_view.png>
-Package pdftex.def Info: ./images/mpi_detail_view.png used on input line 250.
+Package pdftex.def Info: ./images/mpi_detail_view.png used on input line 253.
 (pdftex.def)             Requested size: 230.8438pt x 150.55403pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- []
 
-<./images/toolset_list.png, id=28, 1356.06625pt x 770.88pt>
+<./images/toolset_list.png, id=27, 1356.06625pt x 770.88pt>
 File: ./images/toolset_list.png Graphic file (type png)
 
 <use ./images/toolset_list.png>
-Package pdftex.def Info: ./images/toolset_list.png used on input line 256.
+Package pdftex.def Info: ./images/toolset_list.png used on input line 259.
 (pdftex.def)             Requested size: 230.85928pt x 120.4497pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--261
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
  []
 
-<./images/gamess_form.png, id=29, 1371.1225pt x 561.09625pt>
+<./images/gamess_form.png, id=28, 1371.1225pt x 561.09625pt>
 File: ./images/gamess_form.png Graphic file (type png)
 
 <use ./images/gamess_form.png>
-Package pdftex.def Info: ./images/gamess_form.png used on input line 262.
+Package pdftex.def Info: ./images/gamess_form.png used on input line 265.
 (pdftex.def)             Requested size: 230.84912pt x 100.36797pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
 
  []
 
-<./images/tasks_list_view.png, id=30, 1357.07pt x 700.6175pt>
+<./images/tasks_list_view.png, id=29, 1357.07pt x 700.6175pt>
 File: ./images/tasks_list_view.png Graphic file (type png)
 
 <use ./images/tasks_list_view.png>
-Package pdftex.def Info: ./images/tasks_list_view.png used on input line 268.
+Package pdftex.def Info: ./images/tasks_list_view.png used on input line 271.
 (pdftex.def)             Requested size: 230.8438pt x 115.42584pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
 
  []
 
-<./images/jsmol_detail_view.png, id=31, 1361.085pt x 770.88pt>
+<./images/jsmol_detail_view.png, id=30, 1361.085pt x 770.88pt>
 File: ./images/jsmol_detail_view.png Graphic file (type png)
 
 <use ./images/jsmol_detail_view.png>
-Package pdftex.def Info: ./images/jsmol_detail_view.png used on input line 273.
+Package pdftex.def Info: ./images/jsmol_detail_view.png used on input line 276.
 
 (pdftex.def)             Requested size: 230.86218pt x 130.48326pt.
 
-<./images/quis_graph.png, id=32, 785.93625pt x 400.49625pt>
+Underfull \vbox (badness 1552) has occurred while \output is active []
+
+ [4 <./images/create_mpi.png> <./images/mpi_list_view.png> <./images/add_privat
+e_cluster.png> <./images/mpi_detail_view.png> <./images/toolset_list.png> <./im
+ages/gamess_form.png> <./images/tasks_list_view.png>]
+<./images/quis_graph.png, id=41, 785.93625pt x 400.49625pt>
 File: ./images/quis_graph.png Graphic file (type png)
 
 <use ./images/quis_graph.png>
-Package pdftex.def Info: ./images/quis_graph.png used on input line 283.
+Package pdftex.def Info: ./images/quis_graph.png used on input line 286.
 (pdftex.def)             Requested size: 230.8658pt x 100.37436pt.
- [4 <./images/mpi_list_view.png> <./images/add_private_cluster.png> <./images/m
-pi_detail_view.png> <./images/toolset_list.png> <./images/gamess_form.png> <./i
-mages/tasks_list_view.png> <./images/jsmol_detail_view.png> <./images/quis_grap
-h.png>] (./carpio-cs190-ieee.bbl
+ (./carpio-cs190-ieee.bbl
 Underfull \hbox (badness 1596) in paragraph at lines 60--64
 []\OT1/ptm/m/n/8 E. Walker, ``Bench-mark-ing ama-zon ec2 for high-
  []
@@ -429,26 +426,29 @@ Missing character: There is no Ã in font ptmr7t!
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `en'. Using the pattern for
 ** the default language instead.
-) [5] (./carpio-cs190-ieee.aux) ) 
+[5 <./images/jsmol_detail_view.png> <./images/quis_graph.png>]) [6
+
+]
+(./carpio-cs190-ieee.aux) ) 
 Here is how much of TeX's memory you used:
- 3315 strings out of 495028
- 54747 string characters out of 6181497
- 116440 words of memory out of 5000000
- 6498 multiletter control sequences out of 15000+600000
+ 3331 strings out of 494953
+ 55010 string characters out of 6180976
+ 117257 words of memory out of 5000000
+ 6589 multiletter control sequences out of 15000+600000
  37551 words of font info for 71 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,9n,38p,1559b,298s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips
-/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/times/utmri8a.pfb>
-Output written on carpio-cs190-ieee.pdf (5 pages, 679075 bytes).
+ 38i,9n,39p,1559b,382s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/
+8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
+s/utmri8a.pfb>
+Output written on carpio-cs190-ieee.pdf (6 pages, 725471 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 71 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

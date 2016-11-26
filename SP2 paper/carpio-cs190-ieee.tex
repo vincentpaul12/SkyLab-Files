@@ -1,6 +1,7 @@
 \documentclass[journal]{./IEEE/IEEEtran}
 \usepackage{cite,graphicx, caption}
 
+
 \newcommand{\SPTITLE}{SkyLab : A Web Application for vCluster}
 \newcommand{\ADVISEE}{Vincent Paul L. Carpio}
 \newcommand{\ADVISER}{Katrina Joy M. Abriol-Santos}
@@ -66,10 +67,13 @@ cloud computing, high performance computing, web interface
 
     \subsection{Objectives}
     This study aims to develop SkyLab, a web application that would function as a front-end for vCluster. %change support
-	Specifically, it should be able to: \newline
-		1) allow users to select tools and execute them via web interface; \newline
-        2) create an extensible platform that would accommodate additional tools; and\newline
-		3) display output data of tools.
+	Specifically, it should be able to: 
+	\begin{enumerate}
+	
+		\item allow users to select tools and execute them via web interface; 
+        \item create an extensible platform that would accommodate additional tools; and
+		\item display output data of tools.
+	\end{enumerate}
 
 %REVIEW OF RELATED LITERATURE
 \section {Review of Related Literature}
@@ -111,28 +115,28 @@ cloud computing, high performance computing, web interface
 %		\captionof{figure}{System Architecture of SkyLab}			
 %	\end{center}	
 	
-    \begin{figure}
+    \begin{figure*}[ht]
       \centering
-      \includegraphics[width=230px,height=250px]{./images/use_case_simple_normal.png}
+      \includegraphics[width=500px,height=250px]{./images/use_case_large.png}
       \caption{Use Case Diagram of SkyLab}\label{System Architecture}
-    \end{figure}
+    \end{figure*}
 
     \subsection{Requirements Specification}
         \subsubsection{Functional Requirements}
         \begin{itemize}
           \item Users can browse and select tools with an interface. It includes, but not limited to:
           \begin{description}
-          	\item[AutoDock] \hfill \\ 
+          	\item[AutoDock] \hfill \break 
             It is a suite of automated docking tools designed to predict how small molecules bind to a receptor of known 3D structure. \cite{morris2009autodock4}
-            \item[AutoDock Vina] \hfill \\
+            \item[AutoDock Vina] \hfill \break
             It achieves significant improvements in the average accuracy of the binding mode predictions, while also being up to two orders of magnitude faster than AutoDock 4. \cite{JCC:JCC21334}
-            \item[DOCK] \hfill \\
+            \item[DOCK] \hfill \break
             It is used to predict the small molecule-target interactions. \cite{lang2009dock}
-            \item[Quantum Espresso] \hfill \\
+            \item[Quantum Espresso] \hfill \break
 It is an integrated suite of Open-Source computer codes for electronic-structure calculations and materials modeling at the nanoscale. \cite{QE-2009}
-            \item[GAMESS] \hfill \\
+            \item[GAMESS] \hfill \break
             GAMESS is a program for ab initio molecular quantum chemistry. \cite{1993gamess}
-            \item[Ray] \hfill \\
+            \item[Ray] \hfill \break
             It is uses parallel genome assemblies for parallel DNA sequencing \cite{boisvert_ray_2012}
           \end{description}
           \item Users can upload input data to the server.
@@ -143,9 +147,9 @@ It is an integrated suite of Open-Source computer codes for electronic-structure
         \begin{itemize}
           \item Users must be authenticated to be able to use the system.
           \item The system must be easy to use and user friendly.
-          \item The system must be highly maintainable for future development.
+          \item The system must be highly maintainable for future development.  
         \end{itemize}
-    
+	
     \subsection {Evaluation of Methodology}
     	The use cases given ensure that the user will be able to select tools and execute them with the system. Also, the output files of user tasks will be served by the system. The system code is required maintainable for future inclusion of other tools.  
         The methodology provided is sufficient to achieve the given objectives of the study. The created software will be subjected to user acceptance test for further evaluation. 
@@ -218,15 +222,14 @@ It is an integrated suite of Open-Source computer codes for electronic-structure
 			\item  Output files are sent back to the server.
 			\item  Deletes remote task folder
 			\item  Output files are served by the server.
-		\end{enumerate}
-		
-		
-		
-	\subsection{System Features}The system's interface offers different functionalities that simplifies MPI cluster and task management.
+		\end{enumerate}	
+
+	\subsection{System Features}
+	The system's interface offers different functionalities that simplifies MPI cluster and task management.
 		
 	\begin{itemize}
 		\item The user is authenticated by logging in with his @up.edu.ph Google account.
-		\item The user can create an MPI cluster with optional tool activations. \newline
+		\item The user can create an MPI cluster with optional tool activations. 
 			\begin{center}			
 				\includegraphics[width=230px,height=120px]{./images/create_mpi.png}				
 				\captionof{figure}{MPI creation form}			
@@ -251,7 +254,7 @@ It is an integrated suite of Open-Source computer codes for electronic-structure
 			\captionof{figure}{MPI detail view}			
 		\end{center}	
 		
-		\item The user can select from a list which tool does he want to use. \newline	
+		\item The user can select from a list which tool does he want to use. 	
 		\begin{center}			
 			\includegraphics[width=230px,height=120px]{./images/toolset_list.png}			
 			\captionof{figure}{GAMESS task creation form}			
@@ -278,7 +281,7 @@ It is an integrated suite of Open-Source computer codes for electronic-structure
 		
 	\end{itemize}
 	
-	\subsection{User acceptance}
+	\subsection{User Acceptance}
 	\begin{center}			
 			\includegraphics[width=230px,height=100px]{./images/quis_graph.png}			
 			\captionof{figure}{Results of QUIS for SkyLab}			
@@ -287,7 +290,7 @@ It is an integrated suite of Open-Source computer codes for electronic-structure
 
 	
 \section{Conclusion and Future Work}
-The system created allows users to manage MPI clusters and MPI tasks without the need for technical expertise in scripting. This makes the advantages of HPC available to non-technical users. This is achieved by parsing form inputs to generate commands for task execution. Task files can be download from the server and output files are displayed with the help of JSmol\cite{IJCH:IJCH201300024}. The system is also configured to install toolsets found in the modules folder making it possible to accomodate additional tools. Based on the user acceptance test conducted, the users found the system to be ... 
+The system created allows users to manage MPI clusters and submit tasks without the need for technical expertise in scripting. This makes the advantages of HPC available to non-technical users. This is achieved by parsing form inputs to generate commands for task execution. Task files can be download from the server and output files are displayed with the help of JSmol\cite{IJCH:IJCH201300024}. The system is also configured to install toolsets found in the modules folder making it possible to accomodate additional tools. Based on the user acceptance test conducted, the users found the system to be ... 
 
 The system achieved its main objectives but it can still be improved by adding more features. Input file generation can make the process more interactive and more customizable. Workflow design support will enable users to run complex tasks. Task scheduling and resource management algorithms can be used to efficiently handle resource-intensive or time consuming tasks. A special feature to borrow resources to idle clusters can be implemented. 
 
