@@ -82,7 +82,7 @@ cloud computing, high performance computing, web interface
 
          In a study by Jackson et al.\cite{CloudCom2010}, performance of a set of benchmarks designed to represent a typical HPC workload run on Amazon EC2 have been quantitatively examined. Results of the study show that the percentage of the communication time of the application is strongly correlated to its overall performance in EC2. The more communication, the worse it performs. In addition, applications with significant global communication perform relatively worse than those with less. Lastly, variability can be significant in EC2. Variability is introduced by multiple virtual machines, by the network and by underlying non-virtualized hardware \cite{CloudCom2010}.
 
-         Another study conducted by \cite{SciWorkflowEC2}, analyzed running scientific workflows in EC2. It has been found that the primary cost is in getting resources to execute workflow tasks, and storage costs are relatively cheaper. Storing data in the cloud rather that transferring it to each workflow effectively reduces the high cost of data transfer. These results show that the cloud is a good alternative for running scientific workflow applications but for cloud providers to be able compete with existing physical systems in terms of performance of HPC applications would need high-speed networks and parallel file systems \cite{SciWorkflowEC2}\cite{WalkerEC2HPC}. While current cloud computing services are insufficient for large-scale scientific computing, it may still be a viable option for the scientists who need resources instantly and temporarily \cite{PerfAnalysisManyTasks}. Despite the performance tradeoff, EC2 offers ease-of-use and cheaper costs which are marginal factors in consideration for academic purposes \cite{ZachHumphrey}.
+         Another study conducted by \cite{SciWorkflowEC2}, analyzed running scientific workflows in EC2. It has been found that the primary cost is in getting resources to execute workflow tasks, and storage costs are relatively cheaper. Storing data in the cloud rather that transferring it to each workflow effectively reduces the high cost of data transfer. These results show that the cloud is a good alternative for running scientific workflow applications but for cloud providers to be able compete with existing physical systems in terms of performance of HPC applications would need high-speed networks and parallel file systems \cite{SciWorkflowEC2}\cite{WalkerEC2HPC}. While current cloud computing services are insufficient for large-scale scientific computing, it may still be a viable option for the scientists who need resources instantly and temporarily \cite{PerfAnalysisManyTasks}. Despite the performance trade-off, EC2 offers ease-of-use and cheaper costs which are marginal factors in consideration for academic purposes \cite{ZachHumphrey}.
     \subsection {Related Work}
         The Yabi system \cite{7411021620120101} targets the non-technical audience with an intuitive drag-and-drop scalable web-based workflow environment that allows HPC to be appreciated a broader audience. Yabi also enables other workflow systems that have limited access to multiple existing HPC to utilize its data and access models.
         
@@ -100,7 +100,7 @@ cloud computing, high performance computing, web interface
 
 
     \subsection{System Architecture}
-    SkyLab functions as a web frontend for vCluster which is built on top of Peak-Two Cloud.
+    SkyLab functions as a web front-end for vCluster which is built on top of Peak-Two Cloud.
    	\begin{center}			
 		\includegraphics[width=92px,height=224px]{./images/system_architecture.png}			
 		\captionof{figure}{System Architecture of SkyLab}			
@@ -204,12 +204,12 @@ It is an integrated suite of Open-Source computer codes for electronic-structure
 \section{Results and Discussion}
 	\subsection{System Design}
 		\subsubsection{MPI clusters} 
-		The system spawns a thread (MPIThread) for each active cluster which handles the connection to the assigned cluster via Secure Shell (SSH). Creation and deletion of clusters is done by using vCluster commands while tool activation is done by using p2c-tools. The thread also manages task queueing and execution.
+		The system spawns a thread (MPIThread) for each active cluster which handles the connection to the assigned cluster via Secure Shell (SSH). Creation and deletion of clusters is done by using vCluster commands while tool activation is done by using p2c-tools. The thread also manages task queuing and execution.
 		
 		A cluster is either classified as public or private. If it is set to public, every user in the system can use it. On the other hand, for private clusters, the cluster will only be visible to the owner. The owner has the option to share the cluster to other users via the share key generated for the said cluster. 		
 
-		\subsubsection{Toolsets} 
-		The system searches for Python packages inside the assigned modules folder and install it on server start. The toolsets will then be available for use with the system. The package must have a Python module named \emph{install.py} which contains function calls for integrating the package with the system. The package must also contain the corresponding views and executable classes for each subtool.  
+		\subsubsection{Tool Sets} 
+		The system searches for Python packages inside the assigned modules folder and install it on server start. The tool sets will then be available for use with the system. The package must have a Python module named \emph{install.py} which contains function calls for integrating the package with the system. The package must also contain the corresponding views and executable classes for each sub-tool  
 
 		\subsubsection{Tasks} 
 		The system creates a task object for each task input by the user. A signal will then be sent and it is then received by the corresponding MPIThread which queues the task for execution. When a task is executed, it calls the assigned executable class with the given parameters. On connection error, the task waits exponentially before retrying. If the server crashes while running task execution, the task is just restarted.				
@@ -231,49 +231,49 @@ It is an integrated suite of Open-Source computer codes for electronic-structure
 		\item The user is authenticated by logging in with his @up.edu.ph Google account.
 		\item The user can create an MPI cluster with optional tool activations. 
 			\begin{center}			
-				\includegraphics[width=230px,height=120px]{./images/create_mpi.png}				
+				\includegraphics[scale=0.50]{./images/create_mpi.png}				
 				\captionof{figure}{MPI creation form}			
 			\end{center}	
 	
 		\item The user can monitor visible public and private MPI clusters.  \newline	
 		\begin{center}			
-			\includegraphics[width=230px,height=80px]{./images/mpi_list_view.png}				
-			\captionof{figure}{MPI list view}		
+			\includegraphics[scale=0.33]{./images/mpi_list_view.png}				
+			\captionof{figure}{MPI cluster table}		
 		\end{center}
 		
 	
 		\item The user can make a private cluster visible by entering a valid share key. \newline
 		\begin{center}			
-			\includegraphics[width=230px,height=80px]{./images/add_private_cluster.png}		
-			\captionof{figure}{Enter share key form}			
+			\includegraphics[scale=0.50]{./images/add_private_cluster_2.png}		
+			\captionof{figure}{Add private cluster form}			
 		\end{center}	
 		
 		\item The user can view details about a MPI cluster. If the user is the cluster's owner he has the option to delete the cluster. \newline
 		\begin{center}			
-			\includegraphics[width=230px,height=150px]{./images/mpi_detail_view.png}			
+			\includegraphics[scale=0.40]{./images/mpi_detail_view_2.png}			
 			\captionof{figure}{MPI detail view}			
 		\end{center}	
 		
 		\item The user can select from a list which tool does he want to use. 	
 		\begin{center}			
-			\includegraphics[width=230px,height=120px]{./images/toolset_list.png}			
-			\captionof{figure}{GAMESS task creation form}			
+			\includegraphics[scale=0.45]{./images/toolset_list_2.png}			
+			\captionof{figure}{Tool set list view}			
 		\end{center}
 		
 		\item The user can submit a task by filling up a tool's task creation form. \newline
 		\begin{center}			
-			\includegraphics[width=230px,height=100px]{./images/gamess_form.png}			
+			\includegraphics[scale=0.40]{./images/gamess_form_2.png}			
 			\captionof{figure}{GAMESS task creation form}			
 		\end{center}	
 		
 		\item The user can monitor created tasks. \newline
 		\begin{center}			
-			\includegraphics[width=230px,height=115px]{./images/tasks_list_view.png}			
-			\captionof{figure}{Task list view}			
+			\includegraphics[scale=0.40]{./images/tasks_list_view_2.png}			
+			\captionof{figure}{Task table view}			
 		\end{center}	
 		\item The user can view results of tasks. JSmol renders the compatible output files\cite{IJCH:IJCH201300024}. \newline
 		\begin{center}			
-			\includegraphics[width=230px,height=130px]{./images/jsmol_detail_view.png}			
+			\includegraphics[scale=0.35]{./images/jsmol_detail_view_2.png}			
 			\captionof{figure}{Task detail view}			
 		\end{center}	
 
@@ -283,16 +283,16 @@ It is an integrated suite of Open-Source computer codes for electronic-structure
 	
 	\subsection{User Acceptance}
 	\begin{center}			
-			\includegraphics[width=230px,height=100px]{./images/quis_graph.png}			
+			\includegraphics[scale=0.32]{./images/uat_graph_1.png}			
 			\captionof{figure}{Results of QUIS for SkyLab}			
 	\end{center}
-	The system has been evaluated by 56 respondents by answering a survey based on Questionnaire for User Interface Satisfaction (QUIS) \cite{chin1988development}. Respondents are asked to test features of SkyLab by following a set of instructions and using input files provided. The users listed the simplicity of the user interface to be the most positive aspect of the system while the slow speed of task processing is said to be the most negative. Most of the tools supported by SkyLab have inherently long processing time and the system does not focus on optimizing the said tools to achieve better performance. 
+	The system has been evaluated by 56 respondents by answering a survey based on Questionnaire for User Interface Satisfaction (QUIS) \cite{chin1988development}. Respondents are asked to test features of SkyLab by following a set of instructions and using input files provided. On the average, the users rated their overall experience with SkyLab to 6.9/10. The users listed the simplicity of the user interface to be the most positive aspect of the system while the slow speed of task processing is said to be the most negative. Most of the tools supported by SkyLab have inherently long processing time and the system does not focus on optimizing the said tools to achieve better performance. 
 
 	
 \section{Conclusion and Future Work}
-The system created allows users to manage MPI clusters and submit tasks without the need for technical expertise in scripting. This makes the advantages of HPC available to non-technical users. This is achieved by parsing form inputs to generate commands for task execution. Task files can be download from the server and output files are displayed with the help of JSmol\cite{IJCH:IJCH201300024}. The system is also configured to install toolsets found in the modules folder making it possible to accomodate additional tools. Based on the user acceptance test conducted, the users found the system to be ... 
+The system created allows users to manage MPI clusters and submit tasks without the need for technical expertise in scripting. This makes the advantages of HPC available to non-technical users. This is achieved by parsing form inputs to generate commands for task execution. Task files can be download from the server and output files are displayed with the help of JSmol\cite{IJCH:IJCH201300024}. The system is also configured to install tool sets found in the modules folder making it possible to accommodate additional tools. Based on the user acceptance test conducted, the users found the system to be acceptable in terms of the criteria provided, in general. 
 
-The system achieved its main objectives but it can still be improved by adding more features. Input file generation can make the process more interactive and more customizable. Workflow design support will enable users to run complex tasks. Task scheduling and resource management algorithms can be used to efficiently handle resource-intensive or time consuming tasks. A special feature to borrow resources to idle clusters can be implemented. 
+The system achieved its main objectives but its features can still be improved and additional features can be introduced. Improved input parameter checking and error handling will make the system more robust. There are still use cases of tools that are yet to be supported. Input file generation can make the process more interactive and more customizable.  Workflow design support will enable users to run complex tasks. Task scheduling and resource management algorithms can be used to efficiently handle resource-intensive or time consuming tasks. For example, a cluster can borrow resources from idle clusters. These recommendations will provide the users a better experience in using the system for academic and research purposes. 
 
 
 
