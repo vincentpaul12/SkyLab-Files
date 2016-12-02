@@ -32,13 +32,21 @@ S.~P. Ahuja and S.~Mani, ``The state of high performance computing in the
 \BIBentrySTDinterwordspacing
 
 \bibitem{Brandic2011}
+\BIBentryALTinterwordspacing
 I.~Brandic, I.~Raicu, S.~N. Srirama, O.~Batrashev, P.~Jakovits, and
   E.~Vainikko, ``Scalability of parallel scientific applications on the
-  cloud.'' \emph{Scientific Programming}, vol.~19, no. 2/3, pp. 91 -- 105.
+  cloud.'' \emph{Scientific Programming}, vol.~19, no. 2/3, pp. 91 -- 105,
+  2011. [Online]. Available:
+  \url{http://search.ebscohost.com/login.aspx?direct=truedb=a9h\*&AN=66692024site=ehost-live}
+\BIBentrySTDinterwordspacing
 
 \bibitem{8521133920130201}
+\BIBentryALTinterwordspacing
 S.~Benedict, ``Performance issues and performance analysis tools for hpc cloud
-  applications: a survey.'' \emph{Computing}, vol.~95, no.~2, pp. 89 -- 108.
+  applications: a survey.'' \emph{Computing}, vol.~95, no.~2, pp. 89 -- 108,
+  2013. [Online]. Available:
+  \url{http://search.ebscohost.com/login.aspx?direct=true&db=a9h&AN=85211339&site=ehost-live}
+\BIBentrySTDinterwordspacing
 
 \bibitem{CloudCom2010}
 \BIBentryALTinterwordspacing
@@ -48,11 +56,14 @@ K.~Jackson, K.~Muriki, S.~Canon, S.~Cholia, J.~Shalf, H.~Wasserman, and
   \url{https://www.nersc.gov/assets/NERSC-Staff-Publications/2010/CloudCom.pdf}
 \BIBentrySTDinterwordspacing
 
-\bibitem{SciWorkflowEC2}
+\bibitem{juve_scientific_2009}
 \BIBentryALTinterwordspacing
-G.~Juva, E.~Deelman, K.~Vahi, G.~Mehta, B.~Berman, B.~Berriman, and
-  P.~Maechling, ``Scientific workflow applications on amazon ec2.'' [Online].
-  Available: \url{http://www.isi.edu/~gideon/publications/JuveG-EC2.pdf}
+G.~Juve, E.~Deelman, K.~Vahi, G.~Mehta, B.~Berriman, B.~P. Berman, and
+  P.~Maechling, ``Scientific workflow applications on {Amazon} {EC}2,'' in
+  \emph{2009 5th {IEEE} {International} {Conference} on {E}-{Science}
+  {Workshops}}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2009, pp. 59--66.
+  [Online]. Available:
+  \url{http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5408002}
 \BIBentrySTDinterwordspacing
 
 \bibitem{WalkerEC2HPC}
@@ -63,9 +74,12 @@ E.~Walker, ``Benchmarking amazon ec2 for high-performance scientific
 \BIBentrySTDinterwordspacing
 
 \bibitem{PerfAnalysisManyTasks}
+\BIBentryALTinterwordspacing
 A.~Iosup, S.~Ostermann, N.~Yigitbasi, R.~Prodan, T.~Fahrigner, and D.~Epema,
   ``Performance analysis of cloud computing services for many-tasks scientific
-  computing.''
+  computing,'' Nov 2010. [Online]. Available:
+  \url{http://www.st.ewi.tudelft.nl/~iosup/cloud-perf10tpds_in-print.pdf}
+\BIBentrySTDinterwordspacing
 
 \bibitem{ZachHumphrey}
 \BIBentryALTinterwordspacing
@@ -77,15 +91,21 @@ Z.~Hill and M.~Humphrey, ``A quantitative analysis of high performance
 \BIBentrySTDinterwordspacing
 
 \bibitem{7411021620120101}
+\BIBentryALTinterwordspacing
 A.~A. Hunter, A.~B. Macgregor, T.~O. Szabo, C.~A. Wellington, and M.~I.
   Bellgard, ``Yabi: An online research environment for grid, high performance
   and cloud computing.'' \emph{Source Code for Biology and Medicine}, vol.~7,
-  no.~1, pp. 1 -- 10.
+  no.~1, pp. 1 -- 10, 2012. [Online]. Available:
+  \url{http://search.ebscohost.com/login.aspx?direct=true&db=a9h&AN=74110216&site=ehost-live}
+\BIBentrySTDinterwordspacing
 
 \bibitem{9686120720140601}
+\BIBentryALTinterwordspacing
 P.~Sharma and S.~S. Mantri, ``Wimpiblast: Web interface for mpiblast to help
   biologists perform large-scale annotation using high performance computing.''
-  \emph{PLoS ONE}, vol.~9, no.~6, pp. 1 -- 13.
+  \emph{PLoS ONE}, vol.~9, no.~6, pp. 1 -- 13, 2014. [Online]. Available:
+  \url{http://search.ebscohost.com/login.aspx?direct=true&db=a9h&AN=96861207&site=ehost-live}
+\BIBentrySTDinterwordspacing
 
 \bibitem{morris2009autodock4}
 G.~M. Morris, R.~Huey, W.~Lindstrom, M.~F. Sanner, R.~K. Belew, D.~S. Goodsell,

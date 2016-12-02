@@ -1,5 +1,5 @@
 \documentclass[journal]{./IEEE/IEEEtran}
-\usepackage{cite,graphicx, caption}
+\usepackage{cite,graphicx, caption, url}
 
 
 \newcommand{\SPTITLE}{SkyLab : A Web Application for vCluster}
@@ -32,17 +32,6 @@
 	Most scientific applications require high performance computing (HPC) which utilizes parallel processing to run tasks quickly and efficiently. MPI clusters are often used to cater this type of tasks but the hardware required can be costly. Peak-Two Cloud (P2C) can host HPC applications in a cloud environment which is relatively cheaper and more convenient. One of its features is vCluster, a tool that can deploy MPI clusters on demand. \cite{Hermocilla2014} We have developed SkyLab, a web interface for vCluster. It aims to simplify the process of running MPI tasks from the perspective of the end-user. Here, we describe the system design and features of SkyLab. 
 \end{abstract}
 % ABSTRACT
-%\begin{abstract}
-%The abstract should be \textit{informational}. Typically a single paragraph
-%of about fifty to two hundred workds, the abstract allows your readers to judge
-%whether or not the article is of relevance to them. It should therefore be
-%a concise summary of the aims, scope, and conclusions of your work. There
-%is no space for unnecessary texts; an abstract should be kept to as few words
-%as possible while remaining reasonably informative. Irrelevancies, such as
-%minor details or a \textit{description} of the structure of the paper, are
-%inappropriate, as are acronyms, abbreviations, and mathematics. Sentences such
-%as ``we review relevant literature" should be omitted.\cite{Zobel97}
-%\end{abstract}
 
 % INDEX TERMS
 \begin{keywords}
@@ -53,7 +42,9 @@ cloud computing, high performance computing, web interface
 % INTRODUCTION
 \section{Introduction}
 	\subsection{Background}
-	Cloud computing has marked significant developments and possibilities in the industry. It focuses on offering services for the different needs of the modern society. There are three categories of cloud computing services namely, Software as a Service (SaaS), Platform as a Service (PaaS) and Infrastructure as a Service (IaaS). Organizations provide Saas depending on the demand. Google Apps is one example of Saas that can be used to manage email and create documents, etc. Paas offers developers a platform where they can build and deploy applications. Iaas provides storage, servers and handling computer clusters. These tools are primarily created to serve computational needs \cite {Ahuja2012}. A cloud computing platform dynamically allocates, configures, reconfigures and deallocates servers as requested or on demand. This approach ensures the elasticity of cloud computing \cite {Brandic2011}.
+	Cloud computing has marked significant developments and possibilities in the industry. It focuses on offering services for the different needs of the modern society.
+	% detected
+	 There are three categories of cloud computing services namely, Software as a Service (SaaS), Platform as a Service (PaaS) and Infrastructure as a Service (IaaS). Organizations provide Saas depending on the demand. Google Apps is one example of Saas that can be used to manage email and create documents, etc. Paas offers developers a platform where they can build and deploy applications. Iaas provides storage, servers and handling computer clusters. These tools are primarily created to serve computational needs \cite {Ahuja2012}. A cloud computing platform dynamically allocates, configures, reconfigures and deallocates servers as requested or on demand. This approach ensures the elasticity of cloud computing \cite {Brandic2011}.
 
 	Most scientific applications require high performance computing (HPC) which needs CPU intensive computations and large data storage. To be able to host such applications, several computers interconnected in a network such as clusters are needed. This makes scientific computing very costly. Fortunately, with the advancement in cloud computing, these tools can be deployed in the cloud without worrying about the costs of hardware purchase and maintenance \cite {Ahuja2012}. To determine the cost of hosting scientific computing in cloud, the Scientific Computing Cloud (SciCloud) project is conducted in the University of Tartu. Results have shown that transmission delays are the major concern in pursuing HPC applications in the cloud\cite {Brandic2011}.  To address this problem, a study is conducted by Hermocilla in Peak-Two Cloud (P2C). One of the features introduced by P2C is vCluster. vCluster is a tool that enables a user to deploy a working MPI cluster on demand and to terminate it after execution. It uses a master-slave design implementation \cite {Hermocilla2014}. However, vCluster is a command-line based application which has limited capacities for data manipulation, analysis, and presentation. Creating a web application that would host vCluster with additional features like graphical representation to visualize trends, and a Graphical User Interface(GUI) to offer convenient access. This paper will present SkyLab, a web application that aims to serve and to improve vCluster functionalities.
 
@@ -82,7 +73,7 @@ cloud computing, high performance computing, web interface
 
          In a study by Jackson et al.\cite{CloudCom2010}, performance of a set of benchmarks designed to represent a typical HPC workload run on Amazon EC2 have been quantitatively examined. Results of the study show that the percentage of the communication time of the application is strongly correlated to its overall performance in EC2. The more communication, the worse it performs. In addition, applications with significant global communication perform relatively worse than those with less. Lastly, variability can be significant in EC2. Variability is introduced by multiple virtual machines, by the network and by underlying non-virtualized hardware \cite{CloudCom2010}.
 
-         Another study conducted by \cite{SciWorkflowEC2}, analyzed running scientific workflows in EC2. It has been found that the primary cost is in getting resources to execute workflow tasks, and storage costs are relatively cheaper. Storing data in the cloud rather that transferring it to each workflow effectively reduces the high cost of data transfer. These results show that the cloud is a good alternative for running scientific workflow applications but for cloud providers to be able compete with existing physical systems in terms of performance of HPC applications would need high-speed networks and parallel file systems \cite{SciWorkflowEC2}\cite{WalkerEC2HPC}. While current cloud computing services are insufficient for large-scale scientific computing, it may still be a viable option for the scientists who need resources instantly and temporarily \cite{PerfAnalysisManyTasks}. Despite the performance trade-off, EC2 offers ease-of-use and cheaper costs which are marginal factors in consideration for academic purposes \cite{ZachHumphrey}.
+         Another study conducted by  \cite{juve_scientific_2009}, analyzed running scientific workflows in EC2. It has been found that the primary cost is in getting resources to execute workflow tasks, and storage costs are relatively cheaper. Storing data in the cloud rather that transferring it to each workflow effectively reduces the high cost of data transfer. These results show that the cloud is a good alternative for running scientific workflow applications but for cloud providers to be able compete with existing physical systems in terms of performance of HPC applications would need high-speed networks and parallel file systems \cite{juve_scientific_2009} \cite{WalkerEC2HPC}. While current cloud computing services are insufficient for large-scale scientific computing, it may still be a viable option for the scientists who need resources instantly and temporarily \cite{PerfAnalysisManyTasks}. Despite the performance trade-off, EC2 offers ease-of-use and cheaper costs which are marginal factors in consideration for academic purposes \cite{ZachHumphrey}.
     \subsection {Related Work}
         The Yabi system \cite{7411021620120101} targets the non-technical audience with an intuitive drag-and-drop scalable web-based workflow environment that allows HPC to be appreciated a broader audience. Yabi also enables other workflow systems that have limited access to multiple existing HPC to utilize its data and access models.
         
@@ -153,53 +144,6 @@ It is an integrated suite of Open-Source computer codes for electronic-structure
     \subsection {Evaluation of Methodology}
     	The use cases given ensure that the user will be able to select tools and execute them with the system. Also, the output files of user tasks will be served by the system. The system code is required maintainable for future inclusion of other tools.  
         The methodology provided is sufficient to achieve the given objectives of the study. The created software will be subjected to user acceptance test for further evaluation. 
-        
-%\section{Initial Results}
-%
-%	 \begin{figure}[h]
-%      \centering
-%      \includegraphics[width=250px,height=150px]{./images/login.jpg}
-%      \caption{Prototype Design of Login Page}\label{Login page}
-%    \end{figure}
-	
-%     \begin{figure}[h]
-%      \centering
-%      \includegraphics[width=250px,height=150px]{./images/select_tool.jpg}
-%      \caption{Prototype design of Tool Selection Page}\label{Select tool}
-%    \end{figure}
-    
-%     \begin{figure}
-%      \centering
-%      \includegraphics[width=250px,height=150px]{./images/input.jpg}
-%      \caption{Prototype Design of Data Input Page}\label{Input data}
-%    \end{figure}
-    
-%    \begin{figure}
-%      \centering
-%      \includegraphics[width=250px,height=150px]{./images/results_proc.jpg}
-%      \caption{Prototype Design of Processing Results Page}\label{Processing results}
-%    \end{figure}
-    
-%    \begin{figure}
-%      \centering
-%      \includegraphics[width=250px,height=150px]{./images/results.jpg}
-%      \caption{Prototype Design of Results Page}\label{Results}
-%   \end{figure}
-    
-%    \begin{figure}
-%      \centering
-%      \includegraphics[width=250px,height=150px]{./images/my_tools_results_general.jpg}
-%      \caption{Prototype Design of Results Segment of My Tools Page}\label{My Tools Results}
-%    \end{figure}
-  	
-    
-%    \begin{figure}
-%      \centering
-%      \includegraphics[width=250px,height=150px]{./images/my_tools_results_sample.jpg}
-%      \caption{Prototype Design of Sample Results Segment of My Tools Page}\label{My Tools %Results Sample}
-%    \end{figure}
-    
-
 
 \section{Results and Discussion}
 	\subsection{System Design}
@@ -283,30 +227,16 @@ It is an integrated suite of Open-Source computer codes for electronic-structure
 	
 	\subsection{User Acceptance}
 	\begin{center}			
-			\includegraphics[scale=0.32]{./images/uat_graph_1.png}			
+			\includegraphics[scale=0.32]{./images/uat_graph.png}			
 			\captionof{figure}{Results of QUIS for SkyLab}			
 	\end{center}
-	The system has been evaluated by 56 respondents by answering a survey based on Questionnaire for User Interface Satisfaction (QUIS) \cite{chin1988development}. Respondents are asked to test features of SkyLab by following a set of instructions and using input files provided. On the average, the users rated their overall experience with SkyLab to 6.9/10. The users listed the simplicity of the user interface to be the most positive aspect of the system while the slow speed of task processing is said to be the most negative. Most of the tools supported by SkyLab have inherently long processing time and the system does not focus on optimizing the said tools to achieve better performance. 
+	The system has been evaluated by 56 respondents by answering a survey based on Questionnaire for User Interface Satisfaction (QUIS) \cite{chin1988development}. Respondents are students who are unfamiliar with both HPC tools and the concept of MPI systems.  Respondents are asked to test features of SkyLab by following a set of instructions and using input files provided. On the average, the users rated their overall experience with SkyLab to 6.9/10. The users listed the simplicity of the user interface to be the most positive aspect of the system while the slow speed of task processing is said to be the most negative. Majority of the tools supported by SkyLab have inherently long processing time which is not known to the respondents. The system does not focus on optimizing the said tools to achieve better performance but rather it focuses on simplifying the user's task submission process. 
 
 	
 \section{Conclusion and Future Work}
 The system created allows users to manage MPI clusters and submit tasks without the need for technical expertise in scripting. This makes the advantages of HPC available to non-technical users. This is achieved by parsing form inputs to generate commands for task execution. Task files can be download from the server and output files are displayed with the help of JSmol\cite{IJCH:IJCH201300024}. The system is also configured to install tool sets found in the modules folder making it possible to accommodate additional tools. Based on the user acceptance test conducted, the users found the system to be acceptable in terms of the criteria provided, in general. 
 
-The system achieved its main objectives but its features can still be improved and additional features can be introduced. Improved input parameter checking and error handling will make the system more robust. There are still use cases of tools that are yet to be supported. Input file generation can make the process more interactive and more customizable.  Workflow design support will enable users to run complex tasks. Task scheduling and resource management algorithms can be used to efficiently handle resource-intensive or time consuming tasks. For example, a cluster can borrow resources from idle clusters. These recommendations will provide the users a better experience in using the system for academic and research purposes. 
-
-
-
-
-% \section{Results and Discussion}
-% The quick brown fox jumps over the lazy dog. The quick brown fox jumps over
-% the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown
-% fox jumps over the lazy dog.
-
-% CONCLUSION AND FUTURE WORK
-% \section{Conclusion and Future Work}
-% The quick brown fox jumps over the lazy dog. The quick brown fox jumps over
-% the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown
-% fox jumps over the lazy dog.
+The system achieved its main objectives but its features can still be improved and additional features can be introduced. Improved input parameter checking and error handling will make the system more robust. There are still use cases of tools that are yet to be supported. Input file generation can make the process more interactive and more customizable.  Workflow design support will enable users to run complex tasks. Support for custom MPI programs will make it easier for developers to utilize the system as a test environment. Task scheduling and resource management algorithms can be used to efficiently handle resource-intensive or time consuming tasks. For example, a cluster can borrow resources from idle clusters. These recommendations will provide the users a better experience in using the system for academic and research purposes. 
 
 % APPENDICES
 %\appendices

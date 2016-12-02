@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: carpio-cs190-ieee.aux
 The style file: ./IEEE/IEEEtran.bst
@@ -8,40 +8,15 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ./carpio-cs190-ieee.bib
-You're missing a field name---line 156 of file ./carpio-cs190-ieee.bib
- :   
- :   %URL = {http://search.ebscohost.com/login.aspx?direct=truedb=a9h\*&AN=66692024site=ehost-live},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 170 of file ./carpio-cs190-ieee.bib
- :     
- :     %URL = {http://search.ebscohost.com/login.aspx?direct=true&db=a9h&AN=85211339&site=ehost-live},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 184 of file ./carpio-cs190-ieee.bib
- : 
- : %URL = {http://search.ebscohost.com/login.aspx?direct=true&db=a9h&AN=96861207&site=ehost-live},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Warning--I'm ignoring morris2009autodock4's extra "volume" field
---line 263 of file ./carpio-cs190-ieee.bib
-You're missing a field name---line 317 of file ./carpio-cs190-ieee.bib
- :    
- :    % URL = {http://www.st.ewi.tudelft.nl/~iosup/cloud-perf10tpds_in-print.pdf},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 351 of file ./carpio-cs190-ieee.bib
- :     
- :     %URL = {http://search.ebscohost.com/login.aspx?direct=true&db=a9h&AN=74110216&site=ehost-live},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 362 of file ./carpio-cs190-ieee.bib
+--line 265 of file ./carpio-cs190-ieee.bib
+I was expecting a `,' or a `}'---line 372 of file ./carpio-cs190-ieee.bib
  :  title = "The American Voice And Robotics "
  :                                            Guardian: System: A Case Study In User Interface Usability Evaluation",
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring chin1988development's extra "publisher" field
---line 378 of file ./carpio-cs190-ieee.bib
-I was expecting a `,' or a `}'---line 381 of file ./carpio-cs190-ieee.bib
+--line 388 of file ./carpio-cs190-ieee.bib
+I was expecting a `,' or a `}'---line 391 of file ./carpio-cs190-ieee.bib
  : 
  : % a paper in a conference proceedings
 (Error may have been on previous line)
@@ -49,58 +24,51 @@ I'm skipping whatever remains of this entry
 -- IEEEtran.bst version 1.11 (2003/04/02) by Michael Shell.
 -- http://www.ctan.org/tex-archive/macros/latex/contrib/supported/IEEEtran/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--empty year in Brandic2011
-Warning--empty year in 8521133920130201
 Warning--empty journal in CloudCom2010
-Warning--empty journal in SciWorkflowEC2
-Warning--empty year in SciWorkflowEC2
 Warning--empty journal in WalkerEC2HPC
 Warning--empty journal in PerfAnalysisManyTasks
-Warning--empty year in PerfAnalysisManyTasks
-Warning--empty year in 7411021620120101
-Warning--empty year in 9686120720140601
 Warning--empty author in 1993gamess
 
 Done.
 You've used 19 entries,
             3975 wiz_defined-function locations,
-            927 strings with 12485 characters,
-and the built_in function-call counts, 15321 in all, are:
-= -- 1167
-> -- 512
-< -- 109
-+ -- 265
+            936 strings with 12986 characters,
+and the built_in function-call counts, 16132 in all, are:
+= -- 1269
+> -- 518
+< -- 116
++ -- 269
 - -- 105
-* -- 801
-:= -- 2279
-add.period$ -- 38
+* -- 842
+:= -- 2453
+add.period$ -- 39
 call.type$ -- 19
 change.case$ -- 18
-chr.to.int$ -- 228
-cite$ -- 30
-duplicate$ -- 1104
-empty$ -- 1139
+chr.to.int$ -- 246
+cite$ -- 23
+duplicate$ -- 1138
+empty$ -- 1191
 format.name$ -- 120
-if$ -- 3489
+if$ -- 3679
 int.to.chr$ -- 0
 int.to.str$ -- 19
-missing$ -- 219
-newline$ -- 95
+missing$ -- 223
+newline$ -- 105
 num.names$ -- 18
-pop$ -- 531
+pop$ -- 520
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1172
+skip$ -- 1246
 stack$ -- 0
-substring$ -- 582
-swap$ -- 916
-text.length$ -- 33
+substring$ -- 624
+swap$ -- 965
+text.length$ -- 34
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 0
-warning$ -- 11
-while$ -- 54
+warning$ -- 4
+while$ -- 58
 width$ -- 21
-write$ -- 219
-(There were 7 error messages)
+write$ -- 242
+(There were 2 error messages)
