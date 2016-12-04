@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.25)  2 DEC 2016 17:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.25)  4 DEC 2016 22:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -288,7 +288,7 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
 File: ./images/system_architecture.png Graphic file (type png)
 
 <use ./images/system_architecture.png>
-Package pdftex.def Info: ./images/system_architecture.png used on input line 96
+Package pdftex.def Info: ./images/system_architecture.png used on input line 98
 .
 (pdftex.def)             Requested size: 92.34488pt x 224.84225pt.
 
@@ -296,15 +296,13 @@ Package pdftex.def Info: ./images/system_architecture.png used on input line 96
 File: ./images/use_case_large.png Graphic file (type png)
 
 <use ./images/use_case_large.png>
-Package pdftex.def Info: ./images/use_case_large.png used on input line 111.
+Package pdftex.def Info: ./images/use_case_large.png used on input line 113.
 (pdftex.def)             Requested size: 501.87138pt x 250.92978pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 118.
+(Font)              <7> on input line 120.
  [2 <./images/system_architecture.png>]
-Underfull \vbox (badness 1009) has occurred while \output is active []
-
- [3 <./images/use_case_large.png>]
-Underfull \hbox (badness 2253) in paragraph at lines 175--176
+[3 <./images/use_case_large.png>]
+Underfull \hbox (badness 2253) in paragraph at lines 177--178
 []\OT1/ptm/m/n/10 The user is au-then-ti-cated by log-ging in with his
  []
 
@@ -312,15 +310,15 @@ Underfull \hbox (badness 2253) in paragraph at lines 175--176
 File: ./images/create_mpi.png Graphic file (type png)
 
 <use ./images/create_mpi.png>
-Package pdftex.def Info: ./images/create_mpi.png used on input line 178.
+Package pdftex.def Info: ./images/create_mpi.png used on input line 180.
 (pdftex.def)             Requested size: 249.93314pt x 162.10522pt.
 
-Overfull \hbox (18.03043pt too wide) in paragraph at lines 178--179
+Overfull \hbox (18.03043pt too wide) in paragraph at lines 180--181
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
@@ -328,15 +326,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 182--183
 File: ./images/mpi_list_view.png Graphic file (type png)
 
 <use ./images/mpi_list_view.png>
-Package pdftex.def Info: ./images/mpi_list_view.png used on input line 184.
+Package pdftex.def Info: ./images/mpi_list_view.png used on input line 186.
 (pdftex.def)             Requested size: 245.44774pt x 53.32939pt.
 
-Overfull \hbox (13.54503pt too wide) in paragraph at lines 184--185
+Overfull \hbox (13.54503pt too wide) in paragraph at lines 186--187
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
 
  []
 
@@ -345,15 +343,15 @@ File: ./images/add_private_cluster_2.png Graphic file (type png)
 
 <use ./images/add_private_cluster_2.png>
 Package pdftex.def Info: ./images/add_private_cluster_2.png used on input line 
-191.
+193.
 (pdftex.def)             Requested size: 249.93314pt x 90.33727pt.
 
-Overfull \hbox (18.03043pt too wide) in paragraph at lines 191--192
+Overfull \hbox (18.03043pt too wide) in paragraph at lines 193--194
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
 
@@ -361,11 +359,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 195--196
 File: ./images/mpi_detail_view_2.png Graphic file (type png)
 
 <use ./images/mpi_detail_view_2.png>
-Package pdftex.def Info: ./images/mpi_detail_view_2.png used on input line 197.
+Package pdftex.def Info: ./images/mpi_detail_view_2.png used on input line 199.
 
 (pdftex.def)             Requested size: 251.73604pt x 168.627pt.
 
-Overfull \hbox (19.83333pt too wide) in paragraph at lines 197--198
+Overfull \hbox (19.83333pt too wide) in paragraph at lines 199--200
  [] 
  []
 
@@ -373,10 +371,10 @@ Overfull \hbox (19.83333pt too wide) in paragraph at lines 197--198
 File: ./images/toolset_list_2.png Graphic file (type png)
 
 <use ./images/toolset_list_2.png>
-Package pdftex.def Info: ./images/toolset_list_2.png used on input line 203.
+Package pdftex.def Info: ./images/toolset_list_2.png used on input line 205.
 (pdftex.def)             Requested size: 224.9383pt x 115.17923pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
@@ -384,15 +382,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--208
 File: ./images/gamess_form_2.png Graphic file (type png)
 
 <use ./images/gamess_form_2.png>
-Package pdftex.def Info: ./images/gamess_form_2.png used on input line 209.
+Package pdftex.def Info: ./images/gamess_form_2.png used on input line 211.
 (pdftex.def)             Requested size: 251.73604pt x 73.07169pt.
 
-Overfull \hbox (19.83333pt too wide) in paragraph at lines 209--210
+Overfull \hbox (19.83333pt too wide) in paragraph at lines 211--212
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
 
@@ -400,37 +398,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 213--214
 File: ./images/tasks_list_view_2.png Graphic file (type png)
 
 <use ./images/tasks_list_view_2.png>
-Package pdftex.def Info: ./images/tasks_list_view_2.png used on input line 215.
+Package pdftex.def Info: ./images/tasks_list_view_2.png used on input line 217.
 
 (pdftex.def)             Requested size: 251.73604pt x 110.41054pt.
 
-Overfull \hbox (19.83333pt too wide) in paragraph at lines 215--216
+Overfull \hbox (19.83333pt too wide) in paragraph at lines 217--218
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
 
  []
 
-<./images/jsmol_detail_view_2.png, id=30, 629.35126pt x 246.9225pt>
+[4 <./images/create_mpi.png> <./images/mpi_list_view.png> <./images/add_private
+_cluster_2.png> <./images/mpi_detail_view_2.png> <./images/toolset_list_2.png> 
+<./images/gamess_form_2.png> <./images/tasks_list_view_2.png>]
+<./images/jsmol_detail_view_2.png, id=40, 629.35126pt x 246.9225pt>
 File: ./images/jsmol_detail_view_2.png Graphic file (type png)
 
 <use ./images/jsmol_detail_view_2.png>
 Package pdftex.def Info: ./images/jsmol_detail_view_2.png used on input line 22
-0.
+2.
 (pdftex.def)             Requested size: 220.27623pt x 86.42415pt.
- [4 <./images/create_mpi.png> <./images/mpi_list_view.png> <./images/add_privat
-e_cluster_2.png> <./images/mpi_detail_view_2.png> <./images/toolset_list_2.png>
- <./images/gamess_form_2.png> <./images/tasks_list_view_2.png>]
+
 <./images/uat_graph.png, id=41, 793.96625pt x 420.57124pt>
 File: ./images/uat_graph.png Graphic file (type png)
 
 <use ./images/uat_graph.png>
-Package pdftex.def Info: ./images/uat_graph.png used on input line 230.
+Package pdftex.def Info: ./images/uat_graph.png used on input line 232.
 (pdftex.def)             Requested size: 254.07439pt x 134.58554pt.
 
-Overfull \hbox (2.07439pt too wide) in paragraph at lines 230--231
+Overfull \hbox (2.07439pt too wide) in paragraph at lines 232--233
  [] 
  []
 
@@ -451,13 +450,13 @@ Missing character: There is no Ã in font ptmr7t!
 
 ] (./carpio-cs190-ieee.aux) ) 
 Here is how much of TeX's memory you used:
- 3403 strings out of 494953
- 55957 string characters out of 6180976
- 119344 words of memory out of 5000000
- 6657 multiletter control sequences out of 15000+600000
+ 3404 strings out of 494953
+ 55975 string characters out of 6180976
+ 119348 words of memory out of 5000000
+ 6658 multiletter control sequences out of 15000+600000
  37551 words of font info for 71 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,9n,39p,1559b,382s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,9n,39p,1559b,305s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/bas
 e/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr
@@ -466,7 +465,7 @@ texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on carpio-cs190-ieee.pdf (6 pages, 552525 bytes).
+Output written on carpio-cs190-ieee.pdf (6 pages, 553104 bytes).
 PDF statistics:
  75 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream

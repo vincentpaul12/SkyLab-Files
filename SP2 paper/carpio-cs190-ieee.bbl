@@ -90,6 +90,14 @@ Z.~Hill and M.~Humphrey, ``A quantitative analysis of high performance
   \url{http://www.cs.virginia.edu/~humphrey/papers/QuantitativeAnalysisEC2.pdf}
 \BIBentrySTDinterwordspacing
 
+\bibitem{1395654820040701}
+\BIBentryALTinterwordspacing
+M.~L. Massie, B.~N. Chun, and D.~E. Culler, ``The ganglia distributed
+  monitoring system: design, implementation, and experience.'' \emph{Parallel
+  Computing}, vol.~30, no.~7, pp. 817 -- 840, 2004. [Online]. Available:
+  \url{http://search.ebscohost.com/login.aspx?direct=true&db=a9h&AN=13956548&site=ehost-live}
+\BIBentrySTDinterwordspacing
+
 \bibitem{7411021620120101}
 \BIBentryALTinterwordspacing
 A.~A. Hunter, A.~B. Macgregor, T.~O. Szabo, C.~A. Wellington, and M.~I.
