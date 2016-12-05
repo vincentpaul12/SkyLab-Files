@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.25)  4 DEC 2016 22:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.25)  6 DEC 2016 01:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -259,27 +259,27 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 29.
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
 
-Underfull \hbox (badness 2027) in paragraph at lines 72--73
+Underfull \hbox (badness 2027) in paragraph at lines 71--72
 \OT1/ptm/m/n/10 by the pro-cess of al-lo-cat-ing mem-ory, remap-ping it to
  []
 
 
-Underfull \hbox (badness 3724) in paragraph at lines 72--73
+Underfull \hbox (badness 3724) in paragraph at lines 71--72
 \OT1/ptm/m/n/10 over hard-ware re-sources. Con-fig-u-ra-tion fail-ures, up-date
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 73.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 72.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 73.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 72.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
@@ -288,7 +288,7 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
 File: ./images/system_architecture.png Graphic file (type png)
 
 <use ./images/system_architecture.png>
-Package pdftex.def Info: ./images/system_architecture.png used on input line 98
+Package pdftex.def Info: ./images/system_architecture.png used on input line 97
 .
 (pdftex.def)             Requested size: 92.34488pt x 224.84225pt.
 
@@ -296,13 +296,13 @@ Package pdftex.def Info: ./images/system_architecture.png used on input line 98
 File: ./images/use_case_large.png Graphic file (type png)
 
 <use ./images/use_case_large.png>
-Package pdftex.def Info: ./images/use_case_large.png used on input line 113.
+Package pdftex.def Info: ./images/use_case_large.png used on input line 112.
 (pdftex.def)             Requested size: 501.87138pt x 250.92978pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 120.
+(Font)              <7> on input line 119.
  [2 <./images/system_architecture.png>]
 [3 <./images/use_case_large.png>]
-Underfull \hbox (badness 2253) in paragraph at lines 177--178
+Underfull \hbox (badness 2253) in paragraph at lines 176--177
 []\OT1/ptm/m/n/10 The user is au-then-ti-cated by log-ging in with his
  []
 
@@ -310,15 +310,15 @@ Underfull \hbox (badness 2253) in paragraph at lines 177--178
 File: ./images/create_mpi.png Graphic file (type png)
 
 <use ./images/create_mpi.png>
-Package pdftex.def Info: ./images/create_mpi.png used on input line 180.
+Package pdftex.def Info: ./images/create_mpi.png used on input line 179.
 (pdftex.def)             Requested size: 249.93314pt x 162.10522pt.
 
-Overfull \hbox (18.03043pt too wide) in paragraph at lines 180--181
+Overfull \hbox (18.03043pt too wide) in paragraph at lines 179--180
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
 
  []
 
@@ -326,15 +326,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--185
 File: ./images/mpi_list_view.png Graphic file (type png)
 
 <use ./images/mpi_list_view.png>
-Package pdftex.def Info: ./images/mpi_list_view.png used on input line 186.
+Package pdftex.def Info: ./images/mpi_list_view.png used on input line 185.
 (pdftex.def)             Requested size: 245.44774pt x 53.32939pt.
 
-Overfull \hbox (13.54503pt too wide) in paragraph at lines 186--187
+Overfull \hbox (13.54503pt too wide) in paragraph at lines 185--186
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--192
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
 
  []
 
@@ -343,15 +343,15 @@ File: ./images/add_private_cluster_2.png Graphic file (type png)
 
 <use ./images/add_private_cluster_2.png>
 Package pdftex.def Info: ./images/add_private_cluster_2.png used on input line 
-193.
+192.
 (pdftex.def)             Requested size: 249.93314pt x 90.33727pt.
 
-Overfull \hbox (18.03043pt too wide) in paragraph at lines 193--194
+Overfull \hbox (18.03043pt too wide) in paragraph at lines 192--193
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
 
  []
 
@@ -359,11 +359,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--198
 File: ./images/mpi_detail_view_2.png Graphic file (type png)
 
 <use ./images/mpi_detail_view_2.png>
-Package pdftex.def Info: ./images/mpi_detail_view_2.png used on input line 199.
+Package pdftex.def Info: ./images/mpi_detail_view_2.png used on input line 198.
 
 (pdftex.def)             Requested size: 251.73604pt x 168.627pt.
 
-Overfull \hbox (19.83333pt too wide) in paragraph at lines 199--200
+Overfull \hbox (19.83333pt too wide) in paragraph at lines 198--199
  [] 
  []
 
@@ -371,10 +371,10 @@ Overfull \hbox (19.83333pt too wide) in paragraph at lines 199--200
 File: ./images/toolset_list_2.png Graphic file (type png)
 
 <use ./images/toolset_list_2.png>
-Package pdftex.def Info: ./images/toolset_list_2.png used on input line 205.
+Package pdftex.def Info: ./images/toolset_list_2.png used on input line 204.
 (pdftex.def)             Requested size: 224.9383pt x 115.17923pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
 
  []
 
@@ -382,15 +382,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 209--210
 File: ./images/gamess_form_2.png Graphic file (type png)
 
 <use ./images/gamess_form_2.png>
-Package pdftex.def Info: ./images/gamess_form_2.png used on input line 211.
+Package pdftex.def Info: ./images/gamess_form_2.png used on input line 210.
 (pdftex.def)             Requested size: 251.73604pt x 73.07169pt.
 
-Overfull \hbox (19.83333pt too wide) in paragraph at lines 211--212
+Overfull \hbox (19.83333pt too wide) in paragraph at lines 210--211
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
 
  []
 
@@ -398,16 +398,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 215--216
 File: ./images/tasks_list_view_2.png Graphic file (type png)
 
 <use ./images/tasks_list_view_2.png>
-Package pdftex.def Info: ./images/tasks_list_view_2.png used on input line 217.
+Package pdftex.def Info: ./images/tasks_list_view_2.png used on input line 216.
 
 (pdftex.def)             Requested size: 251.73604pt x 110.41054pt.
 
-Overfull \hbox (19.83333pt too wide) in paragraph at lines 217--218
+Overfull \hbox (19.83333pt too wide) in paragraph at lines 216--217
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
 
  []
 
@@ -419,17 +419,17 @@ File: ./images/jsmol_detail_view_2.png Graphic file (type png)
 
 <use ./images/jsmol_detail_view_2.png>
 Package pdftex.def Info: ./images/jsmol_detail_view_2.png used on input line 22
-2.
+1.
 (pdftex.def)             Requested size: 220.27623pt x 86.42415pt.
 
 <./images/uat_graph.png, id=41, 793.96625pt x 420.57124pt>
 File: ./images/uat_graph.png Graphic file (type png)
 
 <use ./images/uat_graph.png>
-Package pdftex.def Info: ./images/uat_graph.png used on input line 232.
+Package pdftex.def Info: ./images/uat_graph.png used on input line 231.
 (pdftex.def)             Requested size: 254.07439pt x 134.58554pt.
 
-Overfull \hbox (2.07439pt too wide) in paragraph at lines 232--233
+Overfull \hbox (2.07439pt too wide) in paragraph at lines 231--232
  [] 
  []
 
@@ -465,7 +465,7 @@ texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on carpio-cs190-ieee.pdf (6 pages, 553104 bytes).
+Output written on carpio-cs190-ieee.pdf (6 pages, 553097 bytes).
 PDF statistics:
  75 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
