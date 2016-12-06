@@ -37,7 +37,7 @@ I.~Brandic, I.~Raicu, S.~N. Srirama, O.~Batrashev, P.~Jakovits, and
   E.~Vainikko, ``Scalability of parallel scientific applications on the
   cloud.'' \emph{Scientific Programming}, vol.~19, no. 2/3, pp. 91 -- 105,
   2011. [Online]. Available:
-  \url{http://search.ebscohost.com/login.aspx?direct=truedb=a9h\*&AN=66692024site=ehost-live}
+  \url{http://search.ebscohost.com/login.aspx?direct=truedb=a9h&AN=66692024site=ehost-live}
 \BIBentrySTDinterwordspacing
 
 \bibitem{8521133920130201}
@@ -151,10 +151,14 @@ P.~Giannozzi, S.~Baroni, N.~Bonini, M.~Calandra, R.~Car, C.~Cavazzoni,
 \BIBentrySTDinterwordspacing
 
 \bibitem{1993gamess}
-``General atomic and molecular electronic structure system,'' \emph{M. W.
-  Schmidt, K. K. Baldridge, J. A. Boatz, S. T. Elbert, M. S. Gordon, J. H.
-  Jensen, S. Koseki, N. Matsunaga, K. A. Nguyen, S. Su, T. L. Windus, M.
-  Dupuis, J. A. Montgomery J. Comput. Chem.}, vol.~14, 1993.
+\BIBentryALTinterwordspacing
+M.~W. Schmidt, K.~K. Baldridge, J.~A. Boatz, S.~T. Elbert, M.~S. Gordon, J.~H.
+  Jensen, S.~Koseki, N.~Matsunaga, K.~A. Nguyen, S.~Su, T.~L. Windus,
+  M.~Dupuis, and J.~A. Montgomery, ``General atomic and molecular electronic
+  structure system,'' \emph{Journal of Computational Chemistry}, vol.~14,
+  no.~11, pp. 1347--1363, 1993. [Online]. Available:
+  \url{http://dx.doi.org/10.1002/jcc.540141112}
+\BIBentrySTDinterwordspacing
 
 \bibitem{boisvert_ray_2012}
 \BIBentryALTinterwordspacing
@@ -175,8 +179,8 @@ R.~M. Hanson, J.~Prilusky, Z.~Renjian, T.~Nakane, and J.~L. Sussman, ``Jsmol
 \BIBentrySTDinterwordspacing
 
 \bibitem{chin1988development}
-J.~P. Chin, V.~A. Diehl, and K.~L. Norman, \emph{Development of an instrument
-  measuring user satisfaction of the human-computer interface}.\hskip 1em plus
-  0.5em minus 0.4em\relax New York: Proceedings of {SIGCHI} '88, 1988.
+J.~P. Chin, V.~A. Diehl, and K.~L. Norman, ``Development of an instrument
+  measuring user satisfaction of the human-computer interface,'' in
+  \emph{Proceedings of {SIGCHI} '88 ACM/SIGCHI}, New York, 1988, pp. 213--218.
 
 \end{thebibliography}

@@ -119,17 +119,17 @@ cloud computing, high performance computing, web interface
           \item Users can browse and select tools with an interface. It includes, but not limited to:
           \begin{description}
           	\item[AutoDock] \hfill \break 
-            It is a suite of automated docking tools designed to predict how small molecules bind to a receptor of known 3D structure. \cite{morris2009autodock4}
+            It is a suite of automated docking tools designed to predict how small molecules bind to a receptor of known 3D structure\cite{morris2009autodock4}.
             \item[AutoDock Vina] \hfill \break
-            It achieves significant improvements in the average accuracy of the binding mode predictions, while also being up to two orders of magnitude faster than AutoDock 4. \cite{JCC:JCC21334}
+            It achieves significant improvements in the average accuracy of the binding mode predictions, while also being up to two orders of magnitude faster than AutoDock 4\cite{JCC:JCC21334}.
             \item[DOCK] \hfill \break
-            It is used to predict the small molecule-target interactions. \cite{lang2009dock}
-            \item[Quantum Espresso] \hfill \break
-It is an integrated suite of Open-Source computer codes for electronic-structure calculations and materials modeling at the nanoscale. \cite{QE-2009}
+            It is used to predict the small molecule-target interactions\cite{lang2009dock}.
+            \item[Quantum ESPRESSO] \hfill \break
+It is an integrated suite of Open-Source computer codes for electronic-structure calculations and materials modeling at the nanoscale\cite{QE-2009}.
             \item[GAMESS] \hfill \break
             GAMESS is a program for ab initio molecular quantum chemistry. \cite{1993gamess}
             \item[Ray] \hfill \break
-            It is uses parallel genome assemblies for parallel DNA sequencing \cite{boisvert_ray_2012}
+            It is uses parallel genome assemblies for parallel DNA sequencing \cite{boisvert_ray_2012}.
           \end{description}
           \item Users can upload input data to the server.
           \item Users can view the results of the used tools.
@@ -153,8 +153,8 @@ It is an integrated suite of Open-Source computer codes for electronic-structure
 		
 		A cluster is either classified as public or private. If it is set to public, every user in the system can use it. On the other hand, for private clusters, the cluster will only be visible to the owner. The owner has the option to share the cluster to other users via the share key generated for the said cluster. 		
 
-		\subsubsection{Tool Sets} 
-		The system searches for Python packages inside the assigned modules folder and install it on server start. The tool sets will then be available for use with the system. The package must have a Python module named \emph{install.py} which contains function calls for integrating the package with the system. The package must also contain the corresponding views and executable classes for each sub-tool  
+		\subsubsection{Tool sets} 
+		The system searches for Python packages inside the assigned modules folder and install it on server start. The tool sets will then be available for use with the system. The package must have a Python module named \emph{install.py} which contains function calls for integrating the package with the system. The package must also contain the corresponding views and executable classes for each sub-tool.  
 
 		\subsubsection{Tasks} 
 		The system creates a task object for each task input by the user. A signal will then be sent and it is then received by the corresponding MPIThread which queues the task for execution. When a task is executed, it calls the assigned executable class with the given parameters. On connection error, the task waits exponentially before retrying. If the server crashes while running task execution, the task is just restarted.				
@@ -165,7 +165,7 @@ It is an integrated suite of Open-Source computer codes for electronic-structure
 			\item  Input files are uploaded to cluster.
 			\item  List of commands given are executed.
 			\item  Output files are sent back to the server.
-			\item  Deletes remote task folder
+			\item  Remote task folder is deleted.
 			\item  Output files are served by the server.
 		\end{enumerate}	
 

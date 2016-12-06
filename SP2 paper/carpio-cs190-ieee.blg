@@ -9,14 +9,12 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ./carpio-cs190-ieee.bib
 Warning--I'm ignoring morris2009autodock4's extra "volume" field
---line 279 of file ./carpio-cs190-ieee.bib
-I was expecting a `,' or a `}'---line 386 of file ./carpio-cs190-ieee.bib
+--line 289 of file ./carpio-cs190-ieee.bib
+I was expecting a `,' or a `}'---line 396 of file ./carpio-cs190-ieee.bib
  :  title = "The American Voice And Robotics "
  :                                            Guardian: System: A Case Study In User Interface Usability Evaluation",
 I'm skipping whatever remains of this entry
-Warning--I'm ignoring chin1988development's extra "publisher" field
---line 402 of file ./carpio-cs190-ieee.bib
-I was expecting a `,' or a `}'---line 405 of file ./carpio-cs190-ieee.bib
+I was expecting a `,' or a `}'---line 414 of file ./carpio-cs190-ieee.bib
  : 
  : % a paper in a conference proceedings
 (Error may have been on previous line)
@@ -27,48 +25,47 @@ I'm skipping whatever remains of this entry
 Warning--empty journal in CloudCom2010
 Warning--empty journal in WalkerEC2HPC
 Warning--empty journal in PerfAnalysisManyTasks
-Warning--empty author in 1993gamess
 
 Done.
 You've used 20 entries,
             3975 wiz_defined-function locations,
-            944 strings with 13260 characters,
-and the built_in function-call counts, 17156 in all, are:
-= -- 1359
-> -- 540
-< -- 128
-+ -- 281
-- -- 108
-* -- 895
-:= -- 2610
+            947 strings with 13405 characters,
+and the built_in function-call counts, 18719 in all, are:
+= -- 1480
+> -- 610
+< -- 149
++ -- 320
+- -- 121
+* -- 980
+:= -- 2795
 add.period$ -- 41
 call.type$ -- 20
-change.case$ -- 19
-chr.to.int$ -- 273
-cite$ -- 24
-duplicate$ -- 1205
-empty$ -- 1259
-format.name$ -- 124
-if$ -- 3916
+change.case$ -- 20
+chr.to.int$ -- 327
+cite$ -- 23
+duplicate$ -- 1289
+empty$ -- 1345
+format.name$ -- 138
+if$ -- 4288
 int.to.chr$ -- 0
 int.to.str$ -- 20
-missing$ -- 233
-newline$ -- 110
-num.names$ -- 19
-pop$ -- 537
+missing$ -- 251
+newline$ -- 112
+num.names$ -- 20
+pop$ -- 575
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1328
+skip$ -- 1440
 stack$ -- 0
-substring$ -- 688
-swap$ -- 1030
-text.length$ -- 37
+substring$ -- 815
+swap$ -- 1132
+text.length$ -- 40
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 0
-warning$ -- 4
-while$ -- 62
+warning$ -- 3
+while$ -- 71
 width$ -- 22
-write$ -- 256
+write$ -- 264
 (There were 2 error messages)
