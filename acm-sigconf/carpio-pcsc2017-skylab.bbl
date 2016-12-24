@@ -1,0 +1,366 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{00}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{{\tt DOI:}\penalty0{#1}\ }
+  \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       #1{#1}          \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Ahuja and Mani}{Ahuja and Mani}{2012}]%
+        {Ahuja2012}
+\bibfield{author}{\bibinfo{person}{Sanjay~P. Ahuja} {and}
+  \bibinfo{person}{Sindhu Mani}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{The State of High Performance Computing in the
+  Cloud}.
+\newblock \bibinfo{journal}{{\em Journal of Emerging Trends in Computing and
+  Information Sciences\/}} \bibinfo{volume}{3}, \bibinfo{number}{2}
+  (\bibinfo{date}{Feb.} \bibinfo{year}{2012}), \bibinfo{pages}{263--266}.
+\newblock
+\showISSN{2079-8407}
+\showURL{%
+\url{http://www.chinacloud.cn/upload/2012-03/12031713036456.pdf}}
+
+
+\bibitem[\protect\citeauthoryear{Benedict}{Benedict}{2013}]%
+        {8521133920130201}
+\bibfield{author}{\bibinfo{person}{Shajulin Benedict}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Performance issues and performance analysis tools
+  for HPC cloud applications: a survey.}
+\newblock \bibinfo{journal}{{\em Computing\/}} \bibinfo{volume}{95},
+  \bibinfo{number}{2} (\bibinfo{year}{2013}), \bibinfo{pages}{89 -- 108}.
+\newblock
+\showISSN{0010485X}
+\showURL{%
+\url{http://search.ebscohost.com/login.aspx?direct=true&db=a9h&AN=85211339&site=ehost-live}}
+
+
+\bibitem[\protect\citeauthoryear{Boisvert, Raymond, Godzaridis, Laviolette, and
+  Corbeil}{Boisvert et~al\mbox{.}}{2012}]%
+        {boisvert_ray_2012}
+\bibfield{author}{\bibinfo{person}{Sébastien Boisvert},
+  \bibinfo{person}{Frédéric Raymond}, \bibinfo{person}{Élénie Godzaridis},
+  \bibinfo{person}{François Laviolette}, {and} \bibinfo{person}{Jacques
+  Corbeil}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Ray {Meta}: scalable de novo metagenome assembly
+  and profiling}.
+\newblock \bibinfo{journal}{{\em Genome Biology\/}} \bibinfo{volume}{13},
+  \bibinfo{number}{12} (\bibinfo{year}{2012}), \bibinfo{pages}{R122}.
+\newblock
+\showISSN{1465-6906}
+\showDOI{%
+\url{http://dx.doi.org/10.1186/gb-2012-13-12-r122}}
+
+
+\bibitem[\protect\citeauthoryear{Brandic, Raicu, Srirama, Batrashev, Jakovits,
+  and Vainikko}{Brandic et~al\mbox{.}}{2011}]%
+        {Brandic2011}
+\bibfield{author}{\bibinfo{person}{Ivona Brandic}, \bibinfo{person}{Ioan
+  Raicu}, \bibinfo{person}{Satish~Narayana Srirama}, \bibinfo{person}{Oleg
+  Batrashev}, \bibinfo{person}{Pelle Jakovits}, {and} \bibinfo{person}{Eero
+  Vainikko}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Scalability of parallel scientific applications on
+  the cloud.}
+\newblock \bibinfo{journal}{{\em Scientific Programming\/}}
+  \bibinfo{volume}{19}, \bibinfo{number}{2/3} (\bibinfo{year}{2011}),
+  \bibinfo{pages}{91 -- 105}.
+\newblock
+\showISSN{10589244}
+\showURL{%
+\url{http://search.ebscohost.com/login.aspx?direct=truedb=a9h&AN=66692024site=ehost-live}}
+
+
+\bibitem[\protect\citeauthoryear{Chin, Diehl, and Norman}{Chin
+  et~al\mbox{.}}{1988}]%
+        {chin1988development}
+\bibfield{author}{\bibinfo{person}{J.~P. Chin}, \bibinfo{person}{V.~A. Diehl},
+  {and} \bibinfo{person}{K.~L. Norman}.} \bibinfo{year}{1988}\natexlab{}.
+\newblock \showarticletitle{Development of an instrument measuring user
+  satisfaction of the human-computer interface}. In \bibinfo{booktitle}{{\em
+  Proceedings of {SIGCHI} '88 ACM/SIGCHI}}. \bibinfo{address}{New York},
+  \bibinfo{pages}{213--218}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Giannozzi, Baroni, Bonini, Calandra, Car,
+  Cavazzoni, Ceresoli, Chiarotti, Cococcioni, Dabo, {Dal Corso}, de~Gironcoli,
+  Fabris, Fratesi, Gebauer, Gerstmann, Gougoussis, Kokalj, Lazzeri,
+  Martin-Samos, Marzari, Mauri, Mazzarello, Paolini, Pasquarello, Paulatto,
+  Sbraccia, Scandolo, Sclauzero, Seitsonen, Smogunov, Umari, and
+  Wentzcovitch}{Giannozzi et~al\mbox{.}}{2009}]%
+        {QE-2009}
+\bibfield{author}{\bibinfo{person}{Paolo Giannozzi}, \bibinfo{person}{Stefano
+  Baroni}, \bibinfo{person}{Nicola Bonini}, \bibinfo{person}{Matteo Calandra},
+  \bibinfo{person}{Roberto Car}, \bibinfo{person}{Carlo Cavazzoni},
+  \bibinfo{person}{Davide Ceresoli}, \bibinfo{person}{Guido~L Chiarotti},
+  \bibinfo{person}{Matteo Cococcioni}, \bibinfo{person}{Ismaila Dabo},
+  \bibinfo{person}{Andrea {Dal Corso}}, \bibinfo{person}{Stefano de Gironcoli},
+  \bibinfo{person}{Stefano Fabris}, \bibinfo{person}{Guido Fratesi},
+  \bibinfo{person}{Ralph Gebauer}, \bibinfo{person}{Uwe Gerstmann},
+  \bibinfo{person}{Christos Gougoussis}, \bibinfo{person}{Anton Kokalj},
+  \bibinfo{person}{Michele Lazzeri}, \bibinfo{person}{Layla Martin-Samos},
+  \bibinfo{person}{Nicola Marzari}, \bibinfo{person}{Francesco Mauri},
+  \bibinfo{person}{Riccardo Mazzarello}, \bibinfo{person}{Stefano Paolini},
+  \bibinfo{person}{Alfredo Pasquarello}, \bibinfo{person}{Lorenzo Paulatto},
+  \bibinfo{person}{Carlo Sbraccia}, \bibinfo{person}{Sandro Scandolo},
+  \bibinfo{person}{Gabriele Sclauzero}, \bibinfo{person}{Ari~P Seitsonen},
+  \bibinfo{person}{Alexander Smogunov}, \bibinfo{person}{Paolo Umari}, {and}
+  \bibinfo{person}{Renata~M Wentzcovitch}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{QUANTUM ESPRESSO: a modular and open-source
+  software project for quantum simulations of materials}.
+\newblock \bibinfo{journal}{{\em Journal of Physics: Condensed Matter\/}}
+  \bibinfo{volume}{21}, \bibinfo{number}{39} (\bibinfo{year}{2009}),
+  \bibinfo{pages}{395502 (19pp)}.
+\newblock
+\showURL{%
+\url{http://www.quantum-espresso.org}}
+
+
+\bibitem[\protect\citeauthoryear{Hanson, Prilusky, Renjian, Nakane, and
+  Sussman}{Hanson et~al\mbox{.}}{2013}]%
+        {IJCH:IJCH201300024}
+\bibfield{author}{\bibinfo{person}{Robert~M. Hanson}, \bibinfo{person}{Jaime
+  Prilusky}, \bibinfo{person}{Zhou Renjian}, \bibinfo{person}{Takanori Nakane},
+  {and} \bibinfo{person}{Joel~L. Sussman}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{JSmol and the Next-Generation Web-Based
+  Representation of 3D Molecular Structure as Applied to Proteopedia}.
+\newblock \bibinfo{journal}{{\em Israel Journal of Chemistry\/}}
+  \bibinfo{volume}{53}, \bibinfo{number}{3-4} (\bibinfo{year}{2013}),
+  \bibinfo{pages}{207--216}.
+\newblock
+\showISSN{1869-5868}
+\showDOI{%
+\url{http://dx.doi.org/10.1002/ijch.201300024}}
+
+
+\bibitem[\protect\citeauthoryear{Hermocilla}{Hermocilla}{2014}]%
+        {Hermocilla2014}
+\bibfield{author}{\bibinfo{person}{Joseph Anthony~C. Hermocilla}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{P2C: Towards Scientific Computing on Private
+  Clouds}. In \bibinfo{booktitle}{{\em Proceedings of the National Conference
+  on Information Technology Education (NCITE 2014)}}.
+  \bibinfo{pages}{162--167}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hill and Humphrey}{Hill and Humphrey}{2009}]%
+        {ZachHumphrey}
+\bibfield{author}{\bibinfo{person}{Zach Hill} {and} \bibinfo{person}{Marty
+  Humphrey}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{A Quantitative Analysis of High Performance
+  Computing with Amazon’s EC2 Infrastructure: The Death of the Local
+  Cluster?}. In \bibinfo{booktitle}{{\em Proceedings of the 10th IEEE/ ACM
+  International Conference on Grid Computing (Grid 2009).)}}.
+\newblock
+\showURL{%
+\url{http://www.cs.virginia.edu/~humphrey/papers/QuantitativeAnalysisEC2.pdf}}
+
+
+\bibitem[\protect\citeauthoryear{Hunter, Macgregor, Szabo, Wellington, and
+  Bellgard}{Hunter et~al\mbox{.}}{2012}]%
+        {7411021620120101}
+\bibfield{author}{\bibinfo{person}{Adam~A. Hunter}, \bibinfo{person}{Andrew~B.
+  Macgregor}, \bibinfo{person}{Tamas~O. Szabo}, \bibinfo{person}{Crispin~A.
+  Wellington}, {and} \bibinfo{person}{Matthew~I. Bellgard}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Yabi: An online research environment for grid, high
+  performance and cloud computing.}
+\newblock \bibinfo{journal}{{\em Source Code for Biology and Medicine\/}}
+  \bibinfo{volume}{7}, \bibinfo{number}{1} (\bibinfo{year}{2012}),
+  \bibinfo{pages}{1 -- 10}.
+\newblock
+\showISSN{17510473}
+\showURL{%
+\url{http://search.ebscohost.com/login.aspx?direct=true&db=a9h&AN=74110216&site=ehost-live}}
+
+
+\bibitem[\protect\citeauthoryear{Iosup, Ostermann, Yigitbasi, Prodan,
+  Fahrigner, and Epema}{Iosup et~al\mbox{.}}{2010}]%
+        {PerfAnalysisManyTasks}
+\bibfield{author}{\bibinfo{person}{Alexandru Iosup}, \bibinfo{person}{Simon
+  Ostermann}, \bibinfo{person}{Nezih Yigitbasi}, \bibinfo{person}{Radu Prodan},
+  \bibinfo{person}{Thomas Fahrigner}, {and} \bibinfo{person}{Dick Epema}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Performance Analysis of Cloud Computing Services
+  for Many-Tasks Scientific Computing}.
+\newblock  (\bibinfo{date}{Nov} \bibinfo{year}{2010}).
+\newblock
+\showURL{%
+\url{http://www.st.ewi.tudelft.nl/~iosup/cloud-perf10tpds_in-print.pdf}}
+
+
+\bibitem[\protect\citeauthoryear{Jackson, Muriki, Canon, Cholia, Shalf,
+  Wasserman, and Wright}{Jackson et~al\mbox{.}}{2010}]%
+        {CloudCom2010}
+\bibfield{author}{\bibinfo{person}{Keith Jackson}, \bibinfo{person}{Krishna
+  Muriki}, \bibinfo{person}{Shane Canon}, \bibinfo{person}{Shreyas Cholia},
+  \bibinfo{person}{John Shalf}, \bibinfo{person}{Harvey Wasserman}, {and}
+  \bibinfo{person}{Nicholas Wright}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Performance Analysis of High Performance Computing
+  Applications on the Amazon Web Services Cloud}.
+\newblock  (\bibinfo{year}{2010}).
+\newblock
+\showURL{%
+\url{https://www.nersc.gov/assets/NERSC-Staff-Publications/2010/CloudCom.pdf}}
+
+
+\bibitem[\protect\citeauthoryear{Juve, Deelman, Vahi, Mehta, Berriman, Berman,
+  and Maechling}{Juve et~al\mbox{.}}{2009}]%
+        {juve_scientific_2009}
+\bibfield{author}{\bibinfo{person}{Gideon Juve}, \bibinfo{person}{Ewa Deelman},
+  \bibinfo{person}{Karan Vahi}, \bibinfo{person}{Gaurang Mehta},
+  \bibinfo{person}{Bruce Berriman}, \bibinfo{person}{Benjamin~P. Berman}, {and}
+  \bibinfo{person}{Phil Maechling}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Scientific workflow applications on {Amazon}
+  {EC}2}. In \bibinfo{booktitle}{{\em 2009 5th {IEEE} {International}
+  {Conference} on {E}-{Science} {Workshops}}}. \bibinfo{publisher}{IEEE},
+  \bibinfo{pages}{59--66}.
+\newblock
+\showURL{%
+\url{http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5408002}}
+
+
+\bibitem[\protect\citeauthoryear{Lang, Brozell, Mukherjee, Pettersen, Meng,
+  Thomas, Rizzo, Case, James, and Kuntz}{Lang et~al\mbox{.}}{2009}]%
+        {lang2009dock}
+\bibfield{author}{\bibinfo{person}{P.~T. Lang}, \bibinfo{person}{S.~R.
+  Brozell}, \bibinfo{person}{S. Mukherjee}, \bibinfo{person}{E.~T. Pettersen},
+  \bibinfo{person}{E.~C. Meng}, \bibinfo{person}{V. Thomas},
+  \bibinfo{person}{R.~C. Rizzo}, \bibinfo{person}{D.~A. Case},
+  \bibinfo{person}{T.~L. James}, {and} \bibinfo{person}{I.~D. Kuntz}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{DOCK 6: Combining Techniques to Model {RNA}-Small
+  Molecule Complexes}.
+\newblock \bibinfo{journal}{{\em RNA\/}}  \bibinfo{volume}{15}
+  (\bibinfo{year}{2009}), \bibinfo{pages}{1219--1230}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Massie, Chun, and Culler}{Massie
+  et~al\mbox{.}}{2004}]%
+        {1395654820040701}
+\bibfield{author}{\bibinfo{person}{Matthew~L. Massie},
+  \bibinfo{person}{Brent~N. Chun}, {and} \bibinfo{person}{David~E. Culler}.}
+  \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{The ganglia distributed monitoring system: design,
+  implementation, and experience.}
+\newblock \bibinfo{journal}{{\it Parallel Comput.}} \bibinfo{volume}{30},
+  \bibinfo{number}{7} (\bibinfo{year}{2004}), \bibinfo{pages}{817 -- 840}.
+\newblock
+\showISSN{01678191}
+\showURL{%
+\url{http://search.ebscohost.com/login.aspx?direct=true&db=a9h&AN=13956548&site=ehost-live}}
+
+
+\bibitem[\protect\citeauthoryear{Morris, Huey, Lindstrom, Sanner, Belew,
+  Goodsell, and Olson}{Morris et~al\mbox{.}}{2009}]%
+        {morris2009autodock4}
+\bibfield{author}{\bibinfo{person}{G.~M. Morris}, \bibinfo{person}{R. Huey},
+  \bibinfo{person}{W. Lindstrom}, \bibinfo{person}{M.~F. Sanner},
+  \bibinfo{person}{R.~K. Belew}, \bibinfo{person}{D.~S. Goodsell}, {and}
+  \bibinfo{person}{A.~J. Olson}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Autodock4 and {AutoDockTools}4: automated docking
+  with selective receptor flexiblity}.
+\newblock \bibinfo{journal}{{\em J. Computational Chemistry\/}}
+  \bibinfo{volume}{2009} (\bibinfo{year}{2009}), \bibinfo{pages}{2785--91}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Schmidt, Baldridge, Boatz, Elbert, Gordon,
+  Jensen, Koseki, Matsunaga, Nguyen, Su, Windus, Dupuis, and
+  Montgomery}{Schmidt et~al\mbox{.}}{1993}]%
+        {1993gamess}
+\bibfield{author}{\bibinfo{person}{Michael~W. Schmidt}, \bibinfo{person}{Kim~K.
+  Baldridge}, \bibinfo{person}{Jerry~A. Boatz}, \bibinfo{person}{Steven~T.
+  Elbert}, \bibinfo{person}{Mark~S. Gordon}, \bibinfo{person}{Jan~H. Jensen},
+  \bibinfo{person}{Shiro Koseki}, \bibinfo{person}{Nikita Matsunaga},
+  \bibinfo{person}{Kiet~A. Nguyen}, \bibinfo{person}{Shujun Su},
+  \bibinfo{person}{Theresa~L. Windus}, \bibinfo{person}{Michel Dupuis}, {and}
+  \bibinfo{person}{John~A. Montgomery}.} \bibinfo{year}{1993}\natexlab{}.
+\newblock \showarticletitle{General atomic and molecular electronic structure
+  system}.
+\newblock \bibinfo{journal}{{\em Journal of Computational Chemistry\/}}
+  \bibinfo{volume}{14}, \bibinfo{number}{11} (\bibinfo{year}{1993}),
+  \bibinfo{pages}{1347--1363}.
+\newblock
+\showISSN{1096-987X}
+\showDOI{%
+\url{http://dx.doi.org/10.1002/jcc.540141112}}
+
+
+\bibitem[\protect\citeauthoryear{Sharma and Mantri}{Sharma and Mantri}{2014}]%
+        {9686120720140601}
+\bibfield{author}{\bibinfo{person}{Parichit Sharma} {and}
+  \bibinfo{person}{Shrikant~S. Mantri}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{WImpiBLAST: Web Interface for mpiBLAST to Help
+  Biologists Perform Large-Scale Annotation Using High Performance Computing.}
+\newblock \bibinfo{journal}{{\em PLoS ONE\/}} \bibinfo{volume}{9},
+  \bibinfo{number}{6} (\bibinfo{year}{2014}), \bibinfo{pages}{1 -- 13}.
+\newblock
+\showISSN{19326203}
+\showURL{%
+\url{http://search.ebscohost.com/login.aspx?direct=true&db=a9h&AN=96861207&site=ehost-live}}
+
+
+\bibitem[\protect\citeauthoryear{Trott and Olson}{Trott and Olson}{2010}]%
+        {JCC:JCC21334}
+\bibfield{author}{\bibinfo{person}{Oleg Trott} {and} \bibinfo{person}{Arthur~J.
+  Olson}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{AutoDock Vina: Improving the speed and accuracy of
+  docking with a new scoring function, efficient optimization, and
+  multithreading}.
+\newblock \bibinfo{journal}{{\em Journal of Computational Chemistry\/}}
+  \bibinfo{volume}{31}, \bibinfo{number}{2} (\bibinfo{year}{2010}),
+  \bibinfo{pages}{455--461}.
+\newblock
+\showISSN{1096-987X}
+\showDOI{%
+\url{http://dx.doi.org/10.1002/jcc.21334}}
+
+
+\bibitem[\protect\citeauthoryear{Walker}{Walker}{2008}]%
+        {WalkerEC2HPC}
+\bibfield{author}{\bibinfo{person}{Edward Walker}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Benchmarking Amazon EC2 for High-Performance
+  Scientific Computing}.
+\newblock  (\bibinfo{date}{Oct} \bibinfo{year}{2008}).
+\newblock
+\showURL{%
+\url{https://www.usenix.org/legacy/publications/login/2008-10/openpdfs/walker.pdf}}
+
+
+\end{thebibliography}

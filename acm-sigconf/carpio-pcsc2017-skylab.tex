@@ -7,7 +7,7 @@
 %\setcopyright{none}
 %\setcopyright{acmcopyright}
 %\setcopyright{acmlicensed}
-\setcopyright{rightsretained}
+%\setcopyright{rightsretained}
 %\setcopyright{usgov}
 %\setcopyright{usgovmixed}
 %\setcopyright{cagov}
@@ -15,101 +15,56 @@
 
 
 % DOI
-\acmDOI{10.475/123_4}
+%\acmDOI{10.475/123_4}
 
 % ISBN
-\acmISBN{123-4567-24-567/08/06}
+%\acmISBN{123-4567-24-567/08/06}
 
 %Conference
-\acmConference[WOODSTOCK'97]{ACM Woodstock conference}{July 1997}{El
-  Paso, Texas USA} 
-\acmYear{1997}
-\copyrightyear{2016}
+%\acmConference[WOODSTOCK'97]{ACM Woodstock conference}{July 1997}{El
+%  Paso, Texas USA} 
+%\acmYear{1997}
+%\copyrightyear{2016}
 
-\acmPrice{15.00}
+%\acmPrice{15.00}
 
 
 \begin{document}
-\title{SIG Proceedings Paper in LaTeX Format}
-\titlenote{Produces the permission block, and
-  copyright information}
-\subtitle{Extended Abstract}
-\subtitlenote{The full version of the author's guide is available as
-  \texttt{acmart.pdf} document}
+\title{SkyLab : A Web Application for vCluster}
 
-
-\author{Ben Trovato}
-\authornote{Dr.~Trovato insisted his name be first.}
-\orcid{1234-5678-9012}
+\author{Vincent Paul L. Carpio}
 \affiliation{%
-  \institution{Institute for Clarity in Documentation}
-  \streetaddress{P.O. Box 1212}
-  \city{Dublin} 
-  \state{Ohio} 
-  \postcode{43017-6221}
+  \institution{Institute of Computer Science\ 
+	College of Arts and Sciences \
+	University of the Philippines Los Banos  
+  }
 }
-\email{trovato@corporation.com}
+\email{vplcarpio@up.edu.ph}
 
-\author{G.K.M. Tobin}
-\authornote{The secretary disavows any knowledge of this author's actions.}
+\author{Joseph Anthony C. Hermocilla}
 \affiliation{%
-  \institution{Institute for Clarity in Documentation}
-  \streetaddress{P.O. Box 1212}
-  \city{Dublin} 
-  \state{Ohio} 
-  \postcode{43017-6221}
+  \institution{Institute of Computer Science\ 
+	College of Arts and Sciences \
+	University of the Philippines Los Banos  
+  }
 }
-\email{webmaster@marysville-ohio.com}
+\email{jchermocilla@up.edu.ph}
 
-\author{Lars Th{\o}rv{\"a}ld}
-\authornote{This author is the
-  one who did all the really hard work.}
+\author{Katrina Joy M. Abriol-Santos}
 \affiliation{%
-  \institution{The Th{\o}rv{\"a}ld Group}
-  \streetaddress{1 Th{\o}rv{\"a}ld Circle}
-  \city{Hekla} 
-  \country{Iceland}}
-\email{larst@affiliation.org}
-
-\author{Lawrence P. Leipuner}
-\affiliation{
-  \institution{Brookhaven Laboratories}
-  \streetaddress{P.O. Box 5000}}
-\email{lleipuner@researchlabs.org}
-
-\author{Sean Fogarty}
-\affiliation{%
-  \institution{NASA Ames Research Center}
-  \city{Moffett Field}
-  \state{California} 
-  \postcode{94035}}
-\email{fogartys@amesres.org}
-
-\author{Charles Palmer}
-\affiliation{%
-  \institution{Palmer Research Laboratories}
-  \streetaddress{8600 Datapoint Drive}
-  \city{San Antonio}
-  \state{Texas} 
-  \postcode{78229}}
-\email{cpalmer@prl.com}
-
-\author{John Smith}
-\affiliation{\institution{The Th{\o}rv{\"a}ld Group}}
-\email{jsmith@affiliation.org}
-
-\author{Julius P.~Kumquat}
-\affiliation{\institution{The Kumquat Consortium}}
-\email{jpkumquat@consortium.net}
+  \institution{Institute of Computer Science\ 
+	College of Arts and Sciences \
+	University of the Philippines Los Banos  
+  }
+}
+\email{kat@up.edu.ph}
 
 % The default list of authors is too long for headers}
-\renewcommand{\shortauthors}{B. Trovato et. al.}
+\renewcommand{\shortauthors}{V. P. Carpio et. al.}
 
 
 \begin{abstract}
-This paper provides a sample of a \LaTeX\ document which conforms,
-somewhat loosely, to the formatting guidelines for
-ACM SIG Proceedings\footnote{This is an abstract footnote}. 
+Most scientific applications require high performance computing (HPC) which utilizes parallel processing to run tasks quickly and efficiently. MPI clusters are often used to cater this type of tasks but the hardware required can be costly. Peak-Two Cloud (P2C) can host HPC applications in a cloud environment which is relatively cheaper and more convenient. One of its features is vCluster, a tool that can deploy MPI clusters on demand\cite{Hermocilla2014}. We have developed SkyLab, a web interface for vCluster. It aims to simplify the process of running MPI tasks from the perspective of the end-user. Here, we describe the system design and features of SkyLab. 
 \end{abstract}
 
 %
@@ -158,6 +113,6 @@ ACM SIG Proceedings\footnote{This is an abstract footnote}.
 \input{carpio-pcsc2017-skylab-body}
 
 \bibliographystyle{ACM-Reference-Format}
-\bibliography{sigproc} 
+\bibliography{carpio-pcsc2017-skylab} 
 
 \end{document}
