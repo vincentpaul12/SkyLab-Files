@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.17)  24 DEC 2016 12:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.17)  24 DEC 2016 12:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -715,7 +715,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2.2]
-<./images/system_architecture.png, id=143, 142.5325pt x 375.4025pt>
+<./images/system_architecture.png, id=142, 142.5325pt x 375.4025pt>
 File: ./images/system_architecture.png Graphic file (type png)
 
 <use ./images/system_architecture.png>
@@ -728,7 +728,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 83.
 See the caption package documentation for explanation.
 
-<./images/use_case_large.png, id=145, 1307.88625pt x 678.535pt>
+<./images/use_case_large.png, id=144, 1307.88625pt x 678.535pt>
 File: ./images/use_case_large.png Graphic file (type png)
 
 <use ./images/use_case_large.png>
@@ -741,7 +741,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <9> not available
 
 
 [3.3 <./images/system_architecture.png>]
-<./images/create_mpi.png, id=172, 499.8675pt x 324.21124pt>
+<./images/create_mpi.png, id=171, 499.8675pt x 324.21124pt>
 File: ./images/create_mpi.png Graphic file (type png)
 
 <use ./images/create_mpi.png>
@@ -766,7 +766,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
  []
 
-<./images/mpi_list_view.png, id=173, 743.77875pt x 161.60374pt>
+<./images/mpi_list_view.png, id=172, 743.77875pt x 161.60374pt>
 File: ./images/mpi_list_view.png Graphic file (type png)
 
 <use ./images/mpi_list_view.png>
@@ -788,7 +788,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 183--184
 
  []
 
-<./images/add_private_cluster_2.png, id=174, 499.8675pt x 180.675pt>
+<./images/add_private_cluster_2.png, id=173, 499.8675pt x 180.675pt>
 File: ./images/add_private_cluster_2.png Graphic file (type png)
 
 <use ./images/add_private_cluster_2.png>
@@ -811,7 +811,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 189--190
 
  []
 
-<./images/mpi_detail_view_2.png, id=175, 629.35126pt x 421.575pt>
+<./images/mpi_detail_view_2.png, id=174, 629.35126pt x 421.575pt>
 File: ./images/mpi_detail_view_2.png Graphic file (type png)
 
 <use ./images/mpi_detail_view_2.png>
@@ -831,7 +831,7 @@ Overfull \hbox (44.03288pt too wide) in paragraph at lines 191--192
 
 [4.4 <./images/use_case_large.png> <./images/create_mpi.png> <./images/mpi_list
 _view.png> <./images/add_private_cluster_2.png>]
-<./images/toolset_list_2.png, id=193, 499.8675pt x 255.95625pt>
+<./images/toolset_list_2.png, id=192, 499.8675pt x 255.95625pt>
 File: ./images/toolset_list_2.png Graphic file (type png)
 
 <use ./images/toolset_list_2.png>
@@ -853,7 +853,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
-<./images/gamess_form_2.png, id=194, 629.35126pt x 182.6825pt>
+<./images/gamess_form_2.png, id=193, 629.35126pt x 182.6825pt>
 File: ./images/gamess_form_2.png Graphic file (type png)
 
 <use ./images/gamess_form_2.png>
@@ -875,7 +875,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--208
 
  []
 
-<./images/tasks_list_view_2.png, id=195, 629.35126pt x 276.03125pt>
+<./images/tasks_list_view_2.png, id=194, 629.35126pt x 276.03125pt>
 File: ./images/tasks_list_view_2.png Graphic file (type png)
 
 <use ./images/tasks_list_view_2.png>
@@ -901,7 +901,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 212--213
 
  []
 
-<./images/jsmol_detail_view_2.png, id=197, 629.35126pt x 246.9225pt>
+<./images/jsmol_detail_view_2.png, id=196, 629.35126pt x 246.9225pt>
 File: ./images/jsmol_detail_view_2.png Graphic file (type png)
 
 <use ./images/jsmol_detail_view_2.png>
@@ -919,7 +919,7 @@ Overfull \hbox (12.57307pt too wide) in paragraph at lines 214--215
  [] 
  []
 
-<./images/uat_graph.png, id=198, 793.96625pt x 420.57124pt>
+<./images/uat_graph.png, id=197, 793.96625pt x 420.57124pt>
 File: ./images/uat_graph.png Graphic file (type png)
 
 <use ./images/uat_graph.png>
@@ -1000,22 +1000,21 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmtt8.pfb>
-Output written on carpio-pcsc2017-skylab.pdf (6 pages, 720804 bytes).
+ype1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on carpio-pcsc2017-skylab.pdf (6 pages, 713231 bytes).
 PDF statistics:
- 334 PDF objects out of 1000 (max. 8388607)
- 280 compressed objects within 3 object streams
+ 330 PDF objects out of 1000 (max. 8388607)
+ 277 compressed objects within 3 object streams
  72 named destinations out of 1000 (max. 500000)
  24792 words of extra memory for PDF output out of 24883 (max. 10000000)
 
