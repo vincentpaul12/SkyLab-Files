@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.5)  5 JAN 2017 12:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.5)  5 JAN 2017 14:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -946,7 +946,7 @@ LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/it' will be
 (Font)              scaled to size 9.0pt on input line 25.
 
-<./images/system_architecture.png, id=108, 142.5325pt x 375.4025pt>
+<./images/system_architecture.png, id=107, 142.5325pt x 375.4025pt>
 File: ./images/system_architecture.png Graphic file (type png)
 
 <use ./images/system_architecture.png>
@@ -963,7 +963,7 @@ See the caption package documentation for explanation.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2.2]
-<./images/use_case_large.png, id=130, 1307.88625pt x 678.535pt>
+<./images/use_case_large.png, id=129, 1307.88625pt x 678.535pt>
 File: ./images/use_case_large.png Graphic file (type png)
 
 <use ./images/use_case_large.png>
@@ -975,7 +975,7 @@ Overfull \hbox (7.1571pt too wide) in paragraph at lines 142--144
 target interactions[[]]. 
  []
 
-<./images/create_mpi.png, id=137, 499.8675pt x 324.21124pt>
+<./images/create_mpi.png, id=136, 499.8675pt x 324.21124pt>
 File: ./images/create_mpi.png Graphic file (type png)
 
 <use ./images/create_mpi.png>
@@ -1000,7 +1000,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
  []
 
-<./images/mpi_list_view.png, id=156, 743.77875pt x 161.60374pt>
+<./images/mpi_list_view.png, id=155, 743.77875pt x 161.60374pt>
 File: ./images/mpi_list_view.png Graphic file (type png)
 
 <use ./images/mpi_list_view.png>
@@ -1026,7 +1026,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 173--174
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-<./images/add_private_cluster_2.png, id=157, 499.8675pt x 180.675pt>
+<./images/add_private_cluster_2.png, id=156, 499.8675pt x 180.675pt>
 File: ./images/add_private_cluster_2.png Graphic file (type png)
 
 <use ./images/add_private_cluster_2.png>
@@ -1049,7 +1049,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
-<./images/mpi_detail_view_2.png, id=158, 629.35126pt x 421.575pt>
+<./images/mpi_detail_view_2.png, id=157, 629.35126pt x 421.575pt>
 File: ./images/mpi_detail_view_2.png Graphic file (type png)
 
 <use ./images/mpi_detail_view_2.png>
@@ -1072,7 +1072,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4.4 <./images/use_case_large.png> <./images/create_mpi.png> <./images/mpi_lis
 t_view.png> <./images/add_private_cluster_2.png>]
-<./images/toolset_list_2.png, id=172, 499.8675pt x 255.95625pt>
+<./images/toolset_list_2.png, id=171, 499.8675pt x 255.95625pt>
 File: ./images/toolset_list_2.png Graphic file (type png)
 
 <use ./images/toolset_list_2.png>
@@ -1094,7 +1094,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 191--192
 
  []
 
-<./images/gamess_form_2.png, id=173, 629.35126pt x 182.6825pt>
+<./images/gamess_form_2.png, id=172, 629.35126pt x 182.6825pt>
 File: ./images/gamess_form_2.png Graphic file (type png)
 
 <use ./images/gamess_form_2.png>
@@ -1116,7 +1116,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
 
-<./images/tasks_list_view_2.png, id=174, 629.35126pt x 276.03125pt>
+<./images/tasks_list_view_2.png, id=173, 629.35126pt x 276.03125pt>
 File: ./images/tasks_list_view_2.png Graphic file (type png)
 
 <use ./images/tasks_list_view_2.png>
@@ -1142,7 +1142,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
 
-<./images/jsmol_detail_view_2.png, id=176, 629.35126pt x 246.9225pt>
+<./images/jsmol_detail_view_2.png, id=175, 629.35126pt x 246.9225pt>
 File: ./images/jsmol_detail_view_2.png Graphic file (type png)
 
 <use ./images/jsmol_detail_view_2.png>
@@ -1160,7 +1160,7 @@ Overfull \hbox (9.86272pt too wide) in paragraph at lines 204--205
  [] 
  []
 
-<./images/uat_graph.png, id=177, 793.96625pt x 420.57124pt>
+<./images/uat_graph.png, id=176, 793.96625pt x 420.57124pt>
 File: ./images/uat_graph.png Graphic file (type png)
 
 <use ./images/uat_graph.png>
@@ -1226,11 +1226,11 @@ Package rerunfilecheck Info: File `carpio-pcsc2017-skylab.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
  ) 
 Here is how much of TeX's memory you used:
- 14009 strings out of 493029
- 218554 string characters out of 6136235
+ 14012 strings out of 493029
+ 218629 string characters out of 6136235
  345064 words of memory out of 5000000
  16757 multiletter control sequences out of 15000+600000
- 81977 words of font info for 300 fonts, out of 8000000 for 9000
+ 82250 words of font info for 302 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  60i,12n,94p,1600b,720s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-ot1-4.enc}{/usr
@@ -1247,10 +1247,10 @@ s/type1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/libertine/LinLibertineTB.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/libertine/LinLibertineTI.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/txfonts/txsy.pfb>
-Output written on carpio-pcsc2017-skylab.pdf (6 pages, 874174 bytes).
+Output written on carpio-pcsc2017-skylab.pdf (6 pages, 874257 bytes).
 PDF statistics:
- 279 PDF objects out of 1000 (max. 8388607)
- 238 compressed objects within 3 object streams
+ 278 PDF objects out of 1000 (max. 8388607)
+ 237 compressed objects within 3 object streams
  67 named destinations out of 1000 (max. 500000)
  43720 words of extra memory for PDF output out of 51595 (max. 10000000)
 
