@@ -1,5 +1,3 @@
-
-% INTRODUCTION
 \section{Introduction}
 
 Cloud computing has marked significant developments and possibilities in the industry. It focuses on offering services for the different needs of the modern society.
@@ -10,38 +8,36 @@ There are three categories of cloud computing services namely, Software as a Ser
 
 Most scientific applications require high performance computing (HPC) which needs CPU intensive computations and large data storage. To be able to host such applications, several computers interconnected in a network such as clusters are needed. This makes scientific computing very costly. Fortunately, with the advancement in cloud computing, these tools can be deployed in the cloud without worrying about the costs of hardware purchase and maintenance \cite {Ahuja2012}. To determine the cost of hosting scientific computing in cloud, the Scientific Computing Cloud (SciCloud) project is conducted in the University of Tartu. Results have shown that transmission delays are the major concern in pursuing HPC applications in the cloud\cite {Brandic2011}.  To address this problem, a study is conducted by Hermocilla\cite {Hermocilla2014} in Peak-Two Cloud (P2C). One of the features introduced by P2C is vCluster. vCluster is a tool that enables a user to deploy a working (MPI) cluster on demand and to terminate it after execution. It uses a master-slave design implementation. However, vCluster is a command-line based application which has limited capacities for data manipulation, analysis, and presentation. Creating a web application that would host vCluster with additional features like graphical representation to visualize trends, and a Graphical User Interface(GUI) to offer convenient access. This paper will present SkyLab, a web application that aims to serve and to improve vCluster functionalities.
 
-    This study will help us visualize how HPC applications can be hosted in the cloud and understand why is this technology timely relevant.  Even with capable hardware, computations might take hours or even days which makes it a hassle for users. Thus, there is a need for a more convenient way of access for HPC applications. Furthermore, this would encourage students to explore and research on HPC applications. HPC applications usually have a plain numerical output. A means of presenting data graphically would make the interpretation of data more efficient.
+This study will help us visualize how HPC applications can be hosted in the cloud and understand why is this technology timely relevant.  Even with capable hardware, computations might take hours or even days which makes it a hassle for users. Thus, there is a need for a more convenient way of access for HPC applications. Furthermore, this would encourage students to explore and research on HPC applications. HPC applications usually have a plain numerical output. A means of presenting data graphically would make the interpretation of data more efficient.
 
-    The study would contribute to research on hosting HPC applications in the cloud. Problems encountered and solutions offered throughout the study will give insights to future researchers. Furthermore, the output application of the study can be used by the academe.
+The study would contribute to research on hosting HPC applications in the cloud. Problems encountered and solutions offered throughout the study will give insights to future researchers. Furthermore, the output application of the study can be used by the academe.
 
-    The study focuses on vCluster and is not mainly concerned on P2C as a whole. The study initially bases on the current implementation of vCluster and eventually improve it and offer additional features\cite {Hermocilla2014}.
+The study focuses on vCluster and is not mainly concerned on P2C as a whole. The study initially bases on the current implementation of vCluster and eventually improve it and offer additional features\cite {Hermocilla2014}.
 
-    This study aims to develop SkyLab, a web application that would function as a front-end for vCluster. %change support
-	Specifically, it should be able to: 
+This study aims to develop SkyLab, a web application that would function as a front-end for vCluster. 	Specifically, it should be able to: 
 	\begin{enumerate}
 		\item allow users to select tools and execute them via web interface; 
         \item create an extensible platform that would accommodate additional tools; and
 		\item display output data of tools.
 	\end{enumerate}
 
-		\subsubsection*{Functional Requirements}
-		\begin{itemize}
-			\item Users can upload input data to the server.
-          	\item Users can view the results of the used tools.
-          	\item The system is integrated with vCluster functionalities.
-        \end{itemize}
+\subsubsection*{Functional Requirements}
+	\begin{itemize}
+		\item Users can upload input data to the server.
+    	\item Users can view the results of the used tools.
+    	\item The system is integrated with vCluster functionalities.
+    \end{itemize}
 
-		\subsubsection*{Non-functional Requirements}
-        \begin{itemize}
-          \item Users must be authenticated to be able to use the system.
-          \item The system must be easy to use and user friendly.
-          \item The system must be highly maintainable for future development.  
-        \end{itemize}
+\subsubsection*{Non-functional Requirements}
+    \begin{itemize}
+    	\item Users must be authenticated to be able to use the system.
+       	\item The system must be easy to use and user friendly.
+       	\item The system must be highly maintainable for future development.  
+	\end{itemize}
         
-%REVIEW OF RELATED LITERATURE
 \section {Related Work}
-    
-\subsection{Performance Concerns for HPC Applications in the Cloud}
+  
+\subsection{Performance of HPC Applications in the Cloud}
 
 Shajulin \cite {8521133920130201} has enumerated five performance concerns for HPC applications in the cloud. First concern is resource provisioning issues which includes memory management, energy management, response time, and resource outages.  Hardware virtualization for multiple guest operating systems running concurrently on a host computer creates a concern for huge overheads, delays, or memory leakages caused by the process of allocating memory, remapping it to virtual machines, and cleaning it up. The scenario of multiple guest OS can also cause an OS to fail to make hardware use energy-efficient because the presence of multiple hardware virtualizations prevent the main OS from having full control over actual hardware. Configuration failures, update failures, or even unknown issues cause resource outages. Second, most programming models used in the cloud have inconsistencies on error recovery and storage handling by design and by execution. If these inconsistencies are not addressed, the system components might fail because they are not well-integrated.        
 
@@ -70,9 +66,10 @@ Another related project is Web Interface for mpiBLAST (WImpiBLAST). It supports 
             
         
 \section{Design and Implementation}
-    \subsection{System Architecture}
-    SkyLab functions as a web front-end for vCluster which is built on top of Peak-Two Cloud.
-    \begin{center}			
+
+\subsection{System Architecture}
+SkyLab functions as a web front-end for vCluster which is built on top of Peak-Two Cloud.
+	\begin{center}			
 		\includegraphics[width=92px,height=224px]{./images/system_architecture.png}			
 		\captionof{figure}{System Architecture of SkyLab}			
 	\end{center}	
@@ -86,75 +83,77 @@ Another related project is Web Interface for mpiBLAST (WImpiBLAST). It supports 
 %		\captionof{figure}{System Architecture of SkyLab}			
 %	\end{center}	
 	
-    %\begin{figure*}[ht]
-    %  \centering
-    %  \includegraphics[width=500px,height=250px]{./images/use_case_large.png}
-    %  \caption{Use Case Diagram of SkyLab}\label{System Architecture}
-    %\end{figure*}
+    \begin{figure*}[ht]
+      \centering
+      \includegraphics[width=500px,height=250px]{./images/use_case_large.png}
+      \caption{Use Case Diagram of SkyLab}\label{System Architecture}
+    \end{figure*}
 
-		\subsection{MPI clusters} 
-		The system spawns a thread (MPIThread) for each active cluster which handles the connection to the assigned cluster via Secure Shell (SSH). Creation and deletion of clusters is done by using vCluster commands while tool activation is done by using p2c-tools. The thread also manages task queuing and execution.
+\subsection{MPI clusters} 
+
+The system spawns a thread (MPIThread) for each active cluster which handles the connection to the assigned cluster via Secure Shell (SSH). Creation and deletion of clusters is done by using vCluster commands while tool activation is done by using p2c-tools. The thread also manages task queuing and execution.
 		
-		A cluster is either classified as public or private. If it is set to public, every user in the system can use it. On the other hand, for private clusters, the cluster will only be visible to the owner. The owner has the option to share the cluster to other users via the share key generated for the said cluster. 		
+A cluster is either classified as public or private. If it is set to public, every user in the system can use it. On the other hand, for private clusters, the cluster will only be visible to the owner. The owner has the option to share the cluster to other users via the share key generated for the said cluster. 		
 
-		\subsection{Tool sets} 
-		The system searches for Python packages inside the assigned modules folder and install it on server start. The tool sets will then be available for use with the system. The package must have a Python module named \emph{install.py} which contains function calls for integrating the package with the system. The package must also contain the corresponding views and executable classes for each sub-tool.  
+\subsection{Tool sets} 
+The system searches for Python packages inside the assigned modules folder and install it on server start. The tool sets will then be available for use with the system. The package must have a Python module named \emph{install.py} which contains function calls for integrating the package with the system. The package must also contain the corresponding views and executable classes for each sub-tool.  
 
-		\subsection{Tasks} 
-		The system creates a task object for each task input by the user. A signal will then be sent and it is then received by the corresponding MPIThread which queues the task for execution. When a task is executed, it calls the assigned executable class with the given parameters. On connection error, the task waits exponentially before retrying. If the server crashes while running task execution, the task is just restarted.				
+\subsection{Tasks} 
+The system creates a task object for each task input by the user. A signal will then be sent and it is then received by the corresponding MPIThread which queues the task for execution. When a task is executed, it calls the assigned executable class with the given parameters. On connection error, the task waits exponentially before retrying. If the server crashes while running task execution, the task is just restarted.				
 		
-		 Default task execution flow via executable class:			
-		\begin{enumerate}
-			\item  Needed remote and local directories for execution are cleared or created.
-			\item  Input files are uploaded to cluster.
-			\item  List of commands given are executed.
-			\item  Output files are sent back to the server.
-			\item  Remote task folder is deleted.
-			\item  Output files are served by the server.
-		\end{enumerate}	
+Default task execution flow via executable class:			
+	\begin{enumerate}
+		\item  Needed remote and local directories for execution are cleared or created.
+		\item  Input files are uploaded to cluster.
+		\item  List of commands given are executed.
+		\item  Output files are sent back to the server.
+		\item  Remote task folder is deleted.
+		\item  Output files are served by the server.
+	\end{enumerate}	
 
 	
-		\subsection{Technologies}
-		\begin{itemize}
-   			\item Programming Language: Python 
-   			\item Web Framework: Django  
-   			\item DBMS: MariaDB  
-   			\item Cloud Infrastructure: Peak-Two Cloud 
-		\end{itemize}	
+\subsection{Technologies}
+	\begin{itemize}
+   		\item Programming Language: Python 
+   		\item Web Framework: Django  
+   		\item DBMS: MariaDB  
+   		\item Cloud Infrastructure: Peak-Two Cloud 
+	\end{itemize}	
 	
-    \subsection {Evaluation of Methodology}
-    	The use cases given ensure that the user will be able to select tools and execute them with the system. Also, the output files of user tasks will be served by the system. The system code is required maintainable for future inclusion of other tools.  
-        The methodology provided is sufficient to achieve the given objectives of the study. The created software will be subjected to user acceptance test for further evaluation. 
+\subsection{Evaluation of Methodology}
+
+The use cases given ensure that the user will be able to select tools and execute them with the system. Also, the output files of user tasks will be served by the system. The system code is required maintainable for future inclusion of other tools.  
+
+The methodology provided is sufficient to achieve the given objectives of the study. The created software will be subjected to user acceptance test for further evaluation. 
 
 \section{Results and Discussion}
-	\subsection{Supported Tools}
+
+\subsection{Supported Tools}
 		
-          
-          \begin{description}
-          	\item[AutoDock] \hfill \break 
-            It is a software used to simulate protein-ligand docking\cite{morris2009autodock4}.
-            
-            \item[AutoDock Vina] \hfill \break
+	\begin{description}
+    	\item[AutoDock] \hfill \break 
+        	It is a software used to simulate protein-ligand docking\cite{morris2009autodock4}.
+        \item[AutoDock Vina] \hfill \break
             It is a software similar to AutoDock 4 but on the average, it provides faster and more accurate computations\cite{JCC:JCC21334}. 
             
             
             %It achieves significant improvements in the %average accuracy of the binding mode predictions, %while also being up to two orders of magnitude %faster than AutoDock 4
             
-            \item[DOCK] \hfill \break
+		\item[DOCK] \hfill \break
             It is used to predict the small molecule-target interactions\cite{lang2009dock}.
             
-            \item[Quantum ESPRESSO] \hfill \break
+      	\item[Quantum ESPRESSO] \hfill \break
             It is an integrated software suite of tools for ab-initio molecular dynamics (MD) simulations and electronic structure calculations\cite{QE-2009}.
 
-            \item[GAMESS] \hfill \break
+  		\item[GAMESS] \hfill \break
             It is used for ab initio molecular quantum chemistry. \cite{1993gamess}
             
-            \item[Ray] \hfill \break
+ 	    \item[Ray] \hfill \break
             It is uses parallel genome assemblies for parallel DNA sequencing \cite{boisvert_ray_2012}.
           \end{description}
           
-	\subsection{System Features}
-	The system's interface offers different functionalities that simplifies MPI cluster and task management.
+\subsection{System Features}
+The system's interface offers different functionalities that simplifies MPI cluster and task management.
 		
 	\begin{itemize}
 		\item The user is authenticated by logging in with his @up.edu.ph Google account.
@@ -233,7 +232,8 @@ The system achieved its main objectives but its features can still be improved a
 %Appendix two (without title) text goes here...
 
 % ACKNOWLEDGMENT
-%\section*{Acknowledgment}
+\section*{Acknowledgment}
+
 %Many thanks to...
 % BIBLIOGRAPHY
 % \nocite{*}
