@@ -53,20 +53,6 @@
 \url{http://www.chinacloud.cn/upload/2012-03/12031713036456.pdf}}
 
 
-\bibitem[\protect\citeauthoryear{Benedict}{Benedict}{2013}]%
-        {8521133920130201}
-\bibfield{author}{\bibinfo{person}{Shajulin Benedict}.}
-  \bibinfo{year}{2013}\natexlab{}.
-\newblock \showarticletitle{Performance issues and performance analysis tools
-  for HPC cloud applications: a survey.}
-\newblock \bibinfo{journal}{{\em Computing\/}} \bibinfo{volume}{95},
-  \bibinfo{number}{2} (\bibinfo{year}{2013}), \bibinfo{pages}{89 -- 108}.
-\newblock
-\showISSN{0010485X}
-\showURL{%
-\url{http://search.ebscohost.com/login.aspx?direct=true&db=a9h&AN=85211339&site=ehost-live}}
-
-
 \bibitem[\protect\citeauthoryear{Boisvert, Raymond, Godzaridis, Laviolette, and
   Corbeil}{Boisvert et~al\mbox{.}}{2012}]%
         {boisvert_ray_2012}
@@ -176,19 +162,6 @@
 \newblock
 
 
-\bibitem[\protect\citeauthoryear{Hill and Humphrey}{Hill and Humphrey}{2009}]%
-        {ZachHumphrey}
-\bibfield{author}{\bibinfo{person}{Zach Hill} {and} \bibinfo{person}{Marty
-  Humphrey}.} \bibinfo{year}{2009}\natexlab{}.
-\newblock \showarticletitle{A Quantitative Analysis of High Performance
-  Computing with Amazon’s EC2 Infrastructure: The Death of the Local
-  Cluster?}. In \bibinfo{booktitle}{{\em Proceedings of the 10th IEEE/ ACM
-  International Conference on Grid Computing (Grid 2009).)}}.
-\newblock
-\showURL{%
-\url{http://www.cs.virginia.edu/~humphrey/papers/QuantitativeAnalysisEC2.pdf}}
-
-
 \bibitem[\protect\citeauthoryear{Hunter, Macgregor, Szabo, Wellington, and
   Bellgard}{Hunter et~al\mbox{.}}{2012}]%
         {7411021620120101}
@@ -205,52 +178,6 @@
 \showISSN{17510473}
 \showURL{%
 \url{http://search.ebscohost.com/login.aspx?direct=true&db=a9h&AN=74110216&site=ehost-live}}
-
-
-\bibitem[\protect\citeauthoryear{Iosup, Ostermann, Yigitbasi, Prodan,
-  Fahrigner, and Epema}{Iosup et~al\mbox{.}}{2010}]%
-        {PerfAnalysisManyTasks}
-\bibfield{author}{\bibinfo{person}{Alexandru Iosup}, \bibinfo{person}{Simon
-  Ostermann}, \bibinfo{person}{Nezih Yigitbasi}, \bibinfo{person}{Radu Prodan},
-  \bibinfo{person}{Thomas Fahrigner}, {and} \bibinfo{person}{Dick Epema}.}
-  \bibinfo{year}{2010}\natexlab{}.
-\newblock \showarticletitle{Performance Analysis of Cloud Computing Services
-  for Many-Tasks Scientific Computing}.
-\newblock  (\bibinfo{date}{Nov} \bibinfo{year}{2010}).
-\newblock
-\showURL{%
-\url{http://www.st.ewi.tudelft.nl/~iosup/cloud-perf10tpds_in-print.pdf}}
-
-
-\bibitem[\protect\citeauthoryear{Jackson, Muriki, Canon, Cholia, Shalf,
-  Wasserman, and Wright}{Jackson et~al\mbox{.}}{2010}]%
-        {CloudCom2010}
-\bibfield{author}{\bibinfo{person}{Keith Jackson}, \bibinfo{person}{Krishna
-  Muriki}, \bibinfo{person}{Shane Canon}, \bibinfo{person}{Shreyas Cholia},
-  \bibinfo{person}{John Shalf}, \bibinfo{person}{Harvey Wasserman}, {and}
-  \bibinfo{person}{Nicholas Wright}.} \bibinfo{year}{2010}\natexlab{}.
-\newblock \showarticletitle{Performance Analysis of High Performance Computing
-  Applications on the Amazon Web Services Cloud}.
-\newblock  (\bibinfo{year}{2010}).
-\newblock
-\showURL{%
-\url{https://www.nersc.gov/assets/NERSC-Staff-Publications/2010/CloudCom.pdf}}
-
-
-\bibitem[\protect\citeauthoryear{Juve, Deelman, Vahi, Mehta, Berriman, Berman,
-  and Maechling}{Juve et~al\mbox{.}}{2009}]%
-        {juve_scientific_2009}
-\bibfield{author}{\bibinfo{person}{Gideon Juve}, \bibinfo{person}{Ewa Deelman},
-  \bibinfo{person}{Karan Vahi}, \bibinfo{person}{Gaurang Mehta},
-  \bibinfo{person}{Bruce Berriman}, \bibinfo{person}{Benjamin~P. Berman}, {and}
-  \bibinfo{person}{Phil Maechling}.} \bibinfo{year}{2009}\natexlab{}.
-\newblock \showarticletitle{Scientific workflow applications on {Amazon}
-  {EC}2}. In \bibinfo{booktitle}{{\em 2009 5th {IEEE} {International}
-  {Conference} on {E}-{Science} {Workshops}}}. \bibinfo{publisher}{IEEE},
-  \bibinfo{pages}{59--66}.
-\newblock
-\showURL{%
-\url{http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5408002}}
 
 
 \bibitem[\protect\citeauthoryear{Lang, Brozell, Mukherjee, Pettersen, Meng,
@@ -349,18 +276,6 @@
 \showISSN{1096-987X}
 \showDOI{%
 \url{http://dx.doi.org/10.1002/jcc.21334}}
-
-
-\bibitem[\protect\citeauthoryear{Walker}{Walker}{2008}]%
-        {WalkerEC2HPC}
-\bibfield{author}{\bibinfo{person}{Edward Walker}.}
-  \bibinfo{year}{2008}\natexlab{}.
-\newblock \showarticletitle{Benchmarking Amazon EC2 for High-Performance
-  Scientific Computing}.
-\newblock  (\bibinfo{date}{Oct} \bibinfo{year}{2008}).
-\newblock
-\showURL{%
-\url{https://www.usenix.org/legacy/publications/login/2008-10/openpdfs/walker.pdf}}
 
 
 \end{thebibliography}
