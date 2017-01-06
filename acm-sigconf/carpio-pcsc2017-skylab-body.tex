@@ -3,10 +3,18 @@
 Cloud computing has marked significant developments and possibilities in the industry. It focuses on offering services for the different needs of the modern society.
 
 
-There are three categories of cloud computing services namely, Software as a Service (SaaS), Platform as a Service (PaaS) and Infrastructure as a Service (IaaS). Organizations provide Saas depending on the demand. Google Apps is one example of Saas that can be used to manage email and create documents, etc. Paas offers developers a platform where they can build and deploy applications. Iaas provides storage, servers and handling computer clusters. These tools are primarily created to serve computational needs \cite {Ahuja2012}. A cloud computing platform dynamically allocates, configures, reconfigures and deallocates servers as requested or on demand. This approach ensures the elasticity of cloud computing \cite {Brandic2011}.
+There are three categories of cloud computing services namely, Software as a Service (SaaS), Platform as a Service (PaaS) and Infrastructure as a Service (IaaS). Organizations provide Saas depending on the demand. Google Apps is one example of SaaS that can be used to manage email and create documents, etc. PaaS offers developers a platform where they can build and deploy applications. IaaS provides storage, servers and clusters. These tools are primarily created to serve computational needs \cite {Ahuja2012}. A cloud computing platform dynamically allocates, configures, reconfigures and deallocates servers as requested or on demand. This approach ensures the elasticity of cloud computing \cite {Brandic2011}.
 
 
-Most scientific applications require high performance computing (HPC) which needs CPU intensive computations and large data storage. To be able to host such applications, several computers interconnected in a network such as clusters are needed. This makes scientific computing very costly. Fortunately, with the advancement in cloud computing, these tools can be deployed in the cloud without worrying about the costs of hardware purchase and maintenance \cite {Ahuja2012}. To determine the cost of hosting scientific computing in cloud, the Scientific Computing Cloud (SciCloud) project is conducted in the University of Tartu. Results have shown that transmission delays are the major concern in pursuing HPC applications in the cloud\cite {Brandic2011}.  To address this problem, a study is conducted by Hermocilla\cite {Hermocilla2014} in Peak-Two Cloud (P2C). One of the features introduced by P2C is vCluster. vCluster is a tool that enables a user to deploy a working (MPI) cluster on demand and to terminate it after execution. It uses a master-slave design implementation. However, vCluster is a command-line based application which has limited capacities for data manipulation, analysis, and presentation. Creating a web application that would host vCluster with additional features like graphical representation to visualize trends, and a Graphical User Interface(GUI) to offer convenient access. This paper will present SkyLab, a web application that aims to serve and to improve vCluster functionalities.
+Most scientific applications require high performance computing (HPC) which needs CPU intensive computations and large data storage. To be able to host such applications, several computers interconnected in a network such as clusters are needed. This makes scientific computing very costly in terms of hardware infrastructure investment. With the advancement in cloud computing, these scientific applications  can be deployed in the cloud without worrying about hardware costs and maintenance \cite {Ahuja2012}. However, studies have shown that network transmission delay is the major drawback in deploying HPC applications in the cloud\cite {Brandic2011}. 
+
+
+Peak-Two Cloud (P2C) is a private cloud based on OpenStack designed for research in deploying HPC applications in the cloud\cite {Hermocilla2014}. One of the features introduced by P2C is vCluster. vCluster is a tool that enables a user to deploy a working (Message Passing Interface) cluster on demand and to terminate it after use. P2C has been used by researchers in various fields including bioinformatics, quantum chemistry, and molecular dynamics. These researchers belong to different research groups who have no investment in HPC infrastructure due to limited funding but requires computing for their research. However, vCluster is a comman line application which make it difficult for non-technical users (scientists and researchers) to use. A more user-friendly interface is needed in order to enable scientists to focus more on their science rather than on the command line.
+
+To address this, we developed SkyLab in order to ease the burden of the users in learning the command line.
+
+
+Creating a web application that would host vCluster with additional features like graphical representation to visualize trends, and a Graphical User Interface(GUI) to offer convenient access. This paper will present SkyLab, a web application that aims to serve and to improve vCluster functionalities.
 
 This study will help us visualize how HPC applications can be hosted in the cloud and understand why is this technology timely relevant.  Even with capable hardware, computations might take hours or even days which makes it a hassle for users. Thus, there is a need for a more convenient way of access for HPC applications. Furthermore, this would encourage students to explore and research on HPC applications. HPC applications usually have a plain numerical output. A means of presenting data graphically would make the interpretation of data more efficient.
 
@@ -36,27 +44,7 @@ This study aims to develop SkyLab, a web application that would function as a fr
 	\end{itemize}
         
 \section {Related Work}
-  
-\subsection{Performance of HPC Applications in the Cloud}
 
-Shajulin \cite {8521133920130201} has enumerated five performance concerns for HPC applications in the cloud. First concern is resource provisioning issues which includes memory management, energy management, response time, and resource outages.  Hardware virtualization for multiple guest operating systems running concurrently on a host computer creates a concern for huge overheads, delays, or memory leakages caused by the process of allocating memory, remapping it to virtual machines, and cleaning it up. The scenario of multiple guest OS can also cause an OS to fail to make hardware use energy-efficient because the presence of multiple hardware virtualizations prevent the main OS from having full control over actual hardware. Configuration failures, update failures, or even unknown issues cause resource outages. Second, most programming models used in the cloud have inconsistencies on error recovery and storage handling by design and by execution. If these inconsistencies are not addressed, the system components might fail because they are not well-integrated.        
-
-Third, enforcing terms of Service Level Agreement (SLA) is bound to performance issues due to loss of control over resource provisioning or deploying cloud services. Fourth, there is a lack of standard conventions in clouds. This means that there is no guarantee that the current configuration of the an application will be compatible with other providers. The user might need to modify the program for a specific provider.  
-         
-Fifth, security measures challenge performance since increasing security protocols decreases response time.
-
-In a study by Jackson et al.\cite{CloudCom2010} conducted on Amazon EC2, benchmarks are used to imitate the workload of a typical HPC application.
-
-Results of the study show that the percentage of the communication time of the application is strongly correlated to its overall performance. Communication time and frequency of global communications are inversely proportional to the application's performance.
-
-The more communication, the worse it performs. In addition, applications with significant global communication perform relatively worse than those with less. 
-
-Lastly, performance variability is introduced by the added layers of abstraction caused by hardware virtualization.
-         
-Another study conducted by Juve et al.\cite{juve_scientific_2009}, analyzed running scientific workflows in Amazon EC2. It has been found that getting resources is the primary cost factor to consider in executing workflow tasks while storage has relatively cheaper costs. Storing data in the cloud rather that transferring it to each workflow effectively reduces the high cost of data transfer. These results show that the cloud is a good alternative for running scientific workflow applications but for cloud providers to be able compete with existing physical clusters in terms of performance of HPC applications would need high-speed networks and parallel file systems\cite{WalkerEC2HPC}. While this may mean that cloud computing is yet to support large-scale HPC applications, it can still be considered as an alternative for deploying simple HPC tasks on demand\cite{PerfAnalysisManyTasks}. Despite the performance trade-off, EC2 offers ease-of-use and cheaper costs which are marginal factors in consideration for academic purposes\cite{ZachHumphrey}.  
-         
-         
-\subsection {Related Systems}
 
 Ganglia is a system designed to monitor high performance computing systems. It uses a hierarchical model in managing the system of clusters. It uses optimized data structures and communication algorithms to achieve scalability with high concurrency. It is claimed to be used by over 500 clusters around the world. This implies that the system is tested and trusted to be used for real-world applications\cite{1395654820040701}.
 	    
@@ -120,12 +108,6 @@ Default task execution flow via executable class:
    		\item Cloud Infrastructure: Peak-Two Cloud 
 	\end{itemize}	
 	
-\subsection{Evaluation of Methodology}
-
-The use cases given ensure that the user will be able to select tools and execute them with the system. Also, the output files of user tasks will be served by the system. The system code is required maintainable for future inclusion of other tools.  
-
-The methodology provided is sufficient to achieve the given objectives of the study. The created software will be subjected to user acceptance test for further evaluation. 
-
 \section{Results and Discussion}
 
 \subsection{Supported Tools}
