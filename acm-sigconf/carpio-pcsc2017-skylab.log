@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.5)  8 JAN 2017 11:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.5)  8 JAN 2017 12:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -945,9 +945,15 @@ e ac-cu-rate computations[[]].
  []
 
 
-Overfull \hbox (19.55298pt too wide) in paragraph at lines 29--30
-[]\OT1/LinuxLibertineT-TLF/m/n/9 (-20) DOCK - Used to pre-dict the small molecu
-le-target interactions[[]]. 
+Overfull \hbox (19.45361pt too wide) in paragraph at lines 29--30
+[]\OT1/LinuxLibertineT-TLF/m/it/9 (-20) DOCK \OT1/LinuxLibertineT-TLF/m/n/9 (-2
+0) - Used to pre-dict the small molecule-target interactions[[]]. 
+ []
+
+
+Overfull \hbox (11.58063pt too wide) in paragraph at lines 33--34
+[]\OT1/LinuxLibertineT-TLF/m/it/9 (-20) GAMESS \OT1/LinuxLibertineT-TLF/m/n/9 (
+-20) - Used for ab ini-tio molec-u-lar quan-tum chemistry[[]]. 
  []
 
 <./images/system_architecture.png, id=96, 142.5325pt x 375.4025pt>
@@ -1211,11 +1217,11 @@ Package rerunfilecheck Info: File `carpio-pcsc2017-skylab.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
  ) 
 Here is how much of TeX's memory you used:
- 13942 strings out of 493029
- 217011 string characters out of 6136235
+ 13946 strings out of 493029
+ 217120 string characters out of 6136235
  340650 words of memory out of 5000000
  16731 multiletter control sequences out of 15000+600000
- 77713 words of font info for 281 fonts, out of 8000000 for 9000
+ 78256 words of font info for 284 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  60i,11n,94p,1025b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-ot1-4.enc}{/usr
@@ -1231,7 +1237,7 @@ ts/type1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/libertine/LinLibertineTB.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/libertine/LinLibertineTI.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/txfonts/txsy.pfb>
-Output written on carpio-pcsc2017-skylab.pdf (5 pages, 832250 bytes).
+Output written on carpio-pcsc2017-skylab.pdf (5 pages, 833635 bytes).
 PDF statistics:
  229 PDF objects out of 1000 (max. 8388607)
  191 compressed objects within 2 object streams
