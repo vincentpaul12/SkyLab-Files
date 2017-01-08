@@ -24,13 +24,13 @@ The following are the tools that are currently supported by SkyLab since they ar
 \begin{itemize}
     	\item \textit{AutoDock} - A software used to simulate protein-ligand docking\cite{morris2009autodock4}.
 
-        \item \textit{AutoDock Vina} - A software similar to AutoDock 4 but on the average, it provides faster and more accurate computations\cite{JCC:JCC21334}. 
+        \item \textit{AutoDock Vina} - A software similar to AutoDock 4 but on the average, it provides faster and more accurate computations \cite{JCC:JCC21334}. 
             
-		\item \textit{DOCK} - Used to predict the small molecule-target interactions\cite{lang2009dock}.
+		\item \textit{DOCK} - Used to predict the small molecule-target interactions    \cite{lang2009dock}.
             
       	\item \textit{Quantum ESPRESSO} - An integrated software suite of tools for ab-initio molecular dynamics (MD) simulations and electronic structure calculations\cite{QE-2009}.
 
-  		\item \textit{GAMESS} - Used for ab initio molecular quantum chemistry\cite{1993gamess}.
+  		\item \textit{GAMESS} - Used for ab initio molecular quantum chemistry  \cite{1993gamess}.
             
  	    \item \textit{Ray} - Uses parallel genome assemblies for parallel DNA sequencing \cite{boisvert_ray_2012}.
 
@@ -40,16 +40,12 @@ The next section describes the design and implementation of SkyLab.
         
 \section{Design and Implementation}
 
-SkyLab is implemented as a web application in order to provide users access to their HPC applications using just a web browser. This makes it challenging to implement given that multiple tools must be supported. Also, HPC applications executed through SkyLab have their own process space separate from the process on which SkyLab is running. This  makes it diffucult to keep track of the applications, and may even pose security threats.
+SkyLab is implemented as a web application in order to provide users access to their HPC applications using just a web browser. This makes it challenging to implement given that multiple tools must be supported. Also, HPC applications executed through SkyLab have their own process space, separate from the process on which SkyLab is running. This makes it diffucult to keep track of the applications and may even pose security threats.
 
-
-
-
-
-\subsection{System Architecture}
 SkyLab functions as a web front-end for vCluster which is built on top of Peak-Two Cloud.
 	\begin{center}			
-		\includegraphics[width=92px,height=224px]{./images/system_architecture.png}			
+		%\includegraphics[width=92px,height=224px]{./images/system_architecture.png}	
+		\includegraphics[scale=0.30]{./images/skylab_layers.jpg}			
 		\captionof{figure}{System Architecture of SkyLab}			
 	\end{center}	
     
