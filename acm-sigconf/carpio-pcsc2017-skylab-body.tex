@@ -42,12 +42,12 @@ The next section describes the design and implementation of SkyLab.
 
 SkyLab is implemented as a web application in order to provide users access to their HPC applications using just a web browser. This makes it challenging to implement given that multiple tools must be supported. Also, HPC applications executed through SkyLab have their own process space, separate from the process on which SkyLab is running. This makes it diffucult to keep track of the applications and may even pose security threats. 
 
-Figure ~\ref{fig:sysarch} shows the layers on which SkyLab sits on. At the bottom layer is P2C which provides the cloud infrastructure. vCluster is for on-demand provisioning and termination of MPI clusters. p2c-tools is the command line tool for activating the required HPC tool.
+Figure ~\ref{fig:sysarch} shows the layers on which SkyLab is built on. At the bottom layer is P2C which provides the cloud infrastructure. vCluster is for on-demand provisioning and termination of MPI clusters. p2c-tools is the command line tool for activating the required HPC tool.
 
 	\begin{figure}[h]			
 		%\includegraphics[width=92px,height=224px]{./images/system_architecture.png}	
 		\includegraphics[scale=0.30]{./images/skylab_layers.jpg}			
-		\caption{\label{fig:sysarch}Layers on which SkyLab sits on.}	
+		\caption{\label{fig:sysarch}Layers on which SkyLab is built on.}	
 	\end{figure}	
     
 
