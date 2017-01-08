@@ -262,6 +262,20 @@
 \url{http://search.ebscohost.com/login.aspx?direct=true&db=a9h&AN=96861207&site=ehost-live}}
 
 
+\bibitem[\protect\citeauthoryear{Trajano and Hermocilla}{Trajano and
+  Hermocilla}{2010}]%
+        {trajano2010}
+\bibfield{author}{\bibinfo{person}{Axel~S. Trajano} {and}
+  \bibinfo{person}{Joseph Anthony~C. Hermocilla}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em Implementation of selected image processing
+  routines for single and distributed processors}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}.
+  \bibinfo{institution}{Undergraduate Special Problem, University of the
+  Philippines, Los Banos}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Trott and Olson}{Trott and Olson}{2010}]%
         {JCC:JCC21334}
 \bibfield{author}{\bibinfo{person}{Oleg Trott} {and} \bibinfo{person}{Arthur~J.

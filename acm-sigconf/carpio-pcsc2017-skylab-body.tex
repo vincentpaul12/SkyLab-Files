@@ -19,7 +19,7 @@ Presented in this paper is Skylab\footnote{https://github.com/vincentpaul12/SkyL
 	\item support displaying of results using third party tools.
 \end{enumerate}
    
-The following are the tools that are currently supported by SkyLab since they are commonly used by collaborators from different research groups.
+The following are the tools that are currently supported by SkyLab. They are commonly used by collaborators from different research groups.
 
 \begin{itemize}
     	\item \textit{AutoDock} - A software used to simulate protein-ligand docking\cite{morris2009autodock4}.
@@ -33,6 +33,8 @@ The following are the tools that are currently supported by SkyLab since they ar
   		\item \textit{GAMESS} - Used for ab initio molecular quantum chemistry  \cite{1993gamess}.
             
  	    \item \textit{Ray} - Uses parallel genome assemblies for parallel DNA sequencing \cite{boisvert_ray_2012}.
+ 	    
+ 	    \item \textit{Impi} - MPI implementation of some image processing routines \cite{trajano2010}. 
 
 \end{itemize}   
       
@@ -48,7 +50,7 @@ Figure ~\ref{fig:sysarch} shows the layers on which SkyLab is built on. At the b
 		\caption{\label{fig:sysarch}Layers on which SkyLab is built on.}	
 	\end{figure}	
 
-The use case on which SkyLab was designed is shown in Figure ~\ref{fig:usecase}
+The use case on which SkyLab was designed is shown in Figure ~\ref{fig:usecase}. Users must first create a cluster then activate the desired tool to use.
 
     
     \begin{figure*}[ht]
@@ -93,7 +95,7 @@ The system's interface offers different functionalities that simplifies MPI clus
 		\item The user can create an MPI cluster with optional tool activations. 
 			\begin{center}			
 				%\includegraphics[scale=0.5]{./images/create_mpi.png}
-				\includegraphics{./images/n_create_cluster_impi_printed.png}
+				\includegraphics[scale=0.93]{./images/n_create_cluster_impi_printed.png}
 				\captionof{figure}{MPI creation form}			
 			\end{center}	
 	
@@ -121,21 +123,21 @@ The system's interface offers different functionalities that simplifies MPI clus
 		\item The user can select from a list which tool does he want to use. 	
 		\begin{center}			
 			%\includegraphics[scale=0.45]{./images/toolset_list_2.png}			
-			\includegraphics{./images/n_toolsets_printed.png}			
-			\captionof{figure}{Tool set list view}			
+			\includegraphics[scale=0.93]{./images/n_toolsets_printed.png}			
+			\captionof{figure}{Toolset list view}			
 		\end{center}
 		
 		\item The user can submit a task by filling up a tool's task creation form. \newline
 		\begin{center}			
 			%\includegraphics[scale=0.40]{./images/gamess_form_2.png}			
-			\includegraphics{./images/n_impi_parameters_printed.png}
+			\includegraphics[scale=0.93]{./images/n_impi_parameters_printed.png}
 			\captionof{figure}{GAMESS task creation form}			
 		\end{center}	
 		
 		\item The user can monitor created tasks. \newline
 		\begin{center}			
 			%\includegraphics[scale=0.40]{./images/tasks_list_view_2.png}			
-			\includegraphics{./images/n_tasks_printed.png}			
+			\includegraphics[scale=0.93]{./images/n_tasks_printed.png}			
 			\captionof{figure}{Task table view}			
 		\end{center}	
 		\item The user can view results of tasks. JSmol renders the compatible output files\cite{IJCH:IJCH201300024}. \newline
@@ -178,7 +180,7 @@ The system achieved its main objectives but its features can still be improved a
 
 % ACKNOWLEDGMENT
 \section*{Acknowledgment}
-We would like to thank DOST-ASTHRDP..
+This work is supported by the Philippine Department of Science and Technology Accelerated Science and Technology Human Resource Development Program.
 %Many thanks to...
 % BIBLIOGRAPHY
 % \nocite{*}
