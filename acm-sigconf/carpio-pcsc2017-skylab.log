@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.13)  8 JAN 2017 13:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.8)  8 JAN 2017 13:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **carpio-pcsc2017-skylab.tex
 (./carpio-pcsc2017-skylab.tex
 LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 5 language(s) loaded.
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (./acmart.cls
 Document Class: acmart 2016/12/03 v1.25 Typesetting articles for Association of
  Computing Machinery
@@ -348,17 +348,9 @@ Package: nccfoots 2005/02/03 v1.2 NCC Footnotes Package (NCC)
 \footinscopyrightpermission=\insert198
 \c@footnotecopyrightpermission=\count117
 
-
-Class acmart Warning: You do not have libertine package installed. Please upgra
-de your TeX on input line 531.
-
-
-Class acmart Warning: You do not have zi4 package installed. Please upgrade you
-r TeX on input line 533.
-
-
-Class acmart Warning: You do not have newtxmath package installed. Please upgra
-de your TeX on input line 536.
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/libertine.sty
+Package: libertine 2014/11/25 (Bob Tennent) Supports Libertine and Biolinum fon
+ts for all LaTeX engines.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
@@ -442,6 +434,129 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/mweights/mweights.sty
+Package: mweights 2013/07/21 (Bob Tennent) Support package for multiple-weight 
+font packages. 
+LaTeX Info: Redefining \bfseries on input line 22.
+LaTeX Info: Redefining \mdseries on input line 29.
+LaTeX Info: Redefining \rmfamily on input line 36.
+LaTeX Info: Redefining \sffamily on input line 53.
+LaTeX Info: Redefining \ttfamily on input line 70.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2014/03/23 v1.0d Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \scshape on input line 37.
+)
+LaTeX Info: Redefining \oldstylenums on input line 478.
+
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinLibertine_I.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/zi4.sty
+Package: zi4 2016/02/22 v1.10
+
+`inconsolata-zi4' v1.10, 2016/02/22 Text macros for Inconsolata (msharpe)
+\zifour@ocount=\count118
+)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/newtxmath.sty
+Package: newtxmath 2016/01/31 v1.465
+
+`newtxmath' v1.465, 2016/01/31 Math macros based on txfonts (msharpe)
+(/usr/share/texlive/texmf-dist/tex/generic/kastrup/binhex.tex)
+\tx@Isdigit=\count119
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 137.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/LinuxLibertineT-TLF/m/n on input li
+ne 137.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/LinuxLibertineT-TLF/m/n on input l
+ine 137.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/LinuxLibertineT-TLF/m/n --> OT1/LinuxLibertineT-TLF
+/sb/n on input line 138.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 144.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/LinuxBiolinumT-TLF/m/n on input li
+ne 144.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/LinuxBiolinumT-TLF/m/n on input l
+ine 144.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 145.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/LinuxLibertineT-TLF/m/it on input 
+line 145.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/LinuxLibertineT-TLF/m/it on input
+ line 145.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 146.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/zi4/m/n on input line 146.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/zi4/m/n on input line 146.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 148.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/LinuxLibertineT-TLF/sb/n on input 
+line 148.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/LinuxLibertineT-TLF/sb/n on input 
+line 148.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/LinuxLibertineT-TLF/m/it --> OT1/LinuxLibertineT-TL
+F/sb/it on input line 149.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/LinuxBiolinumT-TLF/m/n --> OT1/LinuxBiolinumT-TLF/b
+/n on input line 150.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/zi4/m/n --> OT1/zi4/b/n on input line 151.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 163.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/nxlmi/m/it on input line 163.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/nxlmi/m/it on input line 163.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/nxlmi/m/it --> OML/nxlmi/b/it on input line 164.
+\symlettersA=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/ntxmia/m/it --> U/ntxmia/b/it on input line 213.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 215.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 221.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ntxsy/m/n on input line 221.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ntxsy/m/n on input line 221.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/ntxsy/m/n --> OMS/ntxsy/b/n on input line 222.
+\symAMSm=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `AMSm' in version `bold'
+(Font)                  U/ntxsym/m/n --> U/ntxsym/b/n on input line 242.
+\symsymbolsC=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/ntxsyc/m/n --> U/ntxsyc/b/n on input line 263.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 276.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 2
+76.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 276.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 276
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 276.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  LMX/ntxexx/m/n --> LMX/ntxexx/b/n on input line 277.
+\symlargesymbolsTXA=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
+
+(Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 291.
+LaTeX Info: Redefining \not on input line 1749.
+LaTeX Info: Redefining \textsquare on input line 1770.
+LaTeX Info: Redefining \openbox on input line 1772.
+)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
@@ -457,21 +572,21 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@hangindent=\dimen136
 )
 Package caption Info: AMS or SMF document class.
-\c@ContinuedFloat=\count118
+\c@ContinuedFloat=\count120
 Package caption Info: hyperref package is loaded.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count119
+\c@float@type=\count121
 \float@exts=\toks29
 \float@box=\box29
 \@float@everytoks=\toks30
 \@floatcapt=\box30
 )
 \@float@every@sidebar=\toks31
-\c@sidebar=\count120
+\c@sidebar=\count122
 \fulltextwidth=\dimen137
-\num@authorgroups=\count121
+\num@authorgroups=\count123
 \@ACM@badge@width=\skip55
 \@ACM@title@width=\skip56
 \@ACM@badge@skip=\skip57
@@ -503,10 +618,20 @@ Excluding comment 'comment') Excluding comment 'CCSXML'
 \@folio@wd=\dimen139
 \@folio@ht=\dimen140
 \@folio@voffset=\dimen141
-\c@theorem=\count122
+\c@theorem=\count124
 
 Special comment 'acks' Excluding comment 'screenonly'
-Include comment 'printonly' Include comment 'anonsuppress')
+Include comment 'printonly' Include comment 'anonsuppress'
+LaTeX Font Info:    Try loading font information for OT1+LinuxLibertineT-TLF on
+ input line 2184.
+
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/OT1LinuxLibertineT-TLF.fd
+File: OT1LinuxLibertineT-TLF.fd 2012/11/26 (autoinst) Font definitions for OT1/
+LinuxLibertineT-TLF.
+)
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 2184.
+)
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen142
@@ -519,28 +644,46 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen149
 \cmidrulekern=\dimen150
 \defaultaddspace=\dimen151
-\@cmidla=\count123
-\@cmidlb=\count124
+\@cmidla=\count125
+\@cmidlb=\count126
 \@aboverulesep=\dimen152
 \@belowrulesep=\dimen153
-\@thisruleclass=\count125
-\@lastruleclass=\count126
+\@thisruleclass=\count127
+\@lastruleclass=\count128
 \@thisrulewidth=\dimen154
 )
 (./carpio-pcsc2017-skylab.aux)
 \openout1 = `carpio-pcsc2017-skylab.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 32.
+LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 32
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/omlnxlmi.fd
+File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
+)
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/ntxsy/m/n on input line 32.
+LaTeX Font Info:    Try loading font information for OMS+ntxsy on input line 32
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/omsntxsy.fd
+File: omsntxsy.fd 2012/11/14 Fontinst v1.933 font definitions for OMS/ntxsy.
+)
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 32.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 32.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd
+File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
+)
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
@@ -551,6 +694,14 @@ LaTeX Font Info:    Try loading font information for TS1+cmr on input line 32.
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 32.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 7.3pt on input line 32.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 5.5pt on input line 32.
 LaTeX Font Info:    Try loading font information for U+msa on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -560,6 +711,24 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 32.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxmia.fd
+File: untxmia.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxmia.
+)
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 32.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsym.fd
+File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
+)
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 32.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsyc.fd
+File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Info: Redefining \microtypecontext on input line 32.
 Package microtype Info: Generating PDF output.
@@ -571,11 +740,11 @@ Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
+Package microtype Info: Loading generic settings for font family
+(microtype)             `LinuxLibertineT-TLF' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box34
 Package hyperref Info: Link coloring OFF on input line 32.
@@ -586,7 +755,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count127
+\c@section@level=\count129
 )
 LaTeX Info: Redefining \ref on input line 32.
 LaTeX Info: Redefining \pageref on input line 32.
@@ -599,16 +768,16 @@ LaTeX Info: Redefining \nameref on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count128
+\scratchcounter=\count130
 \scratchdimen=\dimen155
 \scratchbox=\box35
-\nofMPsegments=\count129
-\nofMParguments=\count130
+\nofMPsegments=\count131
+\nofMParguments=\count132
 \everyMPshowfont=\toks32
-\MPscratchCnt=\count131
+\MPscratchCnt=\count133
 \MPscratchDim=\dimen156
-\MPnumerator=\count132
-\makeMPintoPDFobject=\count133
+\MPnumerator=\count134
+\makeMPintoPDFobject=\count135
 \everyMPtoPDFconversion=\toks33
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -659,14 +828,42 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+\c@mv@tabular=\count136
+\c@mv@boldtabular=\count137
+(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
+
 Excluding 'CCSXML' comment.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 17.28pt on input line 113.
+LaTeX Font Info:    Try loading font information for OT1+LinuxBiolinumT-TLF on 
+input line 113.
+
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/OT1LinuxBiolinumT-TLF.fd
+File: OT1LinuxBiolinumT-TLF.fd 2012/11/26 (autoinst) Font definitions for OT1/L
+inuxBiolinumT-TLF.
+)
+LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 17.28pt on input line 113.
 Package microtype Info: Loading generic settings for font family
-(microtype)             `cmss' (encoding: OT1).
+(microtype)             `LinuxBiolinumT-TLF' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/bx/n' in size <17.28> no
+t available
+(Font)              Font shape `OT1/LinuxBiolinumT-TLF/b/n' tried instead on in
+put line 113.
+LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/b/n' will be
+(Font)              scaled to size 17.28pt on input line 113.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 113.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 113.
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
@@ -674,6 +871,38 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 7.0pt on input line 113.
+LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on
+ input line 113.
+
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd
+File: TS1LinuxLibertineT-TLF.fd 2012/11/26 (autoinst) Font definitions for TS1/
+LinuxLibertineT-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 113.
+Package microtype Info: Loading generic settings for font family
+(microtype)             `LinuxLibertineT-TLF' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 9.0pt on input line 113.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 10.95pt on input line 113.
+LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 113.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 9.0pt on input line 113.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 113.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 8.0pt on input line 113.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 8.0pt on input line 113.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 6.2pt on input line 113.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\unskip' on input line 113.
@@ -706,13 +935,28 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 113.
 
-(./carpio-pcsc2017-skylab-body.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1.1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+(./carpio-pcsc2017-skylab-body.tex [1.1{/var/lib/texmf/fonts/map/pdftex/updmap/
+pdftex.map}
 
 ]
-<./images/system_architecture.png, id=97, 142.5325pt x 375.4025pt>
+Overfull \hbox (25.65176pt too wide) in paragraph at lines 27--28
+\OT1/LinuxLibertineT-TLF/m/n/9 (-20) the av-er-age, it pro-vides faster and mor
+e ac-cu-rate computations[[]]. 
+ []
+
+
+Overfull \hbox (19.45361pt too wide) in paragraph at lines 29--30
+[]\OT1/LinuxLibertineT-TLF/m/it/9 (-20) DOCK \OT1/LinuxLibertineT-TLF/m/n/9 (-2
+0) - Used to pre-dict the small molecule-target interactions[[]]. 
+ []
+
+
+Overfull \hbox (11.58063pt too wide) in paragraph at lines 33--34
+[]\OT1/LinuxLibertineT-TLF/m/it/9 (-20) GAMESS \OT1/LinuxLibertineT-TLF/m/n/9 (
+-20) - Used for ab ini-tio molec-u-lar quan-tum chemistry[[]]. 
+ []
+
+<./images/system_architecture.png, id=93, 142.5325pt x 375.4025pt>
 File: ./images/system_architecture.png Graphic file (type png)
 
 <use ./images/system_architecture.png>
@@ -725,14 +969,17 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 47.
 See the caption package documentation for explanation.
 
-<./images/use_case_large.png, id=99, 1307.88625pt x 678.535pt>
+<./images/use_case_large.png, id=95, 1307.88625pt x 678.535pt>
 File: ./images/use_case_large.png Graphic file (type png)
 
 <use ./images/use_case_large.png>
 Package pdftex.def Info: ./images/use_case_large.png used on input line 61.
 (pdftex.def)             Requested size: 501.87138pt x 250.92978pt.
 
-<./images/create_mpi.png, id=100, 499.8675pt x 324.21124pt>
+Underfull \vbox (badness 4899) has occurred while \output is active []
+
+
+<./images/create_mpi.png, id=96, 499.8675pt x 324.21124pt>
 File: ./images/create_mpi.png Graphic file (type png)
 
 <use ./images/create_mpi.png>
@@ -745,16 +992,21 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (42.22998pt too wide) in paragraph at lines 107--108
+Overfull \hbox (39.51962pt too wide) in paragraph at lines 107--108
  [] 
  []
 
-[2.2 <./images/system_architecture.png>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 108.
+ [2.2 <./images/system_architecture.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
 
-<./images/mpi_list_view.png, id=132, 743.77875pt x 161.60374pt>
+<./images/mpi_list_view.png, id=116, 743.77875pt x 161.60374pt>
 File: ./images/mpi_list_view.png Graphic file (type png)
 
 <use ./images/mpi_list_view.png>
@@ -767,7 +1019,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (37.74458pt too wide) in paragraph at lines 113--114
+Overfull \hbox (35.03423pt too wide) in paragraph at lines 113--114
  [] 
  []
 
@@ -780,7 +1032,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--119
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-<./images/add_private_cluster_2.png, id=133, 499.8675pt x 180.675pt>
+<./images/add_private_cluster_2.png, id=117, 499.8675pt x 180.675pt>
 File: ./images/add_private_cluster_2.png Graphic file (type png)
 
 <use ./images/add_private_cluster_2.png>
@@ -794,7 +1046,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (42.22998pt too wide) in paragraph at lines 120--121
+Overfull \hbox (39.51962pt too wide) in paragraph at lines 120--121
  [] 
  []
 
@@ -803,7 +1055,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
-<./images/mpi_detail_view_2.png, id=134, 629.35126pt x 421.575pt>
+<./images/mpi_detail_view_2.png, id=118, 629.35126pt x 421.575pt>
 File: ./images/mpi_detail_view_2.png Graphic file (type png)
 
 <use ./images/mpi_detail_view_2.png>
@@ -817,7 +1069,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (44.03288pt too wide) in paragraph at lines 126--127
+Overfull \hbox (41.32253pt too wide) in paragraph at lines 126--127
  [] 
  []
 
@@ -826,7 +1078,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3.3 <./images/use_case_large.png> <./images/create_mpi.png> <./images/mpi_lis
 t_view.png> <./images/add_private_cluster_2.png>]
-<./images/toolset_list_2.png, id=147, 499.8675pt x 255.95625pt>
+<./images/toolset_list_2.png, id=131, 499.8675pt x 255.95625pt>
 File: ./images/toolset_list_2.png Graphic file (type png)
 
 <use ./images/toolset_list_2.png>
@@ -839,7 +1091,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (17.23514pt too wide) in paragraph at lines 132--133
+Overfull \hbox (14.52478pt too wide) in paragraph at lines 132--133
  [] 
  []
 
@@ -848,7 +1100,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
-<./images/gamess_form_2.png, id=148, 629.35126pt x 182.6825pt>
+<./images/gamess_form_2.png, id=132, 629.35126pt x 182.6825pt>
 File: ./images/gamess_form_2.png Graphic file (type png)
 
 <use ./images/gamess_form_2.png>
@@ -861,7 +1113,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (44.03288pt too wide) in paragraph at lines 138--139
+Overfull \hbox (41.32253pt too wide) in paragraph at lines 138--139
  [] 
  []
 
@@ -870,7 +1122,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
-<./images/tasks_list_view_2.png, id=149, 629.35126pt x 276.03125pt>
+<./images/tasks_list_view_2.png, id=133, 629.35126pt x 276.03125pt>
 File: ./images/tasks_list_view_2.png Graphic file (type png)
 
 <use ./images/tasks_list_view_2.png>
@@ -884,7 +1136,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (44.03288pt too wide) in paragraph at lines 144--145
+Overfull \hbox (41.32253pt too wide) in paragraph at lines 144--145
  [] 
  []
 
@@ -896,7 +1148,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
-<./images/jsmol_detail_view_2.png, id=151, 629.35126pt x 246.9225pt>
+<./images/jsmol_detail_view_2.png, id=135, 629.35126pt x 246.9225pt>
 File: ./images/jsmol_detail_view_2.png Graphic file (type png)
 
 <use ./images/jsmol_detail_view_2.png>
@@ -910,11 +1162,11 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (12.57307pt too wide) in paragraph at lines 149--150
+Overfull \hbox (9.86272pt too wide) in paragraph at lines 149--150
  [] 
  []
 
-<./images/uat_graph.png, id=152, 793.96625pt x 420.57124pt>
+<./images/uat_graph.png, id=136, 793.96625pt x 420.57124pt>
 File: ./images/uat_graph.png Graphic file (type png)
 
 <use ./images/uat_graph.png>
@@ -934,32 +1186,33 @@ Overfull \hbox (12.9269pt too wide) in paragraph at lines 159--160
 [4.4 <./images/mpi_detail_view_2.png> <./images/toolset_list_2.png> <./images/g
 amess_form_2.png> <./images/tasks_list_view_2.png> <./images/jsmol_detail_view_
 2.png> <./images/uat_graph.png>]) (./carpio-pcsc2017-skylab.bbl
-Missing character: There is no Ã in font cmr7!
-Missing character: There is no © in font cmr7!
-Missing character: There is no Ã in font cmr7!
-Missing character: There is no © in font cmr7!
-Missing character: There is no Ã in font cmr7!
-Missing character: There is no © in font cmr7!
-Missing character: There is no Ã in font cmr7!
-Missing character: There is no ‰ in font cmr7!
-Missing character: There is no Ã in font cmr7!
-Missing character: There is no © in font cmr7!
-Missing character: There is no Ã in font cmr7!
-Missing character: There is no § in font cmr7!
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Missing character: There is no Ã in font LinLibertineT-tlf-ot1!
+Missing character: There is no © in font LinLibertineT-tlf-ot1!
+Missing character: There is no Ã in font LinLibertineT-tlf-ot1!
+Missing character: There is no © in font LinLibertineT-tlf-ot1!
+Missing character: There is no Ã in font LinLibertineT-tlf-ot1!
+Missing character: There is no © in font LinLibertineT-tlf-ot1!
+Missing character: There is no Ã in font LinLibertineT-tlf-ot1!
+Missing character: There is no Ã in font LinLibertineT-tlf-ot1!
+Missing character: There is no © in font LinLibertineT-tlf-ot1!
+Missing character: There is no Ã in font LinLibertineT-tlf-ot1!
+Missing character: There is no § in font LinLibertineT-tlf-ot1!
+LaTeX Font Info:    Try loading font information for OT1+zi4 on input line 70.
+
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/ot1zi4.fd
+File: ot1zi4.fd 2014/06/22 OT1/zi4 (Inconsolata)
+)
 Package microtype Info: Loading generic settings for font family
-(microtype)             `cmtt' (encoding: OT1).
+(microtype)             `zi4' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-Underfull \vbox (badness 2057) has occurred while \output is active []
-
- [5.5])
-[6.6
-
-]
+) [5.5]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
- (./carpio-pcsc2017-skylab.aux)
+
+(./carpio-pcsc2017-skylab.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
 
@@ -969,58 +1222,38 @@ Package rerunfilecheck Warning: File `carpio-pcsc2017-skylab.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `carpio-pcsc2017-skylab.out':
-(rerunfilecheck)             Before: 13A00E82B015B22AE3F3615914CBEB79;835
-(rerunfilecheck)             After:  9E78DE70AAAAB4EEF709FC64BA7D44D8;835.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(rerunfilecheck)             Before: 9E78DE70AAAAB4EEF709FC64BA7D44D8;835
+(rerunfilecheck)             After:  AE50573C6B92C709A3208A09147E34A6;814.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
  ) 
 Here is how much of TeX's memory you used:
- 11698 strings out of 494910
- 175088 string characters out of 6179836
- 329170 words of memory out of 5000000
- 14459 multiletter control sequences out of 15000+600000
- 18231 words of font info for 118 fonts, out of 8000000 for 9000
- 197 hyphenation exceptions out of 8191
- 60i,12n,94p,1025b,696s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsection.4.2} has been referenced but does not 
+ 13947 strings out of 493029
+ 217129 string characters out of 6136235
+ 341651 words of memory out of 5000000
+ 16731 multiletter control sequences out of 15000+600000
+ 78256 words of font info for 284 fonts, out of 8000000 for 9000
+ 1302 hyphenation exceptions out of 8191
+ 60i,12n,94p,1025b,720s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{subsection.3.2} has been referenced but does not 
 exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.4.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.5} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.4} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.3} has been referenced but does not ex
-ist, replaced by a fixed one
-
- </home/jachermocilla/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0700.600pk> </
-home/jachermocilla/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0900.600pk></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmtt8.pfb>
-Output written on carpio-pcsc2017-skylab.pdf (6 pages, 702570 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-ot1-4.enc}{/usr/s
+hare/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_c6xmqr.enc}{/usr/share/t
+exlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_xogrpz.enc}{/usr/share/texlive
+/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/share/texlive/texmf
+-dist/fonts/enc/dvips/libertine/lbtn_lu7m2n.enc}{/usr/share/texlive/texmf-dist/
+fonts/enc/dvips/libertine/lbtn_c7kyj5.enc}</usr/share/texlive/texmf-dist/fonts/
+type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/libertine/LinBiolinumT.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/libertine/LinBiolinumTB.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/libertine/LinLibertineTB.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/libertine/LinLibertineTI.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/txfonts/txsy.pfb>
+Output written on carpio-pcsc2017-skylab.pdf (5 pages, 833950 bytes).
 PDF statistics:
- 283 PDF objects out of 1000 (max. 8388607)
- 230 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 500000)
- 22696 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 230 PDF objects out of 1000 (max. 8388607)
+ 192 compressed objects within 2 object streams
+ 57 named destinations out of 1000 (max. 500000)
+ 39592 words of extra memory for PDF output out of 42996 (max. 10000000)
 
