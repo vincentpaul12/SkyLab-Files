@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.8)  8 JAN 2017 13:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.8)  8 JAN 2017 14:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -960,58 +960,28 @@ Overfull \hbox (11.58063pt too wide) in paragraph at lines 33--34
 File: ./images/system_architecture.png Graphic file (type png)
 
 <use ./images/system_architecture.png>
-Package pdftex.def Info: ./images/system_architecture.png used on input line 46
+Package pdftex.def Info: ./images/system_architecture.png used on input line 52
 .
 (pdftex.def)             Requested size: 92.34488pt x 224.84225pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 47.
+(caption)                particular \caption on input line 53.
 See the caption package documentation for explanation.
 
 <./images/use_case_large.png, id=95, 1307.88625pt x 678.535pt>
 File: ./images/use_case_large.png Graphic file (type png)
 
 <use ./images/use_case_large.png>
-Package pdftex.def Info: ./images/use_case_large.png used on input line 61.
+Package pdftex.def Info: ./images/use_case_large.png used on input line 67.
 (pdftex.def)             Requested size: 501.87138pt x 250.92978pt.
-
-Underfull \vbox (badness 4899) has occurred while \output is active []
-
 
 <./images/create_mpi.png, id=96, 499.8675pt x 324.21124pt>
 File: ./images/create_mpi.png Graphic file (type png)
 
 <use ./images/create_mpi.png>
-Package pdftex.def Info: ./images/create_mpi.png used on input line 107.
+Package pdftex.def Info: ./images/create_mpi.png used on input line 113.
 (pdftex.def)             Requested size: 249.93314pt x 162.10522pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 108.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (39.51962pt too wide) in paragraph at lines 107--108
- [] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 108.
- [2.2 <./images/system_architecture.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
-
- []
-
-<./images/mpi_list_view.png, id=116, 743.77875pt x 161.60374pt>
-File: ./images/mpi_list_view.png Graphic file (type png)
-
-<use ./images/mpi_list_view.png>
-Package pdftex.def Info: ./images/mpi_list_view.png used on input line 113.
-(pdftex.def)             Requested size: 245.44774pt x 53.32939pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1019,12 +989,39 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (35.03423pt too wide) in paragraph at lines 113--114
+Overfull \hbox (39.51962pt too wide) in paragraph at lines 113--114
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 114.
+ [2.2 <./images/system_architecture.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+ []
+
+<./images/mpi_list_view.png, id=116, 743.77875pt x 161.60374pt>
+File: ./images/mpi_list_view.png Graphic file (type png)
+
+<use ./images/mpi_list_view.png>
+Package pdftex.def Info: ./images/mpi_list_view.png used on input line 119.
+(pdftex.def)             Requested size: 245.44774pt x 53.32939pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 120.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (35.03423pt too wide) in paragraph at lines 119--120
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
@@ -1037,31 +1034,8 @@ File: ./images/add_private_cluster_2.png Graphic file (type png)
 
 <use ./images/add_private_cluster_2.png>
 Package pdftex.def Info: ./images/add_private_cluster_2.png used on input line 
-120.
+126.
 (pdftex.def)             Requested size: 249.93314pt x 90.33727pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 121.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (39.51962pt too wide) in paragraph at lines 120--121
- [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
-
- []
-
-<./images/mpi_detail_view_2.png, id=118, 629.35126pt x 421.575pt>
-File: ./images/mpi_detail_view_2.png Graphic file (type png)
-
-<use ./images/mpi_detail_view_2.png>
-Package pdftex.def Info: ./images/mpi_detail_view_2.png used on input line 126.
-
-(pdftex.def)             Requested size: 251.73604pt x 168.627pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1069,7 +1043,30 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (41.32253pt too wide) in paragraph at lines 126--127
+Overfull \hbox (39.51962pt too wide) in paragraph at lines 126--127
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+<./images/mpi_detail_view_2.png, id=118, 629.35126pt x 421.575pt>
+File: ./images/mpi_detail_view_2.png Graphic file (type png)
+
+<use ./images/mpi_detail_view_2.png>
+Package pdftex.def Info: ./images/mpi_detail_view_2.png used on input line 132.
+
+(pdftex.def)             Requested size: 251.73604pt x 168.627pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 133.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (41.32253pt too wide) in paragraph at lines 132--133
  [] 
  []
 
@@ -1082,30 +1079,8 @@ t_view.png> <./images/add_private_cluster_2.png>]
 File: ./images/toolset_list_2.png Graphic file (type png)
 
 <use ./images/toolset_list_2.png>
-Package pdftex.def Info: ./images/toolset_list_2.png used on input line 132.
+Package pdftex.def Info: ./images/toolset_list_2.png used on input line 138.
 (pdftex.def)             Requested size: 224.9383pt x 115.17923pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 133.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (14.52478pt too wide) in paragraph at lines 132--133
- [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
-
- []
-
-<./images/gamess_form_2.png, id=132, 629.35126pt x 182.6825pt>
-File: ./images/gamess_form_2.png Graphic file (type png)
-
-<use ./images/gamess_form_2.png>
-Package pdftex.def Info: ./images/gamess_form_2.png used on input line 138.
-(pdftex.def)             Requested size: 251.73604pt x 73.07169pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1113,7 +1088,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (41.32253pt too wide) in paragraph at lines 138--139
+Overfull \hbox (14.52478pt too wide) in paragraph at lines 138--139
  [] 
  []
 
@@ -1122,13 +1097,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
-<./images/tasks_list_view_2.png, id=133, 629.35126pt x 276.03125pt>
-File: ./images/tasks_list_view_2.png Graphic file (type png)
+<./images/gamess_form_2.png, id=132, 629.35126pt x 182.6825pt>
+File: ./images/gamess_form_2.png Graphic file (type png)
 
-<use ./images/tasks_list_view_2.png>
-Package pdftex.def Info: ./images/tasks_list_view_2.png used on input line 144.
-
-(pdftex.def)             Requested size: 251.73604pt x 110.41054pt.
+<use ./images/gamess_form_2.png>
+Package pdftex.def Info: ./images/gamess_form_2.png used on input line 144.
+(pdftex.def)             Requested size: 251.73604pt x 73.07169pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1141,10 +1115,33 @@ Overfull \hbox (41.32253pt too wide) in paragraph at lines 144--145
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+
+ []
+
+<./images/tasks_list_view_2.png, id=133, 629.35126pt x 276.03125pt>
+File: ./images/tasks_list_view_2.png Graphic file (type png)
+
+<use ./images/tasks_list_view_2.png>
+Package pdftex.def Info: ./images/tasks_list_view_2.png used on input line 150.
+
+(pdftex.def)             Requested size: 251.73604pt x 110.41054pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 151.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (41.32253pt too wide) in paragraph at lines 150--151
+ [] 
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
@@ -1152,17 +1149,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--148
 File: ./images/jsmol_detail_view_2.png Graphic file (type png)
 
 <use ./images/jsmol_detail_view_2.png>
-Package pdftex.def Info: ./images/jsmol_detail_view_2.png used on input line 14
-9.
+Package pdftex.def Info: ./images/jsmol_detail_view_2.png used on input line 15
+5.
 (pdftex.def)             Requested size: 220.27623pt x 86.42415pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 150.
+(caption)                particular \caption on input line 156.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (9.86272pt too wide) in paragraph at lines 149--150
+Overfull \hbox (9.86272pt too wide) in paragraph at lines 155--156
  [] 
  []
 
@@ -1170,16 +1167,16 @@ Overfull \hbox (9.86272pt too wide) in paragraph at lines 149--150
 File: ./images/uat_graph.png Graphic file (type png)
 
 <use ./images/uat_graph.png>
-Package pdftex.def Info: ./images/uat_graph.png used on input line 159.
+Package pdftex.def Info: ./images/uat_graph.png used on input line 165.
 (pdftex.def)             Requested size: 254.07439pt x 134.58554pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 160.
+(caption)                particular \caption on input line 166.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (12.9269pt too wide) in paragraph at lines 159--160
+Overfull \hbox (12.9269pt too wide) in paragraph at lines 165--166
  [] 
  []
 
@@ -1215,45 +1212,36 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
 (./carpio-pcsc2017-skylab.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
+Package rerunfilecheck Info: File `carpio-pcsc2017-skylab.out' has not changed.
 
-
-Package rerunfilecheck Warning: File `carpio-pcsc2017-skylab.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `carpio-pcsc2017-skylab.out':
-(rerunfilecheck)             Before: 9E78DE70AAAAB4EEF709FC64BA7D44D8;835
-(rerunfilecheck)             After:  AE50573C6B92C709A3208A09147E34A6;814.
+(rerunfilecheck)             Checksum: AE50573C6B92C709A3208A09147E34A6;814.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
  ) 
 Here is how much of TeX's memory you used:
- 13947 strings out of 493029
- 217129 string characters out of 6136235
+ 13943 strings out of 493029
+ 217032 string characters out of 6136235
  341651 words of memory out of 5000000
  16731 multiletter control sequences out of 15000+600000
- 78256 words of font info for 284 fonts, out of 8000000 for 9000
+ 77983 words of font info for 282 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  60i,12n,94p,1025b,720s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsection.3.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-ot1-4.enc}{/usr/s
-hare/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_c6xmqr.enc}{/usr/share/t
-exlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_xogrpz.enc}{/usr/share/texlive
-/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/share/texlive/texmf
--dist/fonts/enc/dvips/libertine/lbtn_lu7m2n.enc}{/usr/share/texlive/texmf-dist/
-fonts/enc/dvips/libertine/lbtn_c7kyj5.enc}</usr/share/texlive/texmf-dist/fonts/
-type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/libertine/LinBiolinumT.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/libertine/LinBiolinumTB.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/libertine/LinLibertineTB.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/libertine/LinLibertineTI.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/txfonts/txsy.pfb>
-Output written on carpio-pcsc2017-skylab.pdf (5 pages, 833950 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-ot1-4.enc}{/usr
+/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_c6xmqr.enc}{/usr/share
+/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_xogrpz.enc}{/usr/share/texli
+ve/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/share/texlive/tex
+mf-dist/fonts/enc/dvips/libertine/lbtn_lu7m2n.enc}{/usr/share/texlive/texmf-dis
+t/fonts/enc/dvips/libertine/lbtn_c7kyj5.enc}</usr/share/texlive/texmf-dist/font
+s/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/libertine/LinBiolinumT.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/libertine/LinBiolinumTB.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/libertine/LinLibertineTB.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/libertine/LinLibertineTI.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/txfonts/txsy.pfb>
+Output written on carpio-pcsc2017-skylab.pdf (5 pages, 834239 bytes).
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
- 192 compressed objects within 2 object streams
- 57 named destinations out of 1000 (max. 500000)
+ 229 PDF objects out of 1000 (max. 8388607)
+ 191 compressed objects within 2 object streams
+ 56 named destinations out of 1000 (max. 500000)
  39592 words of extra memory for PDF output out of 42996 (max. 10000000)
 

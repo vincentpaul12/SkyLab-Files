@@ -13,7 +13,7 @@ Peak-Two Cloud (P2C) is a private cloud based on OpenStack designed for research
 Presented in this paper is Skylab\footnote{https://github.com/vincentpaul12/SkyLab}, a workflow web application on top of vCluster that addresses the concern above. Specifically, SkyLab will  
 
 \begin{enumerate}
-	\item allow users to select HPC tools and execute them via web interface; 
+	\item allow users to execute HPC tools via web interface; 
 	\item enable developers to easily extend it to support additional HPC tools;
 	\item enable users to share their instantiated clusters; and
 	\item support displaying of results using third party tools.
@@ -39,6 +39,12 @@ The following are the tools that are currently supported by SkyLab since they ar
 The next section describes the design and implementation of SkyLab.
         
 \section{Design and Implementation}
+
+SkyLab is implemented as a web application in order to provide users access to their HPC applications using just a web browser. This makes it challenging to implement given that multiple tools must be supported. Also, HPC applications executed through SkyLab have their own process space separate from the process on which SkyLab is running. This  makes it diffucult to keep track of the applications, and may even pose security threats.
+
+
+
+
 
 \subsection{System Architecture}
 SkyLab functions as a web front-end for vCluster which is built on top of Peak-Two Cloud.
