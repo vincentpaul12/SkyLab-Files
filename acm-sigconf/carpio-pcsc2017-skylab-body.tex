@@ -14,9 +14,27 @@ Presented in this paper is Skylab\footnote{https://github.com/vincentpaul12/SkyL
 
 \begin{enumerate}
 	\item allow users to select HPC tools and execute them via web interface; 
-	\item enable developers to easily extend it to support additional HPC tools; and
+	\item enable developers to easily extend it to support additional HPC tools;
+	\item enable users to share their instantiated clusters; and
 	\item support displaying of results using third party tools.
 \end{enumerate}
+   
+The following are the tools that are currently supported by SkyLab since they are commonly used by collaborators from different research groups.
+
+\begin{itemize}
+    	\item AutoDock - A software used to simulate protein-ligand docking\cite{morris2009autodock4}.
+
+        \item AutoDock Vina - A software similar to AutoDock 4 but on the average, it provides faster and more accurate computations\cite{JCC:JCC21334}. 
+            
+		\item DOCK - Used to predict the small molecule-target interactions\cite{lang2009dock}.
+            
+      	\item Quantum ESPRESSO - An integrated software suite of tools for ab-initio molecular dynamics (MD) simulations and electronic structure calculations\cite{QE-2009}.
+
+  		\item GAMESS - Used for ab initio molecular quantum chemistry. \cite{1993gamess}
+            
+ 	    \item Ray - Uses parallel genome assemblies for parallel DNA sequencing \cite{boisvert_ray_2012}.
+
+\end{itemize}   
       
 \section {Related Work}
 Ganglia is a system designed to monitor high performance computing systems. It uses a hierarchical model in managing the system of clusters. It uses optimized data structures and communication algorithms to achieve scalability with high concurrency. It is claimed to be used by over 500 clusters around the world. This implies that the system is tested and trusted to be used for real-world applications\cite{1395654820040701}.
@@ -82,29 +100,7 @@ Default task execution flow via executable class:
 	
 \section{Results and Discussion}
 
-\subsection{Supported Tools}
-		
-	\begin{description}
-    	\item[AutoDock] \hfill \break 
-        	It is a software used to simulate protein-ligand docking\cite{morris2009autodock4}.
-        \item[AutoDock Vina] \hfill \break
-            It is a software similar to AutoDock 4 but on the average, it provides faster and more accurate computations\cite{JCC:JCC21334}. 
-            
-            
-            %It achieves significant improvements in the %average accuracy of the binding mode predictions, %while also being up to two orders of magnitude %faster than AutoDock 4
-            
-		\item[DOCK] \hfill \break
-            It is used to predict the small molecule-target interactions\cite{lang2009dock}.
-            
-      	\item[Quantum ESPRESSO] \hfill \break
-            It is an integrated software suite of tools for ab-initio molecular dynamics (MD) simulations and electronic structure calculations\cite{QE-2009}.
 
-  		\item[GAMESS] \hfill \break
-            It is used for ab initio molecular quantum chemistry. \cite{1993gamess}
-            
- 	    \item[Ray] \hfill \break
-            It is uses parallel genome assemblies for parallel DNA sequencing \cite{boisvert_ray_2012}.
-          \end{description}
           
 \subsection{System Features}
 The system's interface offers different functionalities that simplifies MPI cluster and task management.
