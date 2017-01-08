@@ -8,14 +8,15 @@ There are three categories of cloud computing services namely, Software as a Ser
 
 Most scientific applications require high performance computing (HPC) which needs CPU intensive computations and large data storage. To be able to host such applications, several computers interconnected in a network such as clusters are needed. This makes scientific computing very costly in terms of hardware infrastructure investment. With the advancement in cloud computing, these scientific applications  can be deployed in the cloud without worrying about hardware costs and maintenance \cite {Ahuja2012}. However, studies have shown that network transmission delay is the major drawback in deploying HPC applications in the cloud\cite {Brandic2011}. 
 
-Peak-Two Cloud (P2C) is a private cloud based on OpenStack designed for research in deploying HPC applications in the cloud\cite {Hermocilla2014}. One of the features introduced by P2C is vCluster. vCluster is a tool that enables a user to deploy a working (Message Passing Interface) cluster on demand and to terminate it after use. P2C has been used by researchers in various fields including bioinformatics, quantum chemistry, and molecular dynamics. These researchers belong to different research groups who have no investment in HPC infrastructure due to limited funding but requires heavy computing resources for their research. vCluster, however, is a command line application which make it difficult for non-technical users (scientists and researchers) to use. A more user-friendly interface is needed in order to enable scientists to focus more on their science rather than on the command line.
+Peak-Two Cloud (P2C) is a private cloud based on OpenStack designed for research in deploying HPC applications in the cloud\cite {Hermocilla2014}. One of the features introduced by P2C is vCluster. vCluster is a tool that enables a user to deploy a working (Message Passing Interface) cluster on demand and to terminate it after use. P2C has been used by researchers in various fields including bioinformatics, quantum chemistry, and molecular dynamics. These researchers belong to different research groups who have little or no investment in HPC infrastructure due to limited funding but requires heavy computing resources for their research. vCluster, however, is a command line application which make it difficult for non-technical users (physicists, chemists, and biologists) to use. A more user-friendly interface is needed in order to enable scientists to focus more on their science rather than on learning and using the command  line.
 
-Presented in this paper is Skylab, a workflow web application on top of vCluster that addresses the concern above. Specifically, SkyLab will  
-	\begin{enumerate}
-		\item allow users to select tools and execute them via web interface; 
-        \item enable developers to easily extend it to support additional tools; and
-		\item support displaying of results using third party tools.
-	\end{enumerate}
+Presented in this paper is Skylab\footnote{https://github.com/vincentpaul12/SkyLab}, a workflow web application on top of vCluster that addresses the concern above. Specifically, SkyLab will  
+
+\begin{enumerate}
+	\item allow users to select HPC tools and execute them via web interface; 
+	\item enable developers to easily extend it to support additional HPC tools; and
+	\item support displaying of results using third party tools.
+\end{enumerate}
       
 \section {Related Work}
 Ganglia is a system designed to monitor high performance computing systems. It uses a hierarchical model in managing the system of clusters. It uses optimized data structures and communication algorithms to achieve scalability with high concurrency. It is claimed to be used by over 500 clusters around the world. This implies that the system is tested and trusted to be used for real-world applications\cite{1395654820040701}.
