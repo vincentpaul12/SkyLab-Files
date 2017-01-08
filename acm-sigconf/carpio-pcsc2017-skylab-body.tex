@@ -40,14 +40,15 @@ The next section describes the design and implementation of SkyLab.
         
 \section{Design and Implementation}
 
-SkyLab is implemented as a web application in order to provide users access to their HPC applications using just a web browser. This makes it challenging to implement given that multiple tools must be supported. Also, HPC applications executed through SkyLab have their own process space, separate from the process on which SkyLab is running. This makes it diffucult to keep track of the applications and may even pose security threats.
+SkyLab is implemented as a web application in order to provide users access to their HPC applications using just a web browser. This makes it challenging to implement given that multiple tools must be supported. Also, HPC applications executed through SkyLab have their own process space, separate from the process on which SkyLab is running. This makes it diffucult to keep track of the applications and may even pose security threats. 
 
-SkyLab functions as a web front-end for vCluster which is built on top of Peak-Two Cloud.
-	\begin{center}			
+Figure ~\ref{fig:sysarch} shows the layers on which SkyLab sits on. At the bottom layer is P2C which provides the cloud infrastructure. vCluster is for on-demand provisioning and termination of MPI clusters. p2c-tools is the command line tool for activating the required HPC tool.
+
+	\begin{figure}[h]			
 		%\includegraphics[width=92px,height=224px]{./images/system_architecture.png}	
 		\includegraphics[scale=0.30]{./images/skylab_layers.jpg}			
-		\captionof{figure}{System Architecture of SkyLab}			
-	\end{center}	
+		\caption{\label{fig:sysarch}Layers on which SkyLab sits on.}	
+	\end{figure}	
     
 
     %\includegraphics {./images/system_architecture.png}
@@ -60,7 +61,8 @@ SkyLab functions as a web front-end for vCluster which is built on top of Peak-T
 	
     \begin{figure*}[ht]
       \centering
-      \includegraphics[width=500px,height=250px]{./images/use_case_large.png}
+      %\includegraphics[width=500px,height=250px]{./images/use_case_large.png}
+      \includegraphics[scale=0.38]{./images/use_case_large.png}
       \caption{Use Case Diagram of SkyLab}\label{System Architecture}
     \end{figure*}
 
@@ -87,14 +89,6 @@ Default task execution flow via executable class:
 	\end{enumerate}	
 
 	
-\subsection{Technologies}
-	\begin{itemize}
-   		\item Programming Language: Python 
-   		\item Web Framework: Django  
-   		\item DBMS: MariaDB  
-   		\item Cloud Infrastructure: Peak-Two Cloud 
-	\end{itemize}	
-	
 \section{Results and Discussion}
 
 
@@ -106,7 +100,7 @@ The system's interface offers different functionalities that simplifies MPI clus
 		\item The user is authenticated by logging in with his @up.edu.ph Google account.
 		\item The user can create an MPI cluster with optional tool activations. 
 			\begin{center}			
-				\includegraphics[scale=0.50]{./images/create_mpi.png}
+				\includegraphics[scale=0.5]{./images/create_mpi.png}
 				\captionof{figure}{MPI creation form}			
 			\end{center}	
 	
