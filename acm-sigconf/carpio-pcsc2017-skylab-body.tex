@@ -40,7 +40,7 @@ The following are the tools that are currently supported by SkyLab. They are com
       
 \section{Design and Implementation}
 
-SkyLab is implemented as a web application in order to provide users access to their HPC applications using just a web browser. This makes it challenging to implement given that multiple tools must be supported. Also, HPC applications executed through SkyLab have their own process space, separate from the process on which SkyLab is running. This makes it diffucult to keep track of the applications and may even pose security threats. 
+SkyLab is implemented as a web application (using the Django Web Framework\footnote{https://www.djangoproject.com/}) in order to provide users access to their HPC applications by just using a web browser. This makes it challenging to implement given that multiple tools must be supported. Also, HPC applications executed through SkyLab have their own process space, separate from the process on which SkyLab is running. This makes it diffucult to keep track of the applications and may even pose security threats. 
 
 Figure ~\ref{fig:sysarch} shows the layers on which SkyLab is built on. At the bottom layer is P2C which provides the cloud infrastructure. vCluster is for on-demand provisioning and termination of MPI clusters. p2c-tools is the command line tool for activating the required HPC tool.
 
@@ -59,6 +59,7 @@ The use case on which SkyLab was designed is shown in Figure ~\ref{fig:usecase}.
       \includegraphics[scale=0.36]{./images/use_case_large.png}
       \caption{\label{fig:usecase}Use Case Diagram}
     \end{figure*}
+
 
 \subsection{MPI clusters} 
 
