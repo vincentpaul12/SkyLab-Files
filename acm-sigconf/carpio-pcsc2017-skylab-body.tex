@@ -68,7 +68,7 @@ Figure ~\ref{fig:sysarch} shows the layers on which SkyLab is built on. At the b
     \end{figure*}
 
 \subsection{User Access}
-Access to SkyLab is restricted to individuals with \textit{@up.edu.ph} email only (hosted by Google). This is implemented  using the django-allauth\footnote{http://www.intenct.nl/projects/django-allauth/} package. Tables used with \textit{socialaccount\_} prefix, as shown in Figure ~\ref{fig:dbschema}, are used for authentication. If a user is logged in to this mail, SkyLab can already be accessed.
+Access to SkyLab is restricted to individuals with \textit{@up.edu.ph} email only (hosted by Google). This is implemented  using the django-allauth\footnote{http://www.intenct.nl/projects/django-allauth/} package. Tables used with \textit{socialaccount\_} prefix, as shown in Figure ~\ref{fig:dbschema}, are used for authentication. If a user is logged in to this email, SkyLab can already be accessed.
 
 
 \subsection{MPI cluster deployment} 
@@ -95,71 +95,53 @@ Default task execution flow via executable class:
 
 	
 \section{Results and Discussion}
-
-
-          
-\subsection{System Features}
-The system's interface offers different functionalities that simplifies MPI cluster and task management.
 		
-	\begin{itemize}
-		\item The user is authenticated by logging in with his @up.edu.ph Google account.
-		\item The user can create an MPI cluster with optional tool activations. 
-			\begin{center}			
+			\begin{figure}			
 				%\includegraphics[scale=0.5]{./images/create_mpi.png}
 				\includegraphics[scale=0.93]{./images/n_create_cluster_impi_printed.png}
-				\captionof{figure}{MPI creation form}			
-			\end{center}	
+				\captionof{figure}{MPI creation form.The user can create an MPI cluster with optional tool activations.}			
+			\end{figure}	
 	
-		\item The user can monitor visible public and private MPI clusters.  \newline	
-		\begin{center}			
+		\begin{figure}			
 			%\includegraphics[scale=0.33]{./images/mpi_list_view.png}
 			\includegraphics{./images/n_active_cluster_printed.png}
-			\captionof{figure}{MPI cluster table}		
-		\end{center}
+			\captionof{figure}{MPI cluster table.The user can monitor visible public and private MPI clusters.}		
+		\end{figure}
 		
 	
-		\item The user can make a private cluster visible by entering a valid share key. \newline
-		\begin{center}			
+		\begin{figure}			
 			\includegraphics[scale=0.50]{./images/add_private_cluster_2.png}		
-			\captionof{figure}{Add private cluster form}			
-		\end{center}	
+			\captionof{figure}{Add private cluster form.The user can make a private cluster visible by entering a valid share key.}			
+		\end{figure}	
 		
-		\item The user can view details about a MPI cluster. If the user is the cluster's owner he has the option to delete the cluster. \newline
-		\begin{center}			
+		\begin{figure}			
 			%\includegraphics[scale=0.40]{./images/mpi_detail_view_2.png}			
 			\includegraphics{./images/n_new_cluster_created_printed}
-			\captionof{figure}{MPI detail view}			
-		\end{center}	
+			\captionof{figure}{MPI detail view.The user can view details about a MPI cluster. If the user is the cluster's owner he has the option to delete the cluster.}			
+		\end{figure}	
 		
-		\item The user can select from a list which tool does he want to use. 	
-		\begin{center}			
+		\begin{figure}			
 			%\includegraphics[scale=0.45]{./images/toolset_list_2.png}			
 			\includegraphics[scale=0.93]{./images/n_toolsets_printed.png}			
-			\captionof{figure}{Toolset list view}			
-		\end{center}
+			\captionof{figure}{Toolset list view.The user can select from a list which tool does he want to use.}			
+		\end{figure}
 		
-		\item The user can submit a task by filling up a tool's task creation form. \newline
-		\begin{center}			
+		\begin{figure}			
 			%\includegraphics[scale=0.40]{./images/gamess_form_2.png}			
 			\includegraphics[scale=0.93]{./images/n_impi_parameters_printed.png}
-			\captionof{figure}{GAMESS task creation form}			
-		\end{center}	
+			\captionof{figure}{GAMESS task creation form.The user can submit a task by filling up a tool's task creation form.}			
+		\end{figure}	
 		
-		\item The user can monitor created tasks. \newline
-		\begin{center}			
+		\begin{figure}			
 			%\includegraphics[scale=0.40]{./images/tasks_list_view_2.png}			
 			\includegraphics[scale=0.93]{./images/n_tasks_printed.png}			
-			\captionof{figure}{Task table view}			
-		\end{center}	
-		\item The user can view results of tasks. JSmol renders the compatible output files\cite{IJCH:IJCH201300024}. \newline
-		\begin{center}			
-			\includegraphics[scale=0.35]{./images/jsmol_detail_view_2.png}			
-			\captionof{figure}{Task detail view}			
-		\end{center}	
+			\captionof{figure}{Task table view.The user can monitor created tasks.}			
+		\end{figure}	
 
-		    
-		
-	\end{itemize}
+		\begin{figure}			
+			\includegraphics[scale=0.35]{./images/jsmol_detail_view_2.png}			
+			\captionof{figure}{Task detail view.he user can view results of tasks. JSmol renders the compatible output files\cite{IJCH:IJCH201300024}}			
+		\end{figure}	
 	
 \section{Evaluation}
 	\begin{center}			
