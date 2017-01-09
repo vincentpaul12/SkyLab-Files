@@ -60,14 +60,24 @@ The use case on which SkyLab was designed is shown in Figure ~\ref{fig:usecase}.
       \caption{\label{fig:usecase}Use Case Diagram}
     \end{figure*}
 
+	\begin{figure*}[ht]
+      \centering
+      %\includegraphics[width=500px,height=250px]{./images/use_case_large.png}
+      \includegraphics[scale=1.5]{./images/db_schema.png}
+      \caption{\label{fig:dbschema}Database Schema}
+    \end{figure*}
 
-\subsection{MPI clusters} 
+\subsection{User Access}
+Access to SkyLab is restricted to individuals with @up.edu.ph email only using django-allauth\footnote{http://www.intenct.nl/projects/django-allauth/}. Tables used with socialaccount\_ prefix as shown in Figure ~\ref{fig:dbschema} are used for authentication.
+
+
+\subsection{MPI cluster deployment} 
 
 The system spawns a thread (MPIThread) for each active cluster which handles the connection to the assigned cluster via Secure Shell (SSH). Creation and deletion of clusters is done by using vCluster commands while tool activation is done by using p2c-tools. The thread also manages task queuing and execution.
 		
 A cluster is either classified as public or private. If it is set to public, every user in the system can use it. On the other hand, for private clusters, the cluster will only be visible to the owner. The owner has the option to share the cluster to other users via the share key generated for the said cluster. 		
 
-\subsection{Tool sets} 
+\subsection{Toolsets} 
 The system searches for Python packages inside the assigned modules folder and install it on server start. The tool sets will then be available for use with the system. The package must have a Python module named \emph{install.py} which contains function calls for integrating the package with the system. The package must also contain the corresponding views and executable classes for each sub-tool.  
 
 \subsection{Tasks} 
@@ -181,7 +191,7 @@ The system achieved its main objectives but its features can still be improved a
 
 % ACKNOWLEDGMENT
 \section*{Acknowledgment}
-This work is supported by the Philippine Department of Science and Technology Accelerated Science and Technology Human Resource Development Program.
+This work is supported by the Philippine Department of Science and Technology Accelerated Science and Technology Human Resource Development Program. We also would like to thank our collaborators from the Physics Department and Institute of Chemistry especially Dr. Abraham Padama and Dr. Marlon Manalo.
 %Many thanks to...
 % BIBLIOGRAPHY
 % \nocite{*}
