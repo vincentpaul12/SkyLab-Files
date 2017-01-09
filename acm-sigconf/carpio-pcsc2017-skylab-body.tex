@@ -68,7 +68,7 @@ Figure ~\ref{fig:sysarch} shows the layers on which SkyLab is built on. At the b
     \end{figure*}
 
 \subsection{User Access}
-Access to SkyLab is restricted to individuals with \textit{@up.edu.ph} email (hosted by Google) only. This is implemented  using the django-allauth\footnote{http://www.intenct.nl/projects/django-allauth/} package. Tables used with \textit{socialaccount\_} prefix, as shown in Figure ~\ref{fig:dbschema}, are used for authentication. If a user is logged in to this email, SkyLab can already be accessed.
+Access to SkyLab is restricted to individuals with \textit{@up.edu.ph} email (hosted by Google) only. This is implemented  using the django-allauth\footnote{http://www.intenct.nl/projects/django-allauth/} package. Tables used with \textit{socialaccount\_} prefix, as shown in Figure ~\ref{fig:dbschema}, are used for authentication. If a user is logged in to this email, SkyLab can directly be accessed.
 
 
 \subsection{MPI cluster deployment} 
@@ -98,7 +98,7 @@ Default task execution flow via executable class:
 		
 \begin{figure}			
 	\includegraphics[scale=0.93]{./images/n_create_cluster_impi_printed.png}
-	\captionof{figure}{MPI cluster creation. A cluster name cmsc165\_image\_processing is being created with Impi tool being activated.}			
+	\captionof{figure}{MPI cluster creation. A cluster named \textit{cmsc165\_image\_processing} is being created with the \textit{Impi} tool checked to be activated.}			
 \end{figure}	
 	
 \begin{figure}			
@@ -113,7 +113,7 @@ Default task execution flow via executable class:
 		
 \begin{figure}			
 	\includegraphics{./images/n_new_cluster_created_printed}
-	\captionof{figure}{MPI cluster details view. The detailed view of the cmsc165\_image\_processing MPI cluster with a list of toolsets that can be activated.}			
+	\captionof{figure}{MPI cluster details view. The detailed view of the \textit{cmsc165\_image\_processing} MPI cluster with a list of toolsets that can be activated.}			
 \end{figure}	
 		
 \begin{figure}			
@@ -132,7 +132,7 @@ Default task execution flow via executable class:
 
 \begin{figure}			
 	\includegraphics[scale=0.35]{./images/jsmol_detail_view_2.png}			
-	\captionof{figure}{Task detail view. The user can view results of tasks. JSmol renders the compatible output files\cite{IJCH:IJCH201300024} from a GAMESS task.}			
+	\captionof{figure}{Task detail view. The user can view results of tasks. JSmol \cite{IJCH:IJCH201300024} renders the compatible output files from a GAMESS task.}			
 \end{figure}	
 	
 \section{Evaluation}
