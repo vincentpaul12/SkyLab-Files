@@ -37,6 +37,8 @@ The following are the tools that are currently supported by SkyLab. They are com
  	    \item \textit{Impi} - MPI implementation of some image processing routines \cite{trajano2010}. 
 
 \end{itemize}   
+
+The use case on which SkyLab was designed is shown in Figure ~\ref{fig:usecase}. Users must first create a cluster then activate the desired tool to use.
       
 \section{Design and Implementation}
 
@@ -50,9 +52,7 @@ Figure ~\ref{fig:sysarch} shows the layers on which SkyLab is built on. At the b
 		\caption{\label{fig:sysarch}Layers on which SkyLab is built on.}	
 	\end{figure}	
 
-The use case on which SkyLab was designed is shown in Figure ~\ref{fig:usecase}. Users must first create a cluster then activate the desired tool to use.
 
-    
     \begin{figure*}[ht]
       \centering
       %\includegraphics[width=500px,height=250px]{./images/use_case_large.png}
@@ -68,7 +68,7 @@ The use case on which SkyLab was designed is shown in Figure ~\ref{fig:usecase}.
     \end{figure*}
 
 \subsection{User Access}
-Access to SkyLab is restricted to individuals with @up.edu.ph email only using django-allauth\footnote{http://www.intenct.nl/projects/django-allauth/}. Tables used with socialaccount\_ prefix as shown in Figure ~\ref{fig:dbschema} are used for authentication.
+Access to SkyLab is restricted to individuals with \textit{@up.edu.ph} email only (hosted by Google). This is implemented  using the django-allauth\footnote{http://www.intenct.nl/projects/django-allauth/} package. Tables used with \textit{socialaccount\_} prefix, as shown in Figure ~\ref{fig:dbschema}, are used for authentication. If a user is logged in to this mail, SkyLab can already be accessed.
 
 
 \subsection{MPI cluster deployment} 
