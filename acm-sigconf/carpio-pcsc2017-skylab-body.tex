@@ -44,7 +44,7 @@ The use case on which SkyLab was designed is shown in Figure ~\ref{fig:usecase}.
 
 SkyLab is implemented as a web application (using the Django Web Framework\footnote{https://www.djangoproject.com/}) in order to provide users access to their HPC applications by just using a web browser. This makes it challenging to implement given that multiple tools must be supported. Also, HPC applications executed through SkyLab have their own process space, separate from the process on which SkyLab is running. This makes it diffucult to keep track of the applications and may even pose security threats. 
 
-Figure ~\ref{fig:sysarch} shows the layers on which SkyLab is built on. At the bottom layer is P2C which provides the cloud infrastructure. vCluster is for on-demand provisioning and termination of MPI clusters. p2c-tools is the command line tool for activating the required HPC tool.
+Figure ~\ref{fig:sysarch} shows the layers on which SkyLab is built on. At the bottom layer is \textit{P2C} which provides the cloud infrastructure. \textit{vCluster} is for on-demand provisioning and termination of MPI clusters. \textit{p2c-tools} is the command-line tool for activating the required HPC tool.
 
 	\begin{figure}[h]			
 		%\includegraphics[width=92px,height=224px]{./images/system_architecture.png}	
@@ -57,18 +57,18 @@ Figure ~\ref{fig:sysarch} shows the layers on which SkyLab is built on. At the b
       \centering
       %\includegraphics[width=500px,height=250px]{./images/use_case_large.png}
       \includegraphics[scale=0.36]{./images/use_case_large.png}
-      \caption{\label{fig:usecase}Use Case Diagram}
+      \caption{\label{fig:usecase}Use case diagram.}
     \end{figure*}
 
 	\begin{figure*}[ht]
       \centering
       %\includegraphics[width=500px,height=250px]{./images/use_case_large.png}
       \includegraphics[scale=1.5]{./images/db_schema.png}
-      \caption{\label{fig:dbschema}MariaDB database schema generated from Django data models of SkyLab.}
+      \caption{\label{fig:dbschema}MariaDB database schema generated from Skylab's data models.}
     \end{figure*}
 
 \subsection{User Access}
-Access to SkyLab is restricted to individuals with \textit{@up.edu.ph} email (hosted by Google) only. This is implemented  using the django-allauth\footnote{http://www.intenct.nl/projects/django-allauth/} package. Tables used with \textit{socialaccount\_} prefix, as shown in Figure ~\ref{fig:dbschema}, are used for authentication. If a user is logged in to this email, SkyLab can directly be accessed.
+Access to SkyLab is restricted to individuals with \textit{@up.edu.ph} email (hosted by Google) only. This is implemented  using the django-allauth\footnote{http://www.intenct.nl/projects/django-allauth/} package. Tables used with \textit{socialaccount\_} prefix, as shown in Figure ~\ref{fig:dbschema}, are used for authentication. Users logged in to this email can directly access SkyLab.
 
 
 \subsection{MPI cluster deployment} 
@@ -95,10 +95,12 @@ Default task execution flow via executable class:
 
 	
 \section{Results and Discussion}
+Figures ~\ref{fig:mpicreate} to ~\ref{fig:jsmol} shows some of the screenshots that achieve the use case (Figure ~\ref{fig:usecase}) for SkyLab.
+
 		
 \begin{figure}			
 	\includegraphics[scale=0.93]{./images/n_create_cluster_impi_printed.png}
-	\captionof{figure}{MPI cluster creation. A cluster named \textit{cmsc165\_image\_processing} is being created with the \textit{Impi} tool checked to be activated.}			
+	\caption{\label{fig:mpicreate}MPI cluster creation. A cluster named \textit{cmsc165\_image\_processing} is being created with the \textit{Impi} tool checked to be activated.}			
 \end{figure}	
 	
 \begin{figure}			
@@ -132,8 +134,9 @@ Default task execution flow via executable class:
 
 \begin{figure}			
 	\includegraphics[scale=0.35]{./images/jsmol_detail_view_2.png}			
-	\captionof{figure}{Task detail view. The user can view results of tasks. JSmol \cite{IJCH:IJCH201300024} renders the compatible output files from a GAMESS task.}			
+	\caption{\label{fig:jsmol}Task detail view. The user can view results of tasks. JSmol \cite{IJCH:IJCH201300024} renders the compatible output files from a GAMESS task.}			
 \end{figure}	
+	
 	
 \section{Evaluation}
 	\begin{center}			
@@ -150,7 +153,7 @@ One of the main inspirations for developing SkyLab is the Yabi system. It provid
 Another related project is Web Interface for mpiBLAST (WImpiBLAST). It supports mpiBLAST, a parallel implementation of Basic Local Alignment Search Tool (BLAST). BLAST is a software used for sequence homology similarity search in large databases of gene sequences. mpiBLAST can utilize HPC clusters to achieve faster computing speeds but it requires knowledge in using MPI commands to benefit from its advantages. WImpiBLAST addresses this problem by providing the user a web interface to simplify the steps to use mpiBLAST\cite{9686120720140601}.   
 	
 \section{Conclusion and Future Work}
-The system created allows users to manage MPI clusters and submit tasks without the need for technical expertise in scripting. This makes the advantages of HPC available to non-technical users. This is achieved by parsing form inputs to generate commands for task execution. Task files can be download from the server and output files are displayed with the help of JSmol\cite{IJCH:IJCH201300024}. The system is also configured to install tool sets found in the modules folder making it possible to accommodate additional tools. Based on the user acceptance test conducted, the users found the system to be acceptable in terms of the criteria provided, in general. 
+The system created allowed users to manage MPI clusters and submit tasks without the need for technical expertise in command line and scripting. This makes the advantages of HPC available to non-technical users. This is achieved by parsing form inputs to generate commands for task execution. Task files can be download from the server and output files are displayed with the help of JSmol\cite{IJCH:IJCH201300024}. The system is also configured to install tool sets found in the modules folder making it possible to accommodate additional tools. Based on the user acceptance test conducted, the users found the system to be acceptable in terms of the criteria provided, in general. 
 
 The system achieved its main objectives but its features can still be improved and additional features can be introduced. Improved input parameter checking and error handling will make the system more robust. There are still use cases of tools that are yet to be supported. Input file generation can make the process more interactive and more customizable.  Workflow design support will enable users to run complex tasks. Support for custom MPI programs will make it easier for developers to utilize the system as a test environment. Task scheduling and resource management algorithms can be used to efficiently handle resource-intensive or time consuming tasks. For example, a cluster can borrow resources from idle clusters. These recommendations will provide the users a better experience in using the system for academic and research purposes. 
 
@@ -165,7 +168,7 @@ The system achieved its main objectives but its features can still be improved a
 
 % ACKNOWLEDGMENT
 \section*{Acknowledgment}
-This work is supported by the Philippine Department of Science and Technology Accelerated Science and Technology Human Resource Development Program. We also would like to thank our collaborators who provided the use cases for the tools: Dr. Abraham Padama(Materials Science), Dr. Marlon Manalo(Chemistry), and Prof. Arian Jacildo(Bioinformatics).
+This work is supported by the Philippine Department of Science and Technology Accelerated Science and Technology Human Resource Development Program. We also would like to thank our collaborators who provided the use cases for the tools: Dr. Abraham Padama (Materials Science), Dr. Marlon Manalo (Chemistry), and Prof. Arian Jacildo (Bioinformatics).
 %Many thanks to...
 % BIBLIOGRAPHY
 % \nocite{*}
