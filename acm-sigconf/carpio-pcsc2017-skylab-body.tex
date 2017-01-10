@@ -74,30 +74,41 @@ Access to SkyLab is restricted to individuals with \textit{@up.edu.ph} email (ho
 SkyLab is deployed using the Apache Web Server via the \textit{mod\_wsgi} module. During bootup, toolsets are first loaded (by parsing the modules directory) and logging is initialized. As a final step, an instance of \textit{MPIThreadManager} class is created. \textit{MPIThreadManager} (see bootskylab.py) is responsible for maintaining the connection to the node on which vCluster can be invoked. It opens a shell used to issue commands to the vCluster node. Lastly, it creates an \textit{MPIThread} for each MPI cluster in the database. 
 
 \subsection{MPI cluster management} 
-An \textit{MPIThread}(see bootskylab.py) is spawned for each active cluster which handles the connection to the assigned cluster via Secure Shell (SSH). Creation and deletion of clusters is done by using \textit{vCluster} commands while tool activation is done by using \textit{p2c-tools}. The thread also manages task queuing and execution.
+An \textit{MPIThread}(see bootskylab.py) is spawned for each active cluster which handles the connection to the assigned cluster via Secure Shell (SSH). Creation and deletion of clusters is done by using \textit{vCluster} commands while tool activation is done by using \textit{p2c-tools}. The thread also manages task queuing and execution. Table \textit{skylab\_mpicluster} in Figure ~\ref{fig:dbschema} stores data on MPI clusters.
 		
 A cluster is either classified as public or private. If it is set to public, every user in the system can use it. On the other hand, for private clusters, the cluster will only be visible to the owner. The owner has the option to share the cluster to other users via the share key generated for the said cluster. 		
 
 \subsection{Toolsets} 
-As described in the Bootup section, the system searches for packages inside the \textit{modules} directory and load them at bootup. The toolsets will then be available for use with the system. The package must have a module named \textit{install.py} which contains function calls for integrating the package to  SkyLab. The package must also contain the corresponding \textit{views} and \textit{executable} classes for each tool.
+As described in the Bootup section, the system searches for packages inside the \textit{modules} directory and load them at bootup. The toolsets will then be available for use with the system. The package must have a module named \textit{install.py} which contains function calls for integrating the package to  SkyLab. The package must also contain the corresponding \textit{views} and \textit{executable} classes for each tool. Tables \textit{skylab\_toolset} and  \textit{skylab\_tool} in Figure ~\ref{fig:dbschema} stores data for the tools.
 
-All tools must inherit from \textit{P2CToolGeneric}(see basetool.py) and override the methods to handle tool specific operations. The following are the methods:
+All tools must inherit from \textit{P2CToolGeneric}(see basetool.py) and override the methods to handle tool specific operations. The following are the methods. Listing 1 shows an example implementation.
 
 \begin{itemize}
-	\item \textit{test\_ssh\_connection} - Tests the SSH connection to the MPI cluster
+	\item \textit{test\_ssh\_connection} - Tests the SSH connection to the MPI cluster hosting the tool.
 	\item \textit{sftp\_file\_transfer\_callback} - Callback method after an sftp operation.
 	\item \textit{clear\_or\_create\_dirs} - Create task directories on the cluster.
 	\item \textit{run\_commands} - Invoke the tool specific commands on the cluster. Must be overridden.
-	\item \textit{handle\_input\_files} - Process the input files for the tools. Must be overridden.
-	\item \textit{run\_tool} - Methods that gets executed in the task thread. Must be overridden.
+	\item \textit{handle\_input\_files} - Process the input files for the tool. Must be overridden.
+	\item \textit{run\_tool} - Method that gets executed in a task. Must be overridden.
 	\item \textit{handle\_output\_files} - Process output files. Must be overridden.
 \end{itemize}
 
-
+\begin{lstlisting}[label=runtool, language=Python, frame=single, caption=run\_tool method implementation for GAMESS.]
+def run_tool(self, **kwargs):
+    self.task.change_status
+    	(status_msg='Task started',
+    	status_code=150)
+    self.clear_or_create_dirs
+    	(task_remote_subdirs=
+    	['input', 'output'])
+    self.handle_input_files()
+    self.run_commands()
+    self.handle_output_files()
+\end{lstlisting}
 
 
 \subsection{Tasks} 
-The system creates a task object for each task input by the user. A signal will then be sent and it is then received by the corresponding MPIThread which queues the task for execution. When a task is executed, it calls the assigned executable class with the given parameters. On connection error, the task waits exponentially before retrying. If the server crashes while running task execution, the task is just restarted.				
+The system creates a task object for each task input by the user. A signal will then be sent and it is then received by the corresponding MPIThread which queues the task for execution. When a task is executed, it calls the assigned executable class with the given parameters. On connection error, the task waits using exponential backoff before retrying. If the server crashes while running task execution, the task is just restarted. Table \textit{skylab\_task}  in Figure ~\ref{fig:dbschema} stores data for the tasks.				
 		
 Default task execution flow via executable class:			
 	\begin{enumerate}
@@ -110,7 +121,7 @@ Default task execution flow via executable class:
 	\end{enumerate}	
 
 	
-\section{Results and Discussion}
+\section{Results}
 Figures ~\ref{fig:mpicreate} to ~\ref{fig:jsmol} show some of the screenshots that realize the use case (Figure ~\ref{fig:usecase}) for SkyLab.
 
 		

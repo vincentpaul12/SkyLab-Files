@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.8)  10 JAN 2017 17:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.8)  10 JAN 2017 18:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -652,6 +652,31 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count128
 \@thisrulewidth=\dimen154
 )
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count129
+\lst@gtempboxa=\box34
+\lst@token=\toks32
+\lst@length=\count130
+\lst@currlwidth=\dimen155
+\lst@column=\count131
+\lst@pos=\count132
+\lst@lostspace=\dimen156
+\lst@width=\dimen157
+\lst@newlines=\count133
+\lst@lineno=\count134
+\lst@maxwidth=\dimen158
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count135
+\lst@skipnumbers=\count136
+\lst@framebox=\box35
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
 (./carpio-pcsc2017-skylab.aux)
 \openout1 = `carpio-pcsc2017-skylab.aux'.
 
@@ -746,7 +771,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box34
+\AtBeginShipoutBox=\box36
 Package hyperref Info: Link coloring OFF on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -755,7 +780,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count129
+\c@section@level=\count137
 )
 LaTeX Info: Redefining \ref on input line 32.
 LaTeX Info: Redefining \pageref on input line 32.
@@ -768,17 +793,17 @@ LaTeX Info: Redefining \nameref on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count130
-\scratchdimen=\dimen155
-\scratchbox=\box35
-\nofMPsegments=\count131
-\nofMParguments=\count132
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count133
-\MPscratchDim=\dimen156
-\MPnumerator=\count134
-\makeMPintoPDFobject=\count135
-\everyMPtoPDFconversion=\toks33
+\scratchcounter=\count138
+\scratchdimen=\dimen159
+\scratchbox=\box37
+\nofMPsegments=\count139
+\nofMParguments=\count140
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count141
+\MPscratchDim=\dimen160
+\MPnumerator=\count142
+\makeMPintoPDFobject=\count143
+\everyMPtoPDFconversion=\toks34
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -828,15 +853,17 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@mv@tabular=\count136
-\c@mv@boldtabular=\count137
+\c@mv@tabular=\count144
+\c@mv@boldtabular=\count145
 (/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count146
 
 Excluding 'CCSXML' comment.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
@@ -956,138 +983,144 @@ File: ./images/db_schema.png Graphic file (type png)
 <use ./images/db_schema.png>
 Package pdftex.def Info: ./images/db_schema.png used on input line 66.
 (pdftex.def)             Requested size: 448.43422pt x 238.4904pt.
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 96.
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 107.
  [2.2 <./images/skylab_layers.jpg>]
-<./images/n_create_cluster_impi_printed.png, id=121, 246.6816pt x 144.54pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3.3 <./images/use_case_large.png> <./images/db_schema.png>]
+<./images/n_create_cluster_impi_printed.png, id=139, 246.6816pt x 144.54pt>
 File: ./images/n_create_cluster_impi_printed.png Graphic file (type png)
 
 <use ./images/n_create_cluster_impi_printed.png>
 Package pdftex.def Info: ./images/n_create_cluster_impi_printed.png used on inp
-ut line 118.
+ut line 129.
 (pdftex.def)             Requested size: 229.4115pt x 134.42079pt.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/it' will be
-(Font)              scaled to size 9.0pt on input line 119.
+(Font)              scaled to size 9.0pt on input line 130.
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
 []\OT1/LinuxLibertineT-TLF/b/n/9 Figure 4: |[]MPI clus-ter cre-ation. A clus-te
 r named
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-<./images/n_active_cluster_printed.png, id=122, 246.6816pt x 144.54pt>
+<./images/n_active_cluster_printed.png, id=140, 246.6816pt x 144.54pt>
 File: ./images/n_active_cluster_printed.png Graphic file (type png)
 
 <use ./images/n_active_cluster_printed.png>
 Package pdftex.def Info: ./images/n_active_cluster_printed.png used on input li
-ne 123.
+ne 134.
 (pdftex.def)             Requested size: 246.68098pt x 144.53963pt.
 
-Overfull \hbox (5.5335pt too wide) in paragraph at lines 123--124
+Overfull \hbox (5.5335pt too wide) in paragraph at lines 134--135
  [][] 
  []
 
-<./images/add_private_cluster_2.png, id=123, 499.8675pt x 180.675pt>
+<./images/add_private_cluster_2.png, id=141, 499.8675pt x 180.675pt>
 File: ./images/add_private_cluster_2.png Graphic file (type png)
 
 <use ./images/add_private_cluster_2.png>
 Package pdftex.def Info: ./images/add_private_cluster_2.png used on input line 
-128.
+139.
 (pdftex.def)             Requested size: 249.93314pt x 90.33727pt.
 
-Overfull \hbox (8.78564pt too wide) in paragraph at lines 128--129
+Overfull \hbox (8.78564pt too wide) in paragraph at lines 139--140
  [][] 
  []
 
-<./images/n_new_cluster_created_printed.png, id=124, 246.6816pt x 144.54pt>
+<./images/n_new_cluster_created_printed.png, id=142, 246.6816pt x 144.54pt>
 File: ./images/n_new_cluster_created_printed.png Graphic file (type png)
 
 <use ./images/n_new_cluster_created_printed.png>
 Package pdftex.def Info: ./images/n_new_cluster_created_printed.png used on inp
-ut line 133.
+ut line 144.
 (pdftex.def)             Requested size: 246.68098pt x 144.53963pt.
 
-Overfull \hbox (5.5335pt too wide) in paragraph at lines 133--134
+Overfull \hbox (5.5335pt too wide) in paragraph at lines 144--145
  [][] 
  []
 
-<./images/n_toolsets_printed.png, id=125, 246.6816pt x 144.54pt>
+<./images/n_toolsets_printed.png, id=143, 246.6816pt x 144.54pt>
 File: ./images/n_toolsets_printed.png Graphic file (type png)
 
 <use ./images/n_toolsets_printed.png>
-Package pdftex.def Info: ./images/n_toolsets_printed.png used on input line 138
+Package pdftex.def Info: ./images/n_toolsets_printed.png used on input line 149
 .
 (pdftex.def)             Requested size: 229.4115pt x 134.42079pt.
 
-<./images/n_impi_parameters_printed.png, id=126, 246.6816pt x 144.54pt>
+<./images/n_impi_parameters_printed.png, id=144, 246.6816pt x 144.54pt>
 File: ./images/n_impi_parameters_printed.png Graphic file (type png)
 
 <use ./images/n_impi_parameters_printed.png>
 Package pdftex.def Info: ./images/n_impi_parameters_printed.png used on input l
-ine 142.
+ine 153.
 (pdftex.def)             Requested size: 229.4115pt x 134.42079pt.
 
-<./images/n_tasks_printed.png, id=127, 246.6816pt x 144.54pt>
+<./images/n_tasks_printed.png, id=145, 246.6816pt x 144.54pt>
 File: ./images/n_tasks_printed.png Graphic file (type png)
 
 <use ./images/n_tasks_printed.png>
-Package pdftex.def Info: ./images/n_tasks_printed.png used on input line 147.
+Package pdftex.def Info: ./images/n_tasks_printed.png used on input line 158.
 (pdftex.def)             Requested size: 229.4115pt x 134.42079pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--148
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
 []\OT1/LinuxLibertineT-TLF/b/n/9 Figure 10: |Task ta-ble view. Impi task on the
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--148
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
 \OT1/LinuxLibertineT-TLF/b/n/9 cmsc165[]image[]processing clus-ter is cur-rentl
 y queued
  []
 
-<./images/jsmol_detail_view_2.png, id=128, 629.35126pt x 246.9225pt>
+<./images/jsmol_detail_view_2.png, id=146, 629.35126pt x 246.9225pt>
 File: ./images/jsmol_detail_view_2.png Graphic file (type png)
 
 <use ./images/jsmol_detail_view_2.png>
-Package pdftex.def Info: ./images/jsmol_detail_view_2.png used on input line 15
-2.
+Package pdftex.def Info: ./images/jsmol_detail_view_2.png used on input line 16
+3.
 (pdftex.def)             Requested size: 220.27623pt x 86.42415pt.
 
-<./images/uat_graph.png, id=131, 793.96625pt x 420.57124pt>
+<./images/uat_graph.png, id=149, 793.96625pt x 420.57124pt>
 File: ./images/uat_graph.png Graphic file (type png)
 
 <use ./images/uat_graph.png>
-Package pdftex.def Info: ./images/uat_graph.png used on input line 159.
+Package pdftex.def Info: ./images/uat_graph.png used on input line 170.
 (pdftex.def)             Requested size: 254.07439pt x 134.58554pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 160.
+(caption)                particular \caption on input line 171.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (12.9269pt too wide) in paragraph at lines 159--160
+Overfull \hbox (12.9269pt too wide) in paragraph at lines 170--171
  [] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3.3 <./images/use_case_large.png> <./images/db_schema.png>]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [4.4 <./images/n_create_cluster_impi_printed.png (PNG copy)> <./images/n_activ
+e_cluster_printed.png (PNG copy)> <./images/add_private_cluster_2.png> <./image
+s/n_new_cluster_created_printed.png (PNG copy)> <./images/n_toolsets_printed.pn
+g (PNG copy)>]
+Overfull \vbox (26.63129pt too high) has occurred while \output is active []
 
-Overfull \vbox (84.74677pt too high) has occurred while \output is active []
 
-
-[4.4 <./images/n_create_cluster_impi_printed.png (PNG copy)> <./images/n_active
-_cluster_printed.png (PNG copy)> <./images/add_private_cluster_2.png> <./images
-/n_new_cluster_created_printed.png (PNG copy)> <./images/n_toolsets_printed.png
- (PNG copy)> <./images/n_impi_parameters_printed.png (PNG copy)> <./images/uat_
-graph.png>]) (./carpio-pcsc2017-skylab.bbl
+[5.5 <./images/n_impi_parameters_printed.png (PNG copy)> <./images/n_tasks_prin
+ted.png (PNG copy)> <./images/jsmol_detail_view_2.png> <./images/uat_graph.png>
+]) (./carpio-pcsc2017-skylab.bbl
 Missing character: There is no Ã in font LinLibertineT-tlf-ot1!
 Missing character: There is no © in font LinLibertineT-tlf-ot1!
 Missing character: There is no Ã in font LinLibertineT-tlf-ot1!
@@ -1108,10 +1141,10 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `zi4' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [5.5 <./images/n_tasks_printed.png (PNG copy)> <./images/jsmol_detail_view_2.p
-ng>]) [6.6
 
-]
+Underfull \vbox (badness 4254) has occurred while \output is active []
+
+) [6.6]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 109.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 109.
 
@@ -1120,17 +1153,17 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 109.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 109.
 Package rerunfilecheck Info: File `carpio-pcsc2017-skylab.out' has not changed.
 
-(rerunfilecheck)             Checksum: 9A6B0CBBB68EAF344911C6D8E0A86E94;741.
+(rerunfilecheck)             Checksum: FAEADA33D47DCC7F69AFCAFF5B62DF4D;726.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
  ) 
 Here is how much of TeX's memory you used:
- 13982 strings out of 493029
- 218215 string characters out of 6136235
- 343102 words of memory out of 5000000
- 16742 multiletter control sequences out of 15000+600000
- 81758 words of font info for 296 fonts, out of 8000000 for 9000
+ 15360 strings out of 493029
+ 238069 string characters out of 6136235
+ 387494 words of memory out of 5000000
+ 18087 multiletter control sequences out of 15000+600000
+ 82512 words of font info for 300 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,12n,94p,1025b,663s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,12n,94p,1025b,1214s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-ot1-4.enc}{/usr
 /share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_zajy4r.enc}{/usr/share
 /texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_c6xmqr.enc}{/usr/share/texli
@@ -1146,10 +1179,10 @@ e1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/libertine/LinLibertineTBI.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/libertine/LinLibertineTI.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/txfonts/txsy.pfb>
-Output written on carpio-pcsc2017-skylab.pdf (6 pages, 1036200 bytes).
+Output written on carpio-pcsc2017-skylab.pdf (6 pages, 1038668 bytes).
 PDF statistics:
- 244 PDF objects out of 1000 (max. 8388607)
- 207 compressed objects within 3 object streams
- 60 named destinations out of 1000 (max. 500000)
+ 260 PDF objects out of 1000 (max. 8388607)
+ 223 compressed objects within 3 object streams
+ 71 named destinations out of 1000 (max. 500000)
  39589 words of extra memory for PDF output out of 42996 (max. 10000000)
 
