@@ -196,22 +196,6 @@
 \newblock
 
 
-\bibitem[\protect\citeauthoryear{Massie, Chun, and Culler}{Massie
-  et~al\mbox{.}}{2004}]%
-        {1395654820040701}
-\bibfield{author}{\bibinfo{person}{Matthew~L. Massie},
-  \bibinfo{person}{Brent~N. Chun}, {and} \bibinfo{person}{David~E. Culler}.}
-  \bibinfo{year}{2004}\natexlab{}.
-\newblock \showarticletitle{The ganglia distributed monitoring system: design,
-  implementation, and experience.}
-\newblock \bibinfo{journal}{{\it Parallel Comput.}} \bibinfo{volume}{30},
-  \bibinfo{number}{7} (\bibinfo{year}{2004}), \bibinfo{pages}{817 -- 840}.
-\newblock
-\showISSN{01678191}
-\showURL{%
-\url{http://search.ebscohost.com/login.aspx?direct=true&db=a9h&AN=13956548&site=ehost-live}}
-
-
 \bibitem[\protect\citeauthoryear{Morris, Huey, Lindstrom, Sanner, Belew,
   Goodsell, and Olson}{Morris et~al\mbox{.}}{2009}]%
         {morris2009autodock4}

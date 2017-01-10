@@ -122,7 +122,7 @@ Default task execution flow via executable class:
 
 	
 \section{Results}
-Figures ~\ref{fig:mpicreate} to ~\ref{fig:jsmol} show some of the screenshots that realize the use case (Figure ~\ref{fig:usecase}) for SkyLab.
+Figures ~\ref{fig:mpicreate} to ~\ref{fig:jsmol} show some of the screenshots that realize the use case (Figure ~\ref{fig:usecase}) for SkyLab. The screenshots were obtained from a SkyLab instance that is hosted on P2C itself.
 
 		
 \begin{figure}			
@@ -173,9 +173,7 @@ Figures ~\ref{fig:mpicreate} to ~\ref{fig:jsmol} show some of the screenshots th
 	The system has been evaluated by 56 respondents by answering a survey based on Questionnaire for User Interface Satisfaction (QUIS) \cite{chin1988development}. Respondents are students who are unfamiliar with both HPC tools and the concept of MPI systems.  Respondents are asked to test features of SkyLab by following a set of instructions and using input files provided. On the average, the users rated their overall experience with SkyLab to 6.9/10. The users listed the simplicity of the user interface to be the most positive aspect of the system while the slow speed of task processing is said to be the most negative. Majority of the tools supported by SkyLab have inherently long processing time which is not known to the respondents. The system does not focus on optimizing the said tools to achieve better performance but rather it focuses on simplifying the user's task submission process. 
 
 \section{Related Work}
-Ganglia is a system designed to monitor high performance computing systems. It uses a hierarchical model in managing the system of clusters. It uses optimized data structures and communication algorithms to achieve scalability with high concurrency. It is claimed to be used by over 500 clusters around the world. This implies that the system is tested and trusted to be used for real-world applications\cite{1395654820040701}.
-	    
-One of the main inspirations for developing SkyLab is the Yabi system. It provides a web interface with support for workflow environments with focus on introducing HPC applications to non-technical audience. Users can create and reuse workflows, and manage large amounts of data while system administrators can configure tools via the web interface as well. It is currently in use by multiple institutions, and is maintained as an open-source project\cite{7411021620120101}.	    	    
+One of the main motivation for developing SkyLab is the Yabi system. It provides a web interface with support for workflow environments with focus on introducing HPC applications to non-technical audience. Users can create and reuse workflows, and manage large amounts of data while system administrators can configure tools via the web interface as well. It is currently in use by multiple institutions, and is maintained as an open-source project\cite{7411021620120101}.	    	    
 	    
 Another related project is Web Interface for mpiBLAST (WImpiBLAST). It supports mpiBLAST, a parallel implementation of Basic Local Alignment Search Tool (BLAST). BLAST is a software used for sequence homology similarity search in large databases of gene sequences. mpiBLAST can utilize HPC clusters to achieve faster computing speeds but it requires knowledge in using MPI commands to benefit from its advantages. WImpiBLAST addresses this problem by providing the user a web interface to simplify the steps to use mpiBLAST\cite{9686120720140601}.   
 	
