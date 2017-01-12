@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.5)  11 JAN 2017 16:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.5)  12 JAN 2017 10:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -990,8 +990,11 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 96.
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 107.
+(Font)              scaled to size 9.0pt on input line 106.
  [2.2 <./images/skylab_layers.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3.3 <./images/use_case_large.png> <./images/db_schema.png>]
@@ -1000,12 +1003,12 @@ File: ./images/n_create_cluster_impi_printed.png Graphic file (type png)
 
 <use ./images/n_create_cluster_impi_printed.png>
 Package pdftex.def Info: ./images/n_create_cluster_impi_printed.png used on inp
-ut line 129.
+ut line 128.
 (pdftex.def)             Requested size: 229.4115pt x 134.42079pt.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/it' will be
-(Font)              scaled to size 9.0pt on input line 130.
+(Font)              scaled to size 9.0pt on input line 129.
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
 []\OT1/LinuxLibertineT-TLF/b/n/9 Figure 4: |[]MPI clus-ter cre-ation. A clus-te
 r named
  []
@@ -1015,10 +1018,10 @@ File: ./images/n_active_cluster_printed.png Graphic file (type png)
 
 <use ./images/n_active_cluster_printed.png>
 Package pdftex.def Info: ./images/n_active_cluster_printed.png used on input li
-ne 134.
+ne 133.
 (pdftex.def)             Requested size: 246.68098pt x 144.53963pt.
 
-Overfull \hbox (5.5335pt too wide) in paragraph at lines 134--135
+Overfull \hbox (5.5335pt too wide) in paragraph at lines 133--134
  [][] 
  []
 
@@ -1027,10 +1030,10 @@ File: ./images/add_private_cluster_2.png Graphic file (type png)
 
 <use ./images/add_private_cluster_2.png>
 Package pdftex.def Info: ./images/add_private_cluster_2.png used on input line 
-139.
+138.
 (pdftex.def)             Requested size: 249.93314pt x 90.33727pt.
 
-Overfull \hbox (8.78564pt too wide) in paragraph at lines 139--140
+Overfull \hbox (8.78564pt too wide) in paragraph at lines 138--139
  [][] 
  []
 
@@ -1039,10 +1042,10 @@ File: ./images/n_new_cluster_created_printed.png Graphic file (type png)
 
 <use ./images/n_new_cluster_created_printed.png>
 Package pdftex.def Info: ./images/n_new_cluster_created_printed.png used on inp
-ut line 144.
+ut line 143.
 (pdftex.def)             Requested size: 246.68098pt x 144.53963pt.
 
-Overfull \hbox (5.5335pt too wide) in paragraph at lines 144--145
+Overfull \hbox (5.5335pt too wide) in paragraph at lines 143--144
  [][] 
  []
 
@@ -1050,7 +1053,7 @@ Overfull \hbox (5.5335pt too wide) in paragraph at lines 144--145
 File: ./images/n_toolsets_printed.png Graphic file (type png)
 
 <use ./images/n_toolsets_printed.png>
-Package pdftex.def Info: ./images/n_toolsets_printed.png used on input line 149
+Package pdftex.def Info: ./images/n_toolsets_printed.png used on input line 148
 .
 (pdftex.def)             Requested size: 229.4115pt x 134.42079pt.
 
@@ -1059,23 +1062,23 @@ File: ./images/n_impi_parameters_printed.png Graphic file (type png)
 
 <use ./images/n_impi_parameters_printed.png>
 Package pdftex.def Info: ./images/n_impi_parameters_printed.png used on input l
-ine 153.
+ine 152.
 (pdftex.def)             Requested size: 229.4115pt x 134.42079pt.
 
 <./images/n_tasks_printed.png, id=145, 246.6816pt x 144.54pt>
 File: ./images/n_tasks_printed.png Graphic file (type png)
 
 <use ./images/n_tasks_printed.png>
-Package pdftex.def Info: ./images/n_tasks_printed.png used on input line 158.
+Package pdftex.def Info: ./images/n_tasks_printed.png used on input line 157.
 (pdftex.def)             Requested size: 229.4115pt x 134.42079pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 []\OT1/LinuxLibertineT-TLF/b/n/9 Figure 10: |Task ta-ble view. Impi task on the
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 \OT1/LinuxLibertineT-TLF/b/n/9 cmsc165[]image[]processing clus-ter is cur-rentl
 y queued
  []
@@ -1085,44 +1088,39 @@ File: ./images/jsmol_detail_view_2.png Graphic file (type png)
 
 <use ./images/jsmol_detail_view_2.png>
 Package pdftex.def Info: ./images/jsmol_detail_view_2.png used on input line 16
-3.
+2.
 (pdftex.def)             Requested size: 220.27623pt x 86.42415pt.
 Package epstopdf Info: Source file: <./images/rating.eps>
 (epstopdf)                    date: 2017-01-11 16:24:05
 (epstopdf)                    size: 22534 bytes
 (epstopdf)             Output file: <./images/rating-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-01-11 16:23:32
-(epstopdf)                    size: 6886 bytes
+(epstopdf)                    date: 2017-01-11 16:24:11
+(epstopdf)                    size: 6889 bytes
 (epstopdf)             Command: <repstopdf --outfile=./images/rating-eps-conver
 ted-to.pdf ./images/rating.eps>
-(epstopdf)             \includegraphics on input line 170.
-runsystem(repstopdf --outfile=./images/rating-eps-converted-to.pdf ./images/rat
-ing.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <./images/rating-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-01-11 16:24:11
-(epstopdf)                    size: 6889 bytes.
+(epstopdf)             \includegraphics on input line 169.
+Package epstopdf Info: Output file is already uptodate.
 
 <./images/rating-eps-converted-to.pdf, id=149, 252.945pt x 144.54pt>
 File: ./images/rating-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./images/rating-eps-converted-to.pdf>
 Package pdftex.def Info: ./images/rating-eps-converted-to.pdf used on input lin
-e 170.
+e 169.
 (pdftex.def)             Requested size: 252.94438pt x 144.53963pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 171.
+(caption)                particular \caption on input line 170.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (11.79689pt too wide) in paragraph at lines 170--171
+Overfull \hbox (11.79689pt too wide) in paragraph at lines 169--170
  [] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2443) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1173,13 +1171,13 @@ Package rerunfilecheck Info: File `carpio-pcsc2017-skylab.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
  ) 
 Here is how much of TeX's memory you used:
- 15351 strings out of 493029
- 237877 string characters out of 6136235
- 387431 words of memory out of 5000000
+ 15357 strings out of 493029
+ 238036 string characters out of 6136235
+ 387517 words of memory out of 5000000
  18084 multiletter control sequences out of 15000+600000
- 81862 words of font info for 296 fonts, out of 8000000 for 9000
+ 82616 words of font info for 300 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,12n,94p,1025b,1214s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,12n,94p,1025b,1961s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-ot1-4.enc}{/usr
 /share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_zajy4r.enc}{/usr/share
 /texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_c6xmqr.enc}{/usr/share/texli
@@ -1195,7 +1193,7 @@ e1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/libertine/LinLibertineTBI.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/libertine/LinLibertineTI.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/txfonts/txsy.pfb>
-Output written on carpio-pcsc2017-skylab.pdf (6 pages, 1015351 bytes).
+Output written on carpio-pcsc2017-skylab.pdf (6 pages, 1015529 bytes).
 PDF statistics:
  260 PDF objects out of 1000 (max. 8388607)
  223 compressed objects within 3 object streams
