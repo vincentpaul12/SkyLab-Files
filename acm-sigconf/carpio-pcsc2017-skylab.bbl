@@ -100,6 +100,23 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Deelman, Singh, Su, Blythe, Gil, Kesselman,
+  Mehta, Vahi, Berriman, Good, et~al\mbox{.}}{Deelman et~al\mbox{.}}{2005}]%
+        {deelman2005pegasus}
+\bibfield{author}{\bibinfo{person}{Ewa Deelman}, \bibinfo{person}{Gurmeet
+  Singh}, \bibinfo{person}{Mei-Hui Su}, \bibinfo{person}{James Blythe},
+  \bibinfo{person}{Yolanda Gil}, \bibinfo{person}{Carl Kesselman},
+  \bibinfo{person}{Gaurang Mehta}, \bibinfo{person}{Karan Vahi},
+  \bibinfo{person}{G~Bruce Berriman}, \bibinfo{person}{John Good}, {and}
+  \bibinfo{person}{others}.} \bibinfo{year}{2005}\natexlab{}.
+\newblock \showarticletitle{Pegasus: A framework for mapping complex scientific
+  workflows onto distributed systems}.
+\newblock \bibinfo{journal}{{\em Scientific Programming\/}}
+  \bibinfo{volume}{13}, \bibinfo{number}{3} (\bibinfo{year}{2005}),
+  \bibinfo{pages}{219--237}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Giannozzi, Baroni, Bonini, Calandra, Car,
   Cavazzoni, Ceresoli, Chiarotti, Cococcioni, Dabo, {Dal Corso}, de~Gironcoli,
   Fabris, Fratesi, Gebauer, Gerstmann, Gougoussis, Kokalj, Lazzeri,
@@ -162,6 +179,21 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Hull, Wolstencroft, Stevens, Goble, Pocock,
+  Li, and Oinn}{Hull et~al\mbox{.}}{2006}]%
+        {hull2006taverna}
+\bibfield{author}{\bibinfo{person}{Duncan Hull}, \bibinfo{person}{Katy
+  Wolstencroft}, \bibinfo{person}{Robert Stevens}, \bibinfo{person}{Carole
+  Goble}, \bibinfo{person}{Mathew~R Pocock}, \bibinfo{person}{Peter Li}, {and}
+  \bibinfo{person}{Tom Oinn}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Taverna: a tool for building and running workflows
+  of services}.
+\newblock \bibinfo{journal}{{\em Nucleic acids research\/}}
+  \bibinfo{volume}{34}, \bibinfo{number}{suppl 2} (\bibinfo{year}{2006}),
+  \bibinfo{pages}{W729--W732}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Hunter, Macgregor, Szabo, Wellington, and
   Bellgard}{Hunter et~al\mbox{.}}{2012}]%
         {7411021620120101}
@@ -193,6 +225,23 @@
   Molecule Complexes}.
 \newblock \bibinfo{journal}{{\em RNA\/}}  \bibinfo{volume}{15}
   (\bibinfo{year}{2009}), \bibinfo{pages}{1219--1230}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lud{\"a}scher, Altintas, Berkley, Higgins,
+  Jaeger, Jones, Lee, Tao, and Zhao}{Lud{\"a}scher et~al\mbox{.}}{2006}]%
+        {ludascher2006scientific}
+\bibfield{author}{\bibinfo{person}{Bertram Lud{\"a}scher},
+  \bibinfo{person}{Ilkay Altintas}, \bibinfo{person}{Chad Berkley},
+  \bibinfo{person}{Dan Higgins}, \bibinfo{person}{Efrat Jaeger},
+  \bibinfo{person}{Matthew Jones}, \bibinfo{person}{Edward~A Lee},
+  \bibinfo{person}{Jing Tao}, {and} \bibinfo{person}{Yang Zhao}.}
+  \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Scientific workflow management and the Kepler
+  system}.
+\newblock \bibinfo{journal}{{\em Concurrency and Computation: Practice and
+  Experience\/}} \bibinfo{volume}{18}, \bibinfo{number}{10}
+  (\bibinfo{year}{2006}), \bibinfo{pages}{1039--1065}.
 \newblock
 
 
