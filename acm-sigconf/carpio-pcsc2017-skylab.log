@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.5)  17 JAN 2017 13:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.5)  18 JAN 2017 10:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1168,11 +1168,11 @@ Package rerunfilecheck Info: File `carpio-pcsc2017-skylab.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
  ) 
 Here is how much of TeX's memory you used:
- 15376 strings out of 493029
- 238466 string characters out of 6136235
+ 15373 strings out of 493029
+ 238391 string characters out of 6136235
  388859 words of memory out of 5000000
  18094 multiletter control sequences out of 15000+600000
- 82889 words of font info for 302 fonts, out of 8000000 for 9000
+ 82616 words of font info for 300 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  60i,12n,94p,1025b,1214s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-ot1-4.enc}{/usr
@@ -1190,7 +1190,7 @@ e1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/libertine/LinLibertineTBI.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/libertine/LinLibertineTI.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/txfonts/txsy.pfb>
-Output written on carpio-pcsc2017-skylab.pdf (6 pages, 1017974 bytes).
+Output written on carpio-pcsc2017-skylab.pdf (6 pages, 1017970 bytes).
 PDF statistics:
  273 PDF objects out of 1000 (max. 8388607)
  236 compressed objects within 3 object streams
