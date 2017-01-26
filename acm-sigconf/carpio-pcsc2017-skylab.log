@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.5)  18 JAN 2017 10:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.5)  26 JAN 2017 15:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -990,15 +990,15 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 96.
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 107.
+(Font)              scaled to size 9.0pt on input line 110.
  [2.2 <./images/skylab_layers.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1097) has occurred while \output is active []
 
  [3.3 <./images/use_case_large.png> <./images/db_schema.png>]
-<./images/n_create_cluster_impi_printed.png, id=139, 246.6816pt x 144.54pt>
+<./images/n_create_cluster_impi_printed.png, id=140, 246.6816pt x 144.54pt>
 File: ./images/n_create_cluster_impi_printed.png Graphic file (type png)
 
 <use ./images/n_create_cluster_impi_printed.png>
@@ -1013,7 +1013,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--129
 r named
  []
 
-<./images/n_active_cluster_printed.png, id=140, 246.6816pt x 144.54pt>
+<./images/n_active_cluster_printed.png, id=141, 246.6816pt x 144.54pt>
 File: ./images/n_active_cluster_printed.png Graphic file (type png)
 
 <use ./images/n_active_cluster_printed.png>
@@ -1025,7 +1025,7 @@ Overfull \hbox (5.5335pt too wide) in paragraph at lines 133--134
  [][] 
  []
 
-<./images/add_private_cluster_2.png, id=141, 499.8675pt x 180.675pt>
+<./images/add_private_cluster_2.png, id=142, 499.8675pt x 180.675pt>
 File: ./images/add_private_cluster_2.png Graphic file (type png)
 
 <use ./images/add_private_cluster_2.png>
@@ -1037,7 +1037,7 @@ Overfull \hbox (8.78564pt too wide) in paragraph at lines 138--139
  [][] 
  []
 
-<./images/n_new_cluster_created_printed.png, id=142, 246.6816pt x 144.54pt>
+<./images/n_new_cluster_created_printed.png, id=143, 246.6816pt x 144.54pt>
 File: ./images/n_new_cluster_created_printed.png Graphic file (type png)
 
 <use ./images/n_new_cluster_created_printed.png>
@@ -1049,7 +1049,7 @@ Overfull \hbox (5.5335pt too wide) in paragraph at lines 143--144
  [][] 
  []
 
-<./images/n_toolsets_printed.png, id=143, 246.6816pt x 144.54pt>
+<./images/n_toolsets_printed.png, id=144, 246.6816pt x 144.54pt>
 File: ./images/n_toolsets_printed.png Graphic file (type png)
 
 <use ./images/n_toolsets_printed.png>
@@ -1057,7 +1057,7 @@ Package pdftex.def Info: ./images/n_toolsets_printed.png used on input line 148
 .
 (pdftex.def)             Requested size: 229.4115pt x 134.42079pt.
 
-<./images/n_impi_parameters_printed.png, id=144, 246.6816pt x 144.54pt>
+<./images/n_impi_parameters_printed.png, id=145, 246.6816pt x 144.54pt>
 File: ./images/n_impi_parameters_printed.png Graphic file (type png)
 
 <use ./images/n_impi_parameters_printed.png>
@@ -1065,7 +1065,7 @@ Package pdftex.def Info: ./images/n_impi_parameters_printed.png used on input l
 ine 152.
 (pdftex.def)             Requested size: 229.4115pt x 134.42079pt.
 
-<./images/n_tasks_printed.png, id=145, 246.6816pt x 144.54pt>
+<./images/n_tasks_printed.png, id=146, 246.6816pt x 144.54pt>
 File: ./images/n_tasks_printed.png Graphic file (type png)
 
 <use ./images/n_tasks_printed.png>
@@ -1083,7 +1083,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--158
 y queued
  []
 
-<./images/jsmol_detail_view_2.png, id=146, 629.35126pt x 246.9225pt>
+<./images/jsmol_detail_view_2.png, id=147, 629.35126pt x 246.9225pt>
 File: ./images/jsmol_detail_view_2.png Graphic file (type png)
 
 <use ./images/jsmol_detail_view_2.png>
@@ -1101,7 +1101,7 @@ ted-to.pdf ./images/rating.eps>
 (epstopdf)             \includegraphics on input line 169.
 Package epstopdf Info: Output file is already uptodate.
 
-<./images/rating-eps-converted-to.pdf, id=149, 252.945pt x 144.54pt>
+<./images/rating-eps-converted-to.pdf, id=150, 252.945pt x 144.54pt>
 File: ./images/rating-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./images/rating-eps-converted-to.pdf>
@@ -1120,7 +1120,7 @@ Overfull \hbox (11.79689pt too wide) in paragraph at lines 169--170
  []
 
 
-Underfull \vbox (badness 2443) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1170,7 +1170,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
 Here is how much of TeX's memory you used:
  15373 strings out of 493029
  238391 string characters out of 6136235
- 388859 words of memory out of 5000000
+ 387811 words of memory out of 5000000
  18094 multiletter control sequences out of 15000+600000
  82616 words of font info for 300 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
@@ -1190,7 +1190,7 @@ e1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/libertine/LinLibertineTBI.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/libertine/LinLibertineTI.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/txfonts/txsy.pfb>
-Output written on carpio-pcsc2017-skylab.pdf (6 pages, 1017970 bytes).
+Output written on carpio-pcsc2017-skylab.pdf (6 pages, 1017874 bytes).
 PDF statistics:
  273 PDF objects out of 1000 (max. 8388607)
  236 compressed objects within 3 object streams
