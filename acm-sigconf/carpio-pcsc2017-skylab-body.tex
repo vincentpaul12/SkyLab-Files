@@ -121,7 +121,7 @@ Default task execution flow via the executable class is as follows:
 	\end{enumerate}	
 
 \subsection{Output Files}
-Tools generate output files that must be returned to the user. Since SkyLab can support many tools, handling output files depend on the tool. The \textit{handle\_output\_files} method of the \textit{P2CToolGeneric} class must be implemented on the module of the tool. SkyLab downloads the files from the cluster running the tool to its output directory using sftp. Multiple output files zipped into one file.
+Tools generate output files that must be returned to the user. Since SkyLab can support many tools, handling output files depends on the tool. The \textit{handle\_output\_files} method of the \textit{P2CToolGeneric} class must be implemented on the module of the tool. SkyLab downloads to its output directory the files from the cluster running the tool using sftp. If a tool has multiple files, these are zipped into one file first before downloading.
 	
 \section{Results}
 Figures ~\ref{fig:mpicreate} to ~\ref{fig:jsmol} show some of the screenshots that realize the use case (Figure ~\ref{fig:usecase}) for SkyLab. The screenshots were obtained from a SkyLab instance that is hosted on P2C itself.
