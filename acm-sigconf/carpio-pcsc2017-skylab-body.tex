@@ -42,7 +42,7 @@ The use case on which SkyLab was designed is shown in Figure ~\ref{fig:usecase}.
       
 \section{Design and Implementation}
 
-SkyLab is implemented as a web application (using the Django Web Framework\footnote{https://www.djangoproject.com/}) to provide users access to their HPC applications through a web browser. This makes it challenging to implement given that multiple tools must be supported. Also, HPC applications executed through SkyLab have their own process space, separate from the process on which SkyLab is running. This makes it difficult to keep track of the applications and may even pose security threats. 
+SkyLab is implemented as a web application (using the Django Web Framework\footnote{https://www.djangoproject.com/}) to provide users access to their HPC applications through a web browser. This makes it challenging to implement given that multiple tools must be supported. Also, HPC applications executed through SkyLab have their own process space, separate from the process on which SkyLab is running. This makes it difficult to keep track of the applications and may even pose security threats. Django was selected because it is written in Python which has a vast collection of libraries for interacting with operating system services needed by SkyLab.
 
 Figure ~\ref{fig:sysarch} shows the layers on which SkyLab is built on. At the bottom layer is \textit{P2C} which provides the cloud infrastructure. \textit{vCluster} is for on-demand provisioning and termination of MPI clusters. \textit{p2c-tools} is the command-line tool for activating the required HPC tool.
 
@@ -110,7 +110,7 @@ def run_tool(self, **kwargs):
 \subsection{Tasks} 
 The system creates a task object for each task input by the user. A signal will then be sent and it is then received by the corresponding \textit{MPIThread} which queues the task for execution. When a task is executed, it calls the assigned executable class with the given parameters. On connection error, the task waits using exponential backoff before retrying. If the server crashes while running task execution, the task is just restarted. Table \textit{skylab\_task}  in Figure ~\ref{fig:dbschema} stores data for the tasks.				
 		
-Default task execution flow via executable class is as follows:			
+Default task execution flow via the executable class is as follows:			
 	\begin{enumerate}
 		\item  Needed remote and local directories for execution are cleared or created.
 		\item  Input files are uploaded to cluster.
@@ -119,6 +119,9 @@ Default task execution flow via executable class is as follows:
 		\item  Remote task folder is deleted.
 		\item  Output files are served by the server.
 	\end{enumerate}	
+
+\subsection{Output Files}
+Tools generate output files that must be returned to the user. Since SkyLab can support many tools, handling output files depend on the tool. The \textit{handle\_output\_files} method of the \textit{P2CToolGeneric} class must be implemented on the module of the tool. SkyLab downloads the files from the cluster running the tool to its output directory using sftp. Multiple output files zipped into one file.
 	
 \section{Results}
 Figures ~\ref{fig:mpicreate} to ~\ref{fig:jsmol} show some of the screenshots that realize the use case (Figure ~\ref{fig:usecase}) for SkyLab. The screenshots were obtained from a SkyLab instance that is hosted on P2C itself.
