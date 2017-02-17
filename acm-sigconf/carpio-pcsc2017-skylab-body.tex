@@ -121,7 +121,7 @@ Default task execution flow via the executable class is as follows:
 	\end{enumerate}	
 
 \subsection{Output Files}
-Tools generate output files that must be returned to the user. Since SkyLab can support many tools, it handles output files differently for each tool. Modules must implement the \textit{handle\_output\_files} method of the \textit{P2CToolGeneric} class which is the super class of modules. This method is typically implemented by downloading files from the cluster running the tool to SkyLab's \textit{output} directory using sftp. If a tool has multiple output files, these are zipped first before downloading. The user will then be given links to download the output files (Figure ~\ref{fig:jsmol}).
+Tools generate output files that must be returned to the user. Since SkyLab can support many tools, it handles output files differently for each tool. Modules must implement the \textit{handle\_output\_files} method of the \textit{P2CToolGeneric} class which is the super class of modules. This method's implementation typically downloads output files from the cluster running the tool to SkyLab's \textit{output} directory using sftp. If a tool has multiple output files, these are zipped first before downloading. The user will then be given links to download the output files. For modules like GAMESS, the ouput can be directly rendered on the browser (Figure ~\ref{fig:jsmol}).
 	
 \section{Results}
 Figures ~\ref{fig:mpicreate} to ~\ref{fig:jsmol} show some of the screenshots that realize the use case (Figure ~\ref{fig:usecase}) for SkyLab. The screenshots were obtained from a SkyLab instance that is hosted on P2C itself.
@@ -168,10 +168,17 @@ Figures ~\ref{fig:mpicreate} to ~\ref{fig:jsmol} show some of the screenshots th
 	
 	
 \section{Evaluation}
-	\begin{center}			
-			\includegraphics{./images/rating.eps}			
-			\captionof{figure}{Results of QUIS for SkyLab}			
-	\end{center}
+%	\begin{center}			
+%			\includegraphics{./images/rating.eps}			
+%			\captionof{figure}{Results of QUIS for SkyLab}			
+%	\end{center}
+
+\begin{figure}			
+	\includegraphics[scale=1.0]{./images/rating.eps}			
+	\caption{\label{fig:quis}Results of QUIS for SkyLab}			
+\end{figure}
+
+
 	The system has been evaluated by 56 respondents by answering a survey based on Questionnaire for User Interface Satisfaction (QUIS) \cite{chin1988development}. The respondents are students who are unfamiliar with both HPC tools and the concept of MPI systems.  They are asked to test features of SkyLab by following a set of instructions and using input files provided. On the average, the users rated their overall experience with SkyLab to 6.9/10. The users listed the simplicity of the user interface to be the most positive aspect of the system while the slow speed of task processing is said to be the most negative. Majority of the tools supported by SkyLab have inherently long processing time which is not known to the respondents. The system does not focus on optimizing the said tools to achieve better performance but rather it focuses on simplifying the user's task submission process. 
 
 \section{Related Work}
