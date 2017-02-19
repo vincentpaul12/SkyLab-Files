@@ -81,7 +81,7 @@ A cluster is either classified as public or private. If it is set to public, eve
 \subsection{Toolsets} 
 As described in the Bootup section, the system searches for packages inside the \textit{modules} directory and load them at bootup. The toolsets will then be available for use with the system. The package must have a module named \textit{install.py} which contains function calls for integrating the package to  SkyLab. The package must also contain the corresponding \textit{views} and \textit{executable} classes for each tool. Tables \textit{skylab\_toolset} and  \textit{skylab\_tool} in Figure ~\ref{fig:dbschema} stores data for the tools.
 
-All tool classes must inherit from the \textit{P2CToolGeneric} class (see basetool.py) and override the following methods to handle tool specific operations. 
+The object-oriented design of SkyLab makes it easy to extend. All toolset classes must inherit from the \textit{P2CToolGeneric} class (see basetool.py) and override the following methods to handle tool specific operations. 
 
 \begin{itemize}
 	\item \textit{test\_ssh\_connection} - Tests the SSH connection to the MPI cluster hosting the tool.
@@ -110,18 +110,18 @@ def run_tool(self, **kwargs):
 \subsection{Tasks} 
 The system creates a task object for each task input by the user. A signal will then be sent and it is then received by the corresponding \textit{MPIThread} which queues the task for execution. When a task is executed, it calls the assigned executable class with the given parameters. On connection error, the task waits using exponential backoff before retrying. If the server crashes while running task execution, the task is just restarted. Table \textit{skylab\_task}  in Figure ~\ref{fig:dbschema} stores data for the tasks.				
 		
-Default task execution flow via the executable class is as follows:			
+Default task execution is as follows:			
 	\begin{enumerate}
 		\item  Needed remote and local directories for execution are cleared or created.
-		\item  Input files are uploaded to cluster.
+		\item  Input files are uploaded to the cluster.
 		\item  List of commands given are executed.
-		\item  Output files are sent back to the server.
+		\item  Output files are retrieved from the cluster.
 		\item  Remote task folder is deleted.
-		\item  Output files are served by the server.
+		\item  Output files are served to the user.
 	\end{enumerate}	
 
 \subsection{Output Files}
-Tools generate output files that must be returned to the user. Since SkyLab can support many tools, it handles output files differently for each tool. Modules must implement the \textit{handle\_output\_files} method of the \textit{P2CToolGeneric} class which is the super class of modules. This method's implementation typically downloads output files from the cluster running the tool to SkyLab's \textit{output} directory using sftp. If a tool has multiple output files, these are zipped first before downloading. The user will then be given links to download the output files. For modules like GAMESS, the ouput can be directly rendered on the browser (Figure ~\ref{fig:jsmol}).
+Tools generate output files that must be returned to the user. Since SkyLab can support many tools, it handles output files differently for each tool. Toolsets must implement the \textit{handle\_output\_files} method of the \textit{P2CToolGeneric} class. This method's implementation typically downloads output files from the cluster running the tool to SkyLab's \textit{output} directory using sftp. If a tool has multiple output files, these are zipped first before downloading. The user will then be given links to download the output files. For some modules, like GAMESS, the ouput can be directly rendered on the browser (see Figure ~\ref{fig:jsmol}).
 	
 \section{Results}
 Figures ~\ref{fig:mpicreate} to ~\ref{fig:jsmol} show some of the screenshots that realize the use case (Figure ~\ref{fig:usecase}) for SkyLab. The screenshots were obtained from a SkyLab instance that is hosted on P2C itself.
@@ -175,7 +175,7 @@ Figures ~\ref{fig:mpicreate} to ~\ref{fig:jsmol} show some of the screenshots th
 
 \begin{figure}			
 	\includegraphics[scale=1.0]{./images/rating.eps}			
-	\caption{\label{fig:quis}Results of QUIS for SkyLab}			
+	\caption{\label{fig:quis}Results of QUIS for SkyLab.}			
 \end{figure}
 
 
@@ -210,7 +210,7 @@ SkyLab achieved its main objectives but its features can still be improved and a
 
 % ACKNOWLEDGMENT
 \section*{Acknowledgment}
-This work is supported by the Philippine Department of Science and Technology Accelerated Science and Technology Human Resource Development Program. We also would like to thank our collaborators who provided the use cases for the tools: Dr. Abraham Padama (Material Science), Dr. Marlon Manalo (Chemistry), and Prof. Arian Jacildo (Bioinformatics). Finally we acknowledge the valuable comments by the reviewers.
+This work is supported by the Philippine Department of Science and Technology Accelerated Science and Technology Human Resource Development Program. We also would like to thank our collaborators who provided the use cases for the tools: Dr. Abraham Padama (Material Science), Dr. Marlon Manalo (Chemistry), and Prof. Arian Jacildo (Bioinformatics). Finally, we acknowledge the reviewers for their time and valuable comments.
 %Many thanks to...
 % BIBLIOGRAPHY
 % \nocite{*}

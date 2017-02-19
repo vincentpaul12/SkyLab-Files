@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.5)  17 FEB 2017 15:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.5)  19 FEB 2017 15:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -990,11 +990,8 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 96.
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 104.
+(Font)              scaled to size 9.0pt on input line 103.
  [2.2 <./images/skylab_layers.jpg>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3.3 <./images/use_case_large.png> <./images/db_schema.png>]
@@ -1149,14 +1146,18 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 109.
 Package rerunfilecheck Info: File `carpio-pcsc2017-skylab.out' has not changed.
 
 (rerunfilecheck)             Checksum: A0FE81BBA21CD46DF5D31DFDD47D839B;792.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
  ) 
 Here is how much of TeX's memory you used:
- 15379 strings out of 493029
- 238514 string characters out of 6136235
- 387006 words of memory out of 5000000
+ 15376 strings out of 493029
+ 238439 string characters out of 6136235
+ 386063 words of memory out of 5000000
  18096 multiletter control sequences out of 15000+600000
- 82889 words of font info for 302 fonts, out of 8000000 for 9000
+ 82616 words of font info for 300 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  60i,12n,94p,1025b,1961s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-ot1-4.enc}{/usr
@@ -1174,7 +1175,7 @@ e1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/libertine/LinLibertineTBI.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/libertine/LinLibertineTI.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/txfonts/txsy.pfb>
-Output written on carpio-pcsc2017-skylab.pdf (6 pages, 1019052 bytes).
+Output written on carpio-pcsc2017-skylab.pdf (6 pages, 1019065 bytes).
 PDF statistics:
  278 PDF objects out of 1000 (max. 8388607)
  241 compressed objects within 3 object streams
